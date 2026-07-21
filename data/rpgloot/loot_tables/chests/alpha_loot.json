@@ -15,27 +15,27 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_items",
           "weight": 500,
-          "quality": 0
+          "quality": 0,
+          "value": "rpgloot:uncommon_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
           "weight": 80,
-          "quality": 1
+          "quality": 1,
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:veryrare_items",
           "weight": 20,
-          "quality": 3
+          "quality": 3,
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
           "weight": 2,
-          "quality": 5
+          "quality": 5,
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -49,13 +49,14 @@
                 {
                   "name": "damage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 7.0,
                     "max": 7.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 }
               ]
             },

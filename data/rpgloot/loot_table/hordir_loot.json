@@ -50,21 +50,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
           "weight": 400,
-          "quality": 1
+          "quality": 1,
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:veryrare_items",
           "weight": 100,
-          "quality": 3
+          "quality": 3,
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
           "weight": 10,
-          "quality": 5
+          "quality": 5,
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -78,24 +78,26 @@
                 {
                   "name": "damage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 8.2,
                     "max": 10.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackSpeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -1.92,
                     "max": -1.2,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 }
               ]
             },
@@ -121,7 +123,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sverði Víkinga",
+                "text": "Sver\u00f0i V\u00edkinga",
                 "color": "gold"
               }
             },
@@ -172,24 +174,26 @@
                 {
                   "name": "damage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 16.0,
                     "max": 20.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackSpeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.8,
                     "max": -2.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 }
               ]
             },
@@ -215,7 +219,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Blóðörn",
+                "text": "Bl\u00f3\u00f0\u00f6rn",
                 "color": "gold"
               }
             },
@@ -252,68 +256,74 @@
                 {
                   "name": "armor",
                   "attribute": "minecraft:armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 6.0,
                     "max": 8.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_mod"
                 },
                 {
                   "name": "toughness",
                   "attribute": "minecraft:armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 3.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_toughness_mod"
                 },
                 {
                   "name": "maxhealth",
                   "attribute": "minecraft:max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 12.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:max_health_mod"
                 },
                 {
                   "name": "attackdamage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 2.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackspeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.1,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 },
                 {
                   "name": "luck",
                   "attribute": "minecraft:luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:luck_mod"
                 }
               ]
             },
@@ -413,79 +423,86 @@
                 {
                   "name": "armor",
                   "attribute": "minecraft:armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 1.0,
                     "max": 4.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_mod"
                 },
                 {
                   "name": "armortoughness",
                   "attribute": "minecraft:armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 1.0,
                     "max": 6.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_toughness_mod"
                 },
                 {
                   "name": "knockbackResistance",
                   "attribute": "minecraft:knockback_resistance",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
                     "max": 0.3,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:knockback_resistance_mod"
                 },
                 {
                   "name": "maxHealth",
                   "attribute": "minecraft:max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
                     "max": 4.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:max_health_mod"
                 },
                 {
                   "name": "attackdamage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
                     "max": 4.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackspeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
                     "max": 0.1,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 },
                 {
                   "name": "luck",
                   "attribute": "minecraft:luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.0,
                     "max": 0.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:luck_mod"
                 }
               ]
             },
@@ -511,7 +528,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Skjöldr af Mætti",
+                "text": "Skj\u00f6ldr af M\u00e6tti",
                 "color": "gold"
               }
             },

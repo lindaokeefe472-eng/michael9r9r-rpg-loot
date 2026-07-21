@@ -23,12 +23,13 @@
                 {
                   "attribute": "minecraft:luck",
                   "name": "generic.luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "amount": {
                     "min": 1,
                     "max": 100
                   },
-                  "slot": "head"
+                  "slot": "head",
+                  "id": "rpgloot:luck_mod"
                 }
               ]
             }

@@ -25,19 +25,19 @@
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "name": "rpgloot:veryrare_items"
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "name": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -58,8 +58,9 @@
                       "max": 23
                     }
                   },
-                  "operation": "addition",
-                  "slot": "mainhand"
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "id": "rpgloot:generic_attack_damage_mod"
                 },
                 {
                   "attribute": "minecraft:generic.attack_speed",
@@ -68,15 +69,17 @@
                     "min": -2.7,
                     "max": -3.5
                   },
-                  "operation": "addition",
-                  "slot": "mainhand"
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "id": "rpgloot:generic_attack_speed_mod"
                 },
                 {
                   "attribute": "minecraft:generic.attack_knockback",
                   "name": "",
                   "amount": 4,
-                  "operation": "addition",
-                  "slot": "mainhand"
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "id": "rpgloot:generic_attack_knockback_mod"
                 }
               ]
             },
@@ -151,8 +154,9 @@
                     "min": 8,
                     "max": 12
                   },
-                  "operation": "addition",
-                  "slot": "head"
+                  "operation": "add_value",
+                  "slot": "head",
+                  "id": "rpgloot:generic_armor_mod"
                 },
                 {
                   "attribute": "minecraft:generic.max_health",
@@ -161,8 +165,9 @@
                     "min": 2,
                     "max": 10
                   },
-                  "operation": "addition",
-                  "slot": "head"
+                  "operation": "add_value",
+                  "slot": "head",
+                  "id": "rpgloot:generic_max_health_mod"
                 },
                 {
                   "attribute": "minecraft:generic.armor_toughness",
@@ -171,8 +176,9 @@
                     "min": 2,
                     "max": 4
                   },
-                  "operation": "addition",
-                  "slot": "head"
+                  "operation": "add_value",
+                  "slot": "head",
+                  "id": "rpgloot:generic_armor_toughness_mod"
                 },
                 {
                   "attribute": "minecraft:generic.attack_speed",
@@ -181,8 +187,9 @@
                     "min": 0,
                     "max": 2
                   },
-                  "operation": "addition",
-                  "slot": "head"
+                  "operation": "add_value",
+                  "slot": "head",
+                  "id": "rpgloot:generic_attack_speed_mod"
                 },
                 {
                   "attribute": "minecraft:generic.knockback_resistance",
@@ -191,8 +198,9 @@
                     "min": 0,
                     "max": 0.5
                   },
-                  "operation": "addition",
-                  "slot": "head"
+                  "operation": "add_value",
+                  "slot": "head",
+                  "id": "rpgloot:generic_knockback_resistance_mod"
                 },
                 {
                   "attribute": "minecraft:generic.movement_speed",
@@ -201,8 +209,9 @@
                     "min": 0,
                     "max": 0.15
                   },
-                  "operation": "multiply_base",
-                  "slot": "head"
+                  "operation": "add_multiplied_base",
+                  "slot": "head",
+                  "id": "rpgloot:generic_movement_speed_mod"
                 }
               ]
             },
@@ -287,8 +296,9 @@
                     "min": 0.1,
                     "max": 0.2
                   },
-                  "operation": "multiply_base",
-                  "slot": "offhand"
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand",
+                  "id": "rpgloot:generic_movement_speed_mod"
                 },
                 {
                   "attribute": "minecraft:generic.max_health",
@@ -297,8 +307,9 @@
                     "min": 2,
                     "max": 5
                   },
-                  "operation": "addition",
-                  "slot": "offhand"
+                  "operation": "add_value",
+                  "slot": "offhand",
+                  "id": "rpgloot:generic_max_health_mod"
                 },
                 {
                   "attribute": "minecraft:generic.attack_damage",
@@ -307,8 +318,9 @@
                     "min": 3,
                     "max": 5
                   },
-                  "operation": "addition",
-                  "slot": "offhand"
+                  "operation": "add_value",
+                  "slot": "offhand",
+                  "id": "rpgloot:generic_attack_damage_mod"
                 }
               ]
             },

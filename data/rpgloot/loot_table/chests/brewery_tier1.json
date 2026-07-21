@@ -15,27 +15,27 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:uncommon_potions",
           "weight": 400,
-          "quality": 0
+          "quality": 0,
+          "value": "rpgloot:uncommon_potions"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_potions",
           "weight": 100,
-          "quality": 1
+          "quality": 1,
+          "value": "rpgloot:rare_potions"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:veryrare_potions",
           "weight": 25,
-          "quality": 3
+          "quality": 3,
+          "value": "rpgloot:veryrare_potions"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_potions",
           "weight": 2,
-          "quality": 5
+          "quality": 5,
+          "value": "rpgloot:legendary_potions"
         }
       ]
     }

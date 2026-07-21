@@ -50,21 +50,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
           "weight": 400,
-          "quality": 1
+          "quality": 1,
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:veryrare_items",
           "weight": 100,
-          "quality": 3
+          "quality": 3,
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
           "weight": 10,
-          "quality": 5
+          "quality": 5,
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -78,35 +78,38 @@
                 {
                   "name": "damage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 10.0,
                     "max": 12.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackSpeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.22,
                     "max": -1.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 },
                 {
                   "name": "movementspeed",
                   "attribute": "minecraft:movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "mainhand",
                   "amount": {
                     "min": 0.02,
                     "max": 0.1,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:movement_speed_mod"
                 }
               ]
             },
@@ -179,46 +182,50 @@
                 {
                   "name": "damage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 9.2,
                     "max": 11.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackSpeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.12,
                     "max": -1.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 },
                 {
                   "name": "movementspeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.05,
                     "max": 0.15,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 },
                 {
                   "name": "movementspeed",
                   "attribute": "minecraft:movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "offhand",
                   "amount": {
                     "min": 0.1,
                     "max": 0.15,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:movement_speed_mod"
                 }
               ]
             },
@@ -286,68 +293,74 @@
                 {
                   "name": "armor",
                   "attribute": "minecraft:armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 2.6,
                     "max": 3.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_mod"
                 },
                 {
                   "name": "movementspeed",
                   "attribute": "minecraft:movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.25,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:movement_speed_mod"
                 },
                 {
                   "name": "maxhealth",
                   "attribute": "minecraft:max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 1.0,
                     "max": 9.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:max_health_mod"
                 },
                 {
                   "name": "attackdamage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 2.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackspeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.3,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 },
                 {
                   "name": "luck",
                   "attribute": "minecraft:luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:luck_mod"
                 }
               ]
             },

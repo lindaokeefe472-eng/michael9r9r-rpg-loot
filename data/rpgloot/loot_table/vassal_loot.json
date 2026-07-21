@@ -50,21 +50,21 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:rare_items",
           "weight": 400,
-          "quality": 1
+          "quality": 1,
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:veryrare_items",
           "weight": 100,
-          "quality": 3
+          "quality": 3,
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_items",
           "weight": 10,
-          "quality": 5
+          "quality": 5,
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -78,24 +78,26 @@
                 {
                   "name": "damage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": 9.0,
                     "max": 12.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "attackSpeed",
                   "attribute": "minecraft:attack_speed",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "mainhand",
                   "amount": {
                     "min": -2.68,
                     "max": -2.35,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_speed_mod"
                 }
               ]
             },
@@ -162,68 +164,74 @@
                 {
                   "name": "armor",
                   "attribute": "minecraft:armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 2.4,
                     "max": 3.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_mod"
                 },
                 {
                   "name": "toughness",
                   "attribute": "minecraft:armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
                     "max": 2.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_toughness_mod"
                 },
                 {
                   "name": "movementspeed",
                   "attribute": "minecraft:movement_speed",
-                  "operation": "multiply_base",
+                  "operation": "add_multiplied_base",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
                     "max": 0.15,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:movement_speed_mod"
                 },
                 {
                   "name": "maxhealth",
                   "attribute": "minecraft:max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 3.0,
                     "max": 12.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:max_health_mod"
                 },
                 {
                   "name": "knockbackresistance",
                   "attribute": "minecraft:knockback_resistance",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
                     "max": 0.3,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:knockback_resistance_mod"
                 },
                 {
                   "name": "attackdamage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "head",
                   "amount": {
                     "min": 0.0,
                     "max": 2.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 }
               ]
             },
@@ -244,7 +252,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Krános tis thálassas",
+                "text": "Kr\u00e1nos tis th\u00e1lassas",
                 "color": "gold"
               }
             },
@@ -309,68 +317,74 @@
                 {
                   "name": "armor",
                   "attribute": "minecraft:armor",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 9.6,
                     "max": 12.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_mod"
                 },
                 {
                   "name": "toughness",
                   "attribute": "minecraft:armor_toughness",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 2.4,
                     "max": 3.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:armor_toughness_mod"
                 },
                 {
                   "name": "maxhealth",
                   "attribute": "minecraft:max_health",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 8.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:max_health_mod"
                 },
                 {
                   "name": "knockbackresistance",
                   "attribute": "minecraft:knockback_resistance",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.6,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:knockback_resistance_mod"
                 },
                 {
                   "name": "attackdamage",
                   "attribute": "minecraft:attack_damage",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 2.0,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:attack_damage_mod"
                 },
                 {
                   "name": "luck",
                   "attribute": "minecraft:luck",
-                  "operation": "addition",
+                  "operation": "add_value",
                   "slot": "chest",
                   "amount": {
                     "min": 0.0,
                     "max": 0.5,
                     "type": "minecraft:uniform"
-                  }
+                  },
+                  "id": "rpgloot:luck_mod"
                 }
               ]
             },
@@ -401,7 +415,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Ηγεthία",
+                "text": "\u0397\u03b3\u03b5th\u03af\u03b1",
                 "color": "aqua"
               }
             },

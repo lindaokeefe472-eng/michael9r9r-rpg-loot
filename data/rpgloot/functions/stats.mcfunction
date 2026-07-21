@@ -24,31 +24,26 @@ execute as @a run scoreboard players operation @s DPS /= 100 multiply
 
 execute as @a run scoreboard players operation @s Attack_Damage /= @s Attack_Speed
 
-
-
 #tellraw
 
-execute as @p run tellraw @s [{"selector":"@s","color":"blue","bold":true,"extra":[{"text":"'s RPG Loot Stats","color":"blue","bold":true}]}]
+execute as @p run tellraw @s [{"selector":"@s","color":"blue","bold":true},{"translate":"rpgloot.msg.stats_suffix","color":"blue","bold":true}]
 
-execute as @p run tellraw @s [{"text": "🛡 Armor: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Armor"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.armor","color":"blue"},{"score":{"name":"@s","objective":"Armor"}}]
 
-execute as @p run tellraw @s [{"text": "⏹ Armor Toughness: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Armor_Toughness"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.armor_toughness","color":"blue"},{"score":{"name":"@s","objective":"Armor_Toughness"}}]
 
-execute as @p run tellraw @s [{"text": "🗡 Attack Damage: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Attack_Damage"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.attack_damage","color":"blue"},{"score":{"name":"@s","objective":"Attack_Damage"}}]
 
-execute as @p run tellraw @s [{"text": "⭐ Attack Knockback: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Attack_Knockback"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.attack_knockback","color":"blue"},{"score":{"name":"@s","objective":"Attack_Knockback"}}]
 
-execute as @p run tellraw @s [{"text": "⚡ Attack Speed: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Attack_Speed"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.attack_speed","color":"blue"},{"score":{"name":"@s","objective":"Attack_Speed"}}]
 
-execute as @p run tellraw @s [{"text": "✦ DPS: ","color": "blue","extra": [{"score": {"name": "@s","objective": "DPS"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.dps","color":"blue"},{"score":{"name":"@s","objective":"DPS"}}]
 
-execute as @p run tellraw @s [{"text": "❤ Health: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Health"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.health","color":"blue"},{"score":{"name":"@s","objective":"Health"}}]
 
-execute as @p run tellraw @s [{"text": "⏳ Movement Speed: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Movement_Speed"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.movement_speed","color":"blue"},{"score":{"name":"@s","objective":"Movement_Speed"}}]
 
-execute as @p run tellraw @s [{"text": "✔ Knockback Resist: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Knockback_resistance"}}]}]
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.knockback_resist","color":"blue"},{"score":{"name":"@s","objective":"Knockback_resistance"}}]
 
-execute as @p run tellraw @s [{"text": "✤ Luck: ","color": "blue","extra": [{"score": {"name": "@s","objective": "Luck"}}]}]
-
-
-
+execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.luck","color":"blue"},{"score":{"name":"@s","objective":"Luck"}}]

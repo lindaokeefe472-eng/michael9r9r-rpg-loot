@@ -44,13 +44,13 @@ execute unless entity @e[tag=rpgloot.painelemental] run bossbar set rpgloot.pain
 
 #Life Steal (Credit to MC_Ninja38 for this method)
 
-execute as @a[nbt={SelectedItem:{tag:{lifesteal:1b}}}, scores={dealt=40..}] run effect give @s instant_health 1 0
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{lifesteal:1b}}}, scores={dealt=40..}] run effect give @s instant_health 1 0
 
 scoreboard players reset @a dealt
 
 
 
-tag @e[type=trident,tag=!lightningTrident,tag=!normalTrident,nbt={Trident:{tag:{lightningTrident:1b}}}] add lightningTrident
+tag @e[type=trident,tag=!lightningTrident,tag=!normalTrident,nbt={Trident:{components:{"minecraft:custom_data":{lightningTrident:1b}}}] add lightningTrident
 
 tag @e[type=trident,tag=!lightningTrident,tag=!normalTrident] add normalTrident
 
@@ -103,15 +103,15 @@ execute unless score mob_setting mobset matches 0..1 as @s run scoreboard player
 execute if score pillager_settlements pilset matches 1.. run function rpgloot:settlements/settlements_timer
 
 #Ember
-execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",tag:{ember:1}}}] run tag @s add emberarrow
+execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",components:{"minecraft:custom_data":{ember:1}}}] run tag @s add emberarrow
 execute as @e[tag=emberarrow] run function rpgloot:items/ember_arrow
 
 #Maelstrom
-execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..2,nbt={SelectedItem:{id:"minecraft:crossbow",tag:{maelstrom:1}}}] run tag @s add maelstromarrow
+execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..2,nbt={SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{maelstrom:1}}}] run tag @s add maelstromarrow
 execute as @e[tag=maelstromarrow] run function rpgloot:items/maelstrom_arrow
 
 #Longbow of the Cleric
-execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",tag:{healbow:1}}}] run tag @s add healarrow
+execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",components:{"minecraft:custom_data":{healbow:1}}}] run tag @s add healarrow
 execute as @e[tag=healarrow] run data merge entity @s {life:1200,pickup:0}
 execute at @e[tag=healarrow] run summon area_effect_cloud ~ ~ ~ {Particle:spell,ReapplicationDelay:20,Radius:1f,Duration:20,Potion:"minecraft:regeneration"}
 execute as @e[tag=healarrow] run function rpgloot:items/heal_arrow
@@ -147,7 +147,7 @@ execute as @e[tag=painelemental.ghastball] run function rpgloot:bosses/pain_elem
 
 #Bone Blast
 
-execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",tag:{boneblast:1}}}] run tag @s add boneblast
+execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",components:{"minecraft:custom_data":{boneblast:1}}}] run tag @s add boneblast
 
 execute as @e[type=minecraft:arrow,tag=boneblast] as @p at @s anchored eyes run function rpgloot:boneblastarrow
 
@@ -203,7 +203,7 @@ scoreboard players set counter count 0
 
 
 
-tag @a[tag=!float_bow,nbt={SelectedItem:{tag:{Bill:3b}}}] add float_bow
+tag @a[tag=!float_bow,nbt={SelectedItem:{components:{"minecraft:custom_data":{Bill:3b}}}] add float_bow
 
 
 

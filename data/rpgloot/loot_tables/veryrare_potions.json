@@ -1,122 +1,234 @@
 {
   "type": "minecraft:chest",
   "pools": [
-		{
-        "rolls": {
+    {
+      "rolls": {
         "min": 1.0,
         "max": 1.0,
         "type": "minecraft:uniform"
-		},
-            "entries": [
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 10,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Greater Potion of Vitality",
-							"color": "dark_purple"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4s,Duration:20},{Id:10,Amplifier:1,Duration:2400}],CustomPotionColor:11534525}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
                 },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 10,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Potion of the Night Stalker",
-							"color": "dark_purple"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:3600},{Id:14,Amplifier:0,Duration:3600},{Id:16,Amplifier:0,Duration:6000}],CustomPotionColor:0}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
+                {
+                  "text": "Very Rare",
+                  "italic": "false",
+                  "color": "dark_purple"
                 },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 10,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Atlantean Potion",
-							"color": "dark_purple"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:13,Duration:6000},{Id:29,Duration:6000},{Id:30,Duration:6000}],CustomPotionColor:11534525}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
                 }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Greater Potion of Vitality",
+                "color": "dark_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11534525,
+                  "custom_effects": [
+                    {
+                      "id": 6,
+                      "amplifier": 4,
+                      "duration": 20
+                    },
+                    {
+                      "id": 10,
+                      "amplifier": 1,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:4s,Duration:20,Id:10,Amplifier:1,Duration:2400}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Very Rare",
+                  "italic": "false",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of the Night Stalker",
+                "color": "dark_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 0,
+                  "custom_effects": [
+                    {
+                      "id": 1,
+                      "amplifier": 0,
+                      "duration": 3600
+                    },
+                    {
+                      "id": 14,
+                      "amplifier": 0,
+                      "duration": 3600
+                    },
+                    {
+                      "id": 16,
+                      "amplifier": 0,
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:1,Amplifier:0,Duration:3600,Id:14,Amplifier:0,Duration:3600,Id:16,Amplifier:0,Duration:6000}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Very Rare",
+                  "italic": "false",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Atlantean Potion",
+                "color": "dark_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11534525,
+                  "custom_effects": [
+                    {
+                      "id": 13,
+                      "amplifier": 0,
+                      "duration": 6000
+                    },
+                    {
+                      "id": 29,
+                      "amplifier": 0,
+                      "duration": 6000
+                    },
+                    {
+                      "id": 30,
+                      "amplifier": 0,
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:13,Duration:6000,Id:29,Duration:6000,Id:30,Duration:6000}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        }
       ]
     }
-		]
-			}
+  ]
+}

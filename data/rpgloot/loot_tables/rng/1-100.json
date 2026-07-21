@@ -14,14 +14,14 @@
               "count": 1
             },
             {
-              "function": "set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{rng:1}"
             },
             {
-              "function": "set_attributes",
+              "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.luck",
+                  "attribute": "minecraft:luck",
                   "name": "generic.luck",
                   "operation": "addition",
                   "amount": {

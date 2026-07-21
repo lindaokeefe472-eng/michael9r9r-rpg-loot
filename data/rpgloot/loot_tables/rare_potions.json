@@ -1,303 +1,535 @@
 {
   "type": "minecraft:chest",
   "pools": [
-	
-		{
-        "rolls": {
+    {
+      "rolls": {
         "min": 1.0,
         "max": 1.0,
         "type": "minecraft:uniform"
-		},
-            "entries": [ 
-			{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 40,
-					"quality": 0,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Potion of Greater Healing",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:9}],CustomPotionColor:16732759}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 2.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
                 },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Potion of Hill Giant Strength",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:5,Amplifier:3,Duration:3000,ShowParticles:0b},{Id:17,Amplifier:0,Duration:3000,ShowParticles:0b},{Id:22,Amplifier:3,Duration:3000,ShowParticles:0b}],CustomPotionColor:8500059}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
                 },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Lesser Potion of Vitality",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:10,Amplifier:0,Duration:2400}],CustomPotionColor:16711680}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
-                },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Potion of the Night Strider",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:14,Amplifier:0,Duration:2400},{Id:16,Amplifier:0,Duration:6000}],CustomPotionColor:3158364}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
-                },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Obsidian Skin Potion",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:12,Amplifier:0,Duration:6000},{Id:11,Amplifier:0,Duration:6000}],CustomPotionColor:7675765}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 2.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
-                },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:splash_potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Splash Potion of Vitality",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4},{Id:10,Duration:2400}],CustomPotionColor:16122059}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
-                },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:splash_potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Splash Potion of Freezing",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:2,Amplifier:5,Duration:200}],CustomPotionColor:1756671}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 1.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
-                },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "weight": 40,
-					"quality": 1,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Indefatigable Potion",
-							"color": "blue"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:10,Duration:2400},{Id:23,Amplifier:4}],CustomPotionColor:11206405}"
-                        },
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1.0,
-								"max": 2.0,
-								"type": "minecraft:uniform"
-							}
-						},	
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        }
-                    ]
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "green"
                 }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of Greater Healing",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16732759
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:9}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of Hill Giant Strength",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 8500059
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:5,Amplifier:3,Duration:3000,ShowParticles:0b,Id:17,Amplifier:0,Duration:3000,ShowParticles:0b,Id:22,Amplifier:3,Duration:3000,ShowParticles:0b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Lesser Potion of Vitality",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16711680,
+                  "custom_effects": [
+                    {
+                      "id": 6,
+                      "amplifier": 4,
+                      "duration": 20
+                    },
+                    {
+                      "id": 10,
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:4,Duration:20,Id:10,Amplifier:0,Duration:2400}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of the Night Strider",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 3158364,
+                  "custom_effects": [
+                    {
+                      "id": 14,
+                      "amplifier": 0,
+                      "duration": 2400
+                    },
+                    {
+                      "id": 16,
+                      "amplifier": 0,
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:14,Amplifier:0,Duration:2400,Id:16,Amplifier:0,Duration:6000}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "green"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Obsidian Skin Potion",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 7675765,
+                  "custom_effects": [
+                    {
+                      "id": 12,
+                      "amplifier": 0,
+                      "duration": 6000
+                    },
+                    {
+                      "id": 11,
+                      "amplifier": 0,
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:12,Amplifier:0,Duration:6000,Id:11,Amplifier:0,Duration:6000}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Splash Potion of Vitality",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16122059,
+                  "custom_effects": [
+                    {
+                      "id": 10,
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:4,Id:10,Duration:2400}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Splash Potion of Freezing",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 1756671,
+                  "custom_effects": [
+                    {
+                      "id": 2,
+                      "amplifier": 5,
+                      "duration": 200
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:2,Amplifier:5,Duration:200}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 40,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Rare",
+                  "italic": "false",
+                  "color": "blue"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "green"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Indefatigable Potion",
+                "color": "blue"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 11206405,
+                  "custom_effects": [
+                    {
+                      "id": 10,
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:10,Duration:2400,Id:23,Amplifier:4}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        }
       ]
     }
-		]
-			}
+  ]
+}

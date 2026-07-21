@@ -23,7 +23,7 @@
           ],
           "name": "minecraft:cobblestone"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 10,
           "functions": [
@@ -38,8 +38,7 @@
           ],
           "name": "minecraft:dirt"
         },
-		
-		{
+        {
           "type": "minecraft:item",
           "functions": [
             {
@@ -136,7 +135,7 @@
           "weight": 5,
           "name": "minecraft:iron_shovel"
         },
-		{
+        {
           "type": "minecraft:item",
           "functions": [
             {

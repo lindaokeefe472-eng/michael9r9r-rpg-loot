@@ -1,22 +1,22 @@
 #Attribute data for players
 
-execute as @a store result score @s Armor run attribute @s generic.armor get 100
+execute as @a store result score @s Armor run attribute @s armor get 100
 
-execute as @a store result score @s Armor_Toughness run attribute @s generic.armor_toughness get 100
+execute as @a store result score @s Armor_Toughness run attribute @s armor_toughness get 100
 
-execute as @a store result score @s Attack_Damage run attribute @s generic.attack_damage get 100
+execute as @a store result score @s Attack_Damage run attribute @s attack_damage get 100
 
-execute as @a store result score @s Attack_Knockback run attribute @s generic.attack_knockback get 100
+execute as @a store result score @s Attack_Knockback run attribute @s attack_knockback get 100
 
-execute as @a store result score @s Attack_Speed run attribute @s generic.attack_speed get 100
+execute as @a store result score @s Attack_Speed run attribute @s attack_speed get 100
 
-execute as @a store result score @s Health run attribute @s generic.max_health get 100
+execute as @a store result score @s Health run attribute @s max_health get 100
 
-execute as @a store result score @s Movement_Speed run attribute @s generic.movement_speed get 4300
+execute as @a store result score @s Movement_Speed run attribute @s movement_speed get 4300
 
-execute as @a store result score @s Knockback_resistance run attribute @s generic.knockback_resistance get 100
+execute as @a store result score @s Knockback_resistance run attribute @s knockback_resistance get 100
 
-execute as @a store result score @s Luck run attribute @s generic.luck get 100
+execute as @a store result score @s Luck run attribute @s luck get 100
 
 execute as @a store result score @s DPS run scoreboard players operation @s Attack_Damage *= @s Attack_Speed
 

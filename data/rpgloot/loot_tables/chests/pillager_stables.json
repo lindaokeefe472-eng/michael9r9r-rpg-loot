@@ -10,7 +10,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-		  "weight": 20,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -40,7 +40,7 @@
         },
         {
           "type": "minecraft:item",
-		  "weight": 10,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -53,7 +53,7 @@
           ],
           "name": "minecraft:apple"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 8,
           "functions": [
@@ -68,7 +68,7 @@
           ],
           "name": "minecraft:saddle"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 8,
           "functions": [
@@ -98,7 +98,7 @@
           ],
           "name": "minecraft:iron_horse_armor"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 5,
           "functions": [
@@ -113,7 +113,7 @@
           ],
           "name": "minecraft:golden_horse_armor"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 1,
           "functions": [

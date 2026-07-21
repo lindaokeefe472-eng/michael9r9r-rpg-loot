@@ -4,15 +4,15 @@
       "structure": "rpgloot:graveyard",
       "weight": 3
     },
-	{
+    {
       "structure": "rpgloot:alpha_castle",
       "weight": 2
     },
-	{
+    {
       "structure": "rpgloot:capped_tower",
       "weight": 2
     },
-	{
+    {
       "structure": "rpgloot:collapsed_ruins",
       "weight": 2
     }

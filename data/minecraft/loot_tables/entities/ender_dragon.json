@@ -137,8 +137,28 @@
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Feel her strength\",\"italic\":\"true\",\"color\":\"purple\"}','{\"text\":\"Ability: Strength II\",\"italic\":\"false\",\"color\":\"purple\"}']}    }"
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Feel her strength",
+                  "italic": "true",
+                  "color": "purple"
+                },
+                {
+                  "text": "Ability: Strength II",
+                  "italic": "false",
+                  "color": "purple"
+                }
+              ]
             },
             {
               "function": "minecraft:set_name",
@@ -148,12 +168,14 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{finalflight:1}"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_enchantments",
@@ -265,16 +287,33 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Be the dragon...\",\"italic\":\"true\",\"color\":\"purple\"}']}    }"
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Be the dragon...",
+                  "italic": "true",
+                  "color": "purple"
+                }
+              ]
             },
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{trophyoftheend:1}"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_enchantments",
@@ -327,16 +366,33 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Get back ye demons!!\",\"italic\":\"true\",\"color\":\"purple\"}']}    }"
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Get back ye demons!!",
+                  "italic": "true",
+                  "color": "purple"
+                }
+              ]
             },
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_data",
               "tag": "{dragonstalon:1}"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_enchantments",

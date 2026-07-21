@@ -7,16 +7,16 @@
         "max": 16.0,
         "type": "minecraft:uniform"
       },
-	  "bonus_rolls": {
+      "bonus_rolls": {
         "min": 0.0,
         "max": 1.0,
         "type": "minecraft:uniform"
-		},
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "weight": 3,
-		  "quality": 1,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -31,311 +31,383 @@
         }
       ]
     },
-		{
-        "rolls": {
+    {
+      "rolls": {
         "min": 4.0,
         "max": 6.0,
         "type": "minecraft:uniform"
-		},
-		"bonus_rolls": {
+      },
+      "bonus_rolls": {
         "min": 0.0,
         "max": 1.0,
         "type": "minecraft:uniform"
-		},
-		"conditions": [
+      },
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:rare_items",
+          "weight": 400,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:veryrare_items",
+          "weight": 100,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:legendary_items",
+          "weight": 10,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
                 {
-                    "condition": "killed_by_player"
-                }
-            ],
-            "entries": [
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:rare_items",
-                    "weight": 400,
-					"quality": 1 
-             },
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:veryrare_items",
-                    "weight": 100,
-					"quality": 3 
-             },
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:legendary_items",
-                    "weight": 10,
-					"quality": 5 
-             },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_chestplate",
-                    "weight": 1,
-					"quality": 5,
-                    "functions": [
-                        {
-                            "function": "set_attributes",
-                            "modifiers": [
-                               {
-                                  "name": "attackdamage",
-                                  "attribute": "generic.attack_damage",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 2.00,
-                                      "max": 8.00,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "armor",
-                                  "attribute": "generic.armor",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0,
-                                      "max": 0,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-                               {
-                                  "name": "movementspeed",
-                                  "attribute": "generic.movement_speed",
-                                  "operation": "multiply_base",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 0.20,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "maxhealth",
-                                  "attribute": "generic.max_health",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 8.0,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "attackspeed",
-                                  "attribute": "generic.attack_speed",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.20,
-                                      "max": 0.50,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },						  
-							   {
-                                  "name": "luck",
-                                  "attribute": "generic.luck",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 0.5,
-                                      "type": "minecraft:uniform"
-                                  }
-                               }
-                            ]
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Float like a butterfly...\",\"italic\":\"true\",\"color\":\"red\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "The Bee",
-							"color": "gold"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{Unbreakable:1}"
-                        },
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        },
-                        {
-                            "function": "enchant_with_levels",
-                            "treasure": true,
-                            "levels": {
-                                "min": 45,
-                                "max": 64,
-                                "type": "minecraft:uniform"
-                            }
-                        }
-                    ]
+                  "name": "attackdamage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 2.0,
+                    "max": 8.0,
+                    "type": "minecraft:uniform"
+                  }
                 },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_chestplate",
-                    "weight": 1,
-					"quality": 5,
-                    "functions": [
-                        {
-                            "function": "set_attributes",
-                            "modifiers": [
-                               {
-                                  "name": "armor",
-                                  "attribute": "generic.armor",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 3.6,
-                                      "max": 4.2,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "movementspeed",
-                                  "attribute": "generic.movement_speed",
-                                  "operation": "multiply_base",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.00,
-                                      "max": 0.10,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "maxhealth",
-                                  "attribute": "generic.max_health",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 4.0,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "knockbackresistance",
-                                  "attribute": "generic.knockback_resistance",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 1.0,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "attackdamage",
-                                  "attribute": "generic.attack_damage",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 2.00,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },
-							   {
-                                  "name": "attackspeed",
-                                  "attribute": "generic.attack_speed",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 0.10,
-                                      "type": "minecraft:uniform"
-                                  }
-                               },							  
-							   {
-                                  "name": "luck",
-                                  "attribute": "generic.luck",
-                                  "operation": "addition",
-                                  "slot": "chest",
-                                  "amount": {
-                                      "min": 0.0,
-                                      "max": 0.5,
-                                      "type": "minecraft:uniform"
-                                  }
-                               }
-                            ]
-                        },
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"From the ashes she will rise.\",\"italic\":\"true\",\"color\":\"red\"}','{\"text\":\"Ability: Fire Aura. Hostile Mobs within 5 blocks will be set ablaze.\",\"italic\":\"false\",\"color\":\"gray\"}','{\"text\":\"Ability: Fire Resistance.\",\"italic\":\"false\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Flame of the Firehawk",
-							"color": "gold"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{flameoffirehawk:1}"
-                        },
-						{
-                            "function": "set_nbt",
-                            "tag": "{Unbreakable:1}"
-                        },
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        },
-                        {
-                            "function": "enchant_with_levels",
-                            "treasure": true,
-                            "levels": {
-                                "min": 40,
-                                "max": 64,
-                                "type": "minecraft:uniform"
-                            }
-                        }
-                    ]
+                {
+                  "name": "armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0,
+                    "max": 0,
+                    "type": "minecraft:uniform"
+                  }
                 },
-				{
-                    "type": "minecraft:item",
-                    "name": "minecraft:crossbow",
-                    "weight": 1,
-					"quality": 5,
-                    "functions": [
-                        
-                        {
-                            "function": "set_nbt",
-                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Man Killer.\",\"italic\":\"true\",\"color\":\"red\"}','{\"text\":\"Ability: Flaming and Floating middle projectile.\",\"italic\":\"false\",\"color\":\"gray\"}']}    }"
-                        },
-						{
-							"function": "minecraft:set_name",
-							"name": {
-							"text": "Lyuda",
-							"color": "gold"
-							}
-						},
-						{
-                            "function": "set_nbt",
-                            "tag": "{Bill:3b}"
-                        },
-						{
-                            "function": "set_nbt",
-                            "tag": "{Unbreakable:1}"
-                        },
-						{
-                            "function": "set_nbt",
-                            "tag": "{Age:-32768}"
-                        },
-						{
-								"function": "set_nbt",
-								"tag": "{Enchantments:[{id:quick_charge,lvl:4},{id:multishot,lvl:1}]}"
-                        }
-                    ]
+                {
+                  "name": "movementspeed",
+                  "attribute": "minecraft:movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "minecraft:max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 8.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.2,
+                    "max": 0.5,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "luck",
+                  "attribute": "minecraft:luck",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.5,
+                    "type": "minecraft:uniform"
+                  }
                 }
-                    
-				
-				
-
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Float like a butterfly...",
+                  "italic": "true",
+                  "color": "red"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "The Bee",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 45,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "armor",
+                  "attribute": "minecraft:armor",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 3.6,
+                    "max": 4.2,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "movementspeed",
+                  "attribute": "minecraft:movement_speed",
+                  "operation": "multiply_base",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "maxhealth",
+                  "attribute": "minecraft:max_health",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 4.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "knockbackresistance",
+                  "attribute": "minecraft:knockback_resistance",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 1.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackdamage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 2.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "attackspeed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.1,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "name": "luck",
+                  "attribute": "minecraft:luck",
+                  "operation": "addition",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 0.0,
+                    "max": 0.5,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "From the ashes she will rise.",
+                  "italic": "true",
+                  "color": "red"
+                },
+                {
+                  "text": "Ability: Fire Aura. Hostile Mobs within 5 blocks will be set ablaze.",
+                  "italic": "false",
+                  "color": "gray"
+                },
+                {
+                  "text": "Ability: Fire Resistance.",
+                  "italic": "false",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Flame of the Firehawk",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{flameoffirehawk:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 40,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Man Killer.",
+                  "italic": "true",
+                  "color": "red"
+                },
+                {
+                  "text": "Ability: Flaming and Floating middle projectile.",
+                  "italic": "false",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Lyuda",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Bill:3b}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:quick_charge": 4,
+                    "minecraft:multishot": 1
+                  }
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{lvl:4,lvl:1}"
+            }
+          ]
+        }
       ]
     }
-		]
-			}
+  ]
+}

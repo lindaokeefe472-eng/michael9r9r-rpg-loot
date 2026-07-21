@@ -1,50 +1,45 @@
 {
   "type": "minecraft:chest",
   "pools": [
-    
-		{
-        "rolls": {
+    {
+      "rolls": {
         "min": 10.0,
         "max": 14.0,
         "type": "minecraft:uniform"
-		},
-		"bonus_rolls": {
+      },
+      "bonus_rolls": {
         "min": 0.0,
         "max": 2.0,
         "type": "minecraft:uniform"
-		},
-            "entries": [		 
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:uncommon_items",
-                    "weight": 200,
-					"quality": 0 
-             },
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:rare_items",
-                    "weight": 80,
-					"quality": 1 
-             },
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:veryrare_items",
-                    "weight": 20,
-					"quality": 2 
-             },
-			 {
-                    "type": "minecraft:loot_table",
-                    "name": "rpgloot:legendary_items",
-                    "weight": 3,
-					"quality": 3 
-             }
-				
-
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:uncommon_items",
+          "weight": 200,
+          "quality": 0
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:rare_items",
+          "weight": 80,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:veryrare_items",
+          "weight": 20,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "rpgloot:legendary_items",
+          "weight": 3,
+          "quality": 3
+        }
       ]
     },
-	
-	
-	{
+    {
       "rolls": {
         "min": 6.0,
         "max": 10.0,
@@ -81,7 +76,7 @@
           ],
           "name": "minecraft:iron_ingot"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 40,
           "functions": [
@@ -96,7 +91,7 @@
           ],
           "name": "minecraft:gold_ingot"
         },
-		{
+        {
           "type": "minecraft:item",
           "weight": 40,
           "functions": [
@@ -119,7 +114,7 @@
           "type": "minecraft:item",
           "name": "minecraft:compass"
         },
-		{
+        {
           "type": "minecraft:item",
           "name": "minecraft:lead"
         },

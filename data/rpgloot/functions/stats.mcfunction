@@ -26,7 +26,7 @@ execute as @a run scoreboard players operation @s Attack_Damage /= @s Attack_Spe
 
 #tellraw
 
-execute as @p run tellraw @s [{"selector":"@s","color":"blue","bold":true},{"translate":"rpgloot.msg.stats_suffix","color":"blue","bold":true}]
+execute as @p run tellraw @s [{"selector":"@s","color":"blue","bold":true},{"translate":"rpgloot.msg.stats_suffix","fallback":"'s RPG Loot Stats","color":"blue","bold":true}]
 
 execute as @p run tellraw @s [{"translate":"rpgloot.msg.stat.armor","color":"blue"},{"score":{"name":"@s","objective":"Armor"}}]
 

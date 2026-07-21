@@ -9,4 +9,4 @@ execute if score rpgloot rpgloot.rng matches 71..85 at @e[type=minecraft:item,nb
 execute if score rpgloot rpgloot.rng matches 86..100 at @e[type=minecraft:item,nbt={Item:{id:"minecraft:diamond_pickaxe",components:{"minecraft:custom_name":'{"text":"Ancient Excavator"}'}}] run function rpgloot:structures/arid_tomb_excavator
 
 
-tellraw @a {"translate":"rpgloot.msg.structure_revealed","color":"green"}
+tellraw @a {"translate":"rpgloot.msg.structure_revealed","fallback":"The earth trembles below you as an ancient structure is revealed...","color":"green"}

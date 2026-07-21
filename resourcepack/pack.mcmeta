@@ -1,7 +1,8 @@
 {
    "pack": {
-      "description": "michael9r9r's RPG Loot Translation Pack (MC 26.2)",
+      "pack_format": 84,
       "min_format": 46,
-      "max_format": 84
+      "max_format": 100,
+      "description": "michael9r9r's RPG Loot Translation Pack (MC 26.2)"
    }
 }

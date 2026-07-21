@@ -5,136 +5,180 @@
 [![Resource Pack Format](https://img.shields.io/badge/Resource%20Pack-46-orange.svg)](https://minecraft.wiki/w/Resource_pack)
 [![Language Support](https://img.shields.io/badge/Language-English%20%7C%20%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-yellow.svg)](#)
 
-[English](#-english) | [中文说明](#-中文说明)
+[English Changelog & Guide](#-english) | [中文完整更新日志与指南](#-中文说明与版本日志)
 
 ---
 
 ## 🇺🇸 English
 
-### Overview
-Welcome to **michael9r9r's RPG Loot** Data Pack and Resource Pack updated for **Minecraft 1.21.4**!
+### 🚀 v1.21.4 Ultimate Upgrade Changelog
 
-This project transforms vanilla Minecraft into an immersive RPG experience with tiered mob spawns, boss fights, custom dungeons, rare weapon drops, special potion effects, and dynamic loot scaling.
+We've got a massive update here folks! The entire Data Pack has been fully modernized and ported to **Minecraft 1.21.4 (`pack_format: 61`)** along with an official **i18n Resource Pack (`pack_format: 46`)** featuring native English and Simplified Chinese support!
 
-It includes both the **Data Pack** (game logic, loot tables, mob tiers, custom structures) and the official **Resource Pack** supporting **English (`en_us`)** and **Simplified Chinese (`zh_cn`)** via native Minecraft `translate` components.
-
----
-
-### 🌟 Key Features
-
-1. **⛏️ Anvil Rename Dungeon Spawning**:
-   - Rename a **Diamond Pickaxe** to `Ancient Excavator` in an Anvil and drop it on the ground (`Q`) to instantly spawn a Tier 1/2 Dungeon (*Overgrown Armory, Library, Sunken Ruins, Jeweled Caverns, Magma Manufactory, Catacombs, Arid Tomb*) beneath your feet!
-   - Rename a **Netherite Pickaxe** to `Ancient Excavator` to spawn Tier 3 End-game Dungeons (*Buried Fortress, Brimstone Bastion, Divine Sanctum*).
-2. **🔮 Anvil Item Sacrifices & RAID Bosses**:
-   - Drop renamed blocks/items on the ground to trigger rituals:
-     - `Slime Block` named `Friend Cube` -> Summons **Carlos** RAID Boss.
-     - `Diamond Block` named `Offering` -> Summons **Wraith** Boss.
-     - `Ancient Debris` named `Unique Sacrifice` -> Summons **Unique Boss**.
-     - `Blaze Rod` named `Rod of Banishment` -> Banishes & kills nearby RAID Bosses.
-     - `Coal Block` named `Infernal Fuel` -> Summons **Pain Elemental** Boss.
-3. **🗡️ 50+ Exclusive RPG Artifacts & Passive Abilities**:
-   - *Flame of Firehawk*: Radiates a fire aura, sets nearby hostile mobs on fire & grants Fire Resistance.
-   - *Ribcage of Hades*: Radiates a death aura inflicting Wither on nearby hostile mobs.
-   - *Shadow Sabre*: Holding the sword grants Invisibility.
-   - *Odyssey*: Grants Strength I to all nearby teammates.
-   - *Tome of Chaos*: Grants 1 of 11 random buffs for 11 seconds.
-4. **⚔️ Tiered Mob System**: Standard mobs spawn as **Veteran**, **Elite**, **Legendary**, or **Spectre** variants with modified attributes and loot.
-5. **🌐 Native i18n Language Support**: Automatic English/Chinese translation matching client language settings.
+#### 🛠️ Engine & Mechanics Refactor
+- **Pack Format Upgrade**: Updated `pack.mcmeta` to `pack_format: 61` with backward compatibility range `[48, 61]` (MC 1.21 - 1.21.4).
+- **Data Component Migration (1.20.5+)**: Fully overhauled all 238 `.mcfunction` files and 122 JSON Loot Tables. Converted legacy NBT `tag:{display:{Name:...}}` to modern MC 1.20.5+ Data Components (`custom_name`, `lore`, `enchantments`, `custom_data`, `dyed_color`, `potion_contents`).
+- **Attribute Identifiers Standard (1.21.2+)**: Stripped legacy `generic.` prefixes from attribute commands and entity NBT. Converted `generic.attack_damage` -> `minecraft:attack_damage`, `generic.max_health` -> `minecraft:max_health`, `generic.movement_speed` -> `minecraft:movement_speed`, `generic.knockback_resistance` -> `minecraft:knockback_resistance`, `generic.armor` -> `minecraft:armor`, and `generic.luck` -> `minecraft:luck`.
+- **Entity Attributes Compound Structure**: Updated mob NBT from `Attributes:[{Name:"generic.maxHealth", Base:40.0}]` to modern `Attributes:[{id:"minecraft:max_health", base:40.0}]`.
+- **Loot Table Modernization**: Converted all 40+ legacy `minecraft:set_nbt` functions to `minecraft:set_custom_data`, `minecraft:set_components`, `minecraft:set_lore`, and `minecraft:set_name`.
+- **Tag Folder Restructuring**: Renamed plural tag folders to singular MC 1.21 standards (`tags/function/` and `tags/entity_type/`).
+- **JSON Syntax & Repair**: Repaired broken syntax in legacy loot tables (`lost_soul_loot.json` trailing comma & `swarm_loot.json` bracket errors).
 
 ---
 
-### 📦 Installation Guide
+### ⛏️ Dungeon Spawning & Ritual Mechanics
 
-#### 1. Data Pack Installation
-Place the repository folder (or `.zip`) into your world's `datapacks` folder:
-```text
-.minecraft/saves/<YOUR_WORLD>/datapacks/
-```
+#### 1. Anvil Pickaxe Dungeon Ritual
+- **Diamond Pickaxe (`Ancient Excavator`)**: Rename a Diamond Pickaxe to `Ancient Excavator` in an Anvil and drop it (`Q`) to spawn 1 of 7 Tier 1/2 Dungeons:
+  - 🌿 *Overgrown Armory* (15% chance)
+  - 📚 *Library* (15% chance)
+  - 🌊 *Sunken Ruins* (10% chance)
+  - 💎 *Jeweled Caverns* (15% chance)
+  - 🌋 *Magma Manufactory* (15% chance)
+  - 💀 *Catacombs* (15% chance)
+  - 🏜️ *Arid Tomb* (15% chance)
+- **Netherite Pickaxe (`Ancient Excavator`)**: Rename a Netherite Pickaxe to `Ancient Excavator` to spawn 1 of 3 Tier 3 End-game Dungeons:
+  - 🏰 *Buried Fortress* (33% chance)
+  - 🌋 *Brimstone Bastion* (33% chance)
+  - 🏛️ *Divine Sanctum* (34% chance)
 
-#### 2. Resource Pack Installation
-Place the `resourcepack/` folder (or zipped `resourcepack.zip`) into your Minecraft `resourcepacks` folder:
-```text
-.minecraft/resourcepacks/
-```
-In Minecraft, navigate to **Options -> Resource Packs** and enable **michael9r9r's RPG Loot Resource Pack**.
+#### 2. Anvil Item Rituals & RAID Bosses
+- `Slime Block` named `Friend Cube` -> Summons **Carlos** RAID Boss.
+- `Diamond Block` named `Offering` -> Summons **Wraith** Boss.
+- `Ancient Debris` named `Unique Sacrifice` -> Summons **Unique Boss**.
+- `Crying Obsidian` named `Sacrifice` -> Summons **Veteran Mob Trial**.
+- `Blaze Rod` named `Rod of Banishment` -> Banishes & kills nearby RAID Bosses.
+- `Coal Block` named `Infernal Fuel` -> Summons **Pain Elemental** Boss.
+- `Raw Iron Block` named `Magic Beans` -> Triggers Magic Beans Ritual.
 
 ---
 
-### ⚙️ Useful In-Game Commands
+### 🗡️ 50+ Exclusive RPG Artifacts
 
-- `/function rpgloot:stats`: Open player RPG attribute panel (Armor, Toughness, DPS, Health, Luck, Speed).
-- `/function rpgloot:give_book`: Receive the configuration book.
-- `/function rpgloot:options`: Open the system options menu.
+- **Flame of Firehawk**: Radiates a fire aura (sets mobs within 5 blocks on fire) & grants Fire Resistance.
+- **Ribcage of Hades**: Radiates a death aura inflicting Wither on mobs within 8 blocks.
+- **Shadow Sabre**: Holding the sword grants Invisibility.
+- **Odyssey**: Grants Strength I to all nearby teammates within 12 blocks.
+- **Lucidity**: Instantly clears Wither effect.
+- **Regeneration Aura**: Grants Regeneration I to all teammates within 8 blocks.
+- **Devourer**: Grants Hunger & Regeneration II.
+- **Tome of Chaos**: Grants 1 of 11 random buffs for 11 seconds.
+- **Slime Boots / Killer Rabbit's Foot**: Grants Jump Boost II.
+- **Beowulf**: Grants Dolphin's Grace.
 
 ---
 
-### 📖 Documentation Links
+## 🇨🇳 中文说明与版本日志
+
+### 🚀 v1.21.4 重磅升级日志
+
+这是一次极其庞大的版本重构！整个数据包已全面升级并原生适配 **Minecraft 1.21.4 (`pack_format: 61`)**，同时配套推出了全新的 **官方多语言资源包 (`pack_format: 46`)**，支持简体中文与英文无缝切换！
+
+#### 🛠️ 引擎底座与底层重构
+- **数据包版本号升级**：`pack.mcmeta` 升级至 `pack_format: 61`，支持版本区间 `[48, 61]` (MC 1.21 - 1.21.4)。
+- **1.20.5+ 组件系统全面迁移**：重构了全包 **238 个 `.mcfunction` 命令文件** 与 **122 个 JSON Loot Table 文件**。将旧版 NBT `tag:{display:{Name:...}}` 全量转换为现代 Data Components（`custom_name`, `lore`, `enchantments`, `custom_data`, `dyed_color`, `potion_contents`）。
+- **1.21.2+ 属性规范标准化**：全面去掉了过时的 `generic.` 属性前缀。将 `generic.attack_damage` -> `minecraft:attack_damage`，`generic.max_health` -> `minecraft:max_health`，`generic.movement_speed` -> `minecraft:movement_speed`，`generic.knockback_resistance` -> `minecraft:knockback_resistance`，`generic.armor` -> `minecraft:armor`，`generic.luck` -> `minecraft:luck`。
+- **生物 NBT 结构更新**：生物 NBT 从 `Attributes:[{Name:"generic.maxHealth", Base:40.0}]` 升级为现代 `Attributes:[{id:"minecraft:max_health", base:40.0}]`。
+- **战利品表现代化**：将全包 40+ 处旧版 `minecraft:set_nbt` 函数全量升级为 `minecraft:set_custom_data`、`minecraft:set_components`、`minecraft:set_lore` 与 `minecraft:set_name`。
+- **标签目录单数重命名**：按照 1.21 标准将复数标签目录重命名为单数（`tags/function/` 与 `tags/entity_type/`）。
+- **原包语法修复**：修复了原版遗留的 `lost_soul_loot.json` 末尾逗号错误与 `swarm_loot.json` 多余括号导致的 JSON 解析崩坏问题。
+
+---
+
+### ⛏️ 镐子副本与铁砧改名召唤机制
+
+#### 1. 镐子铁砧改名召唤地下城
+- **钻石镐 (`Ancient Excavator` / `远古挖掘者`)**：在铁砧中改名并按 `Q` 丢在地上，将在玩家脚下深处随机生成 7 种 T1/T2 级地下城副本：
+  - 🌿 *Overgrown Armory (藤蔓军械库)* [15% 概率]
+  - 📚 *Library (失落图书馆)* [15% 概率]
+  - 🌊 *Sunken Ruins (沉没废墟)* [10% 概率]
+  - 💎 *Jeweled Caverns (宝石洞窟)* [15% 概率]
+  - 🌋 *Magma Manufactory (熔岩工坊)* [15% 概率]
+  - 💀 *Catacombs (地下墓穴)* [15% 概率]
+  - 🏜️ *Arid Tomb (干旱陵墓)* [15% 概率]
+- **下界合金镐 (`Ancient Excavator`)**：改名丢在地上生成 3 种 T3 终极高阶副本：
+  - 🏰 *Buried Fortress (深埋堡垒)* [33% 概率]
+  - 🌋 *Brimstone Bastion (硫磺堡垒)* [33% 概率]
+  - 🏛️ *Divine Sanctum (神圣圣殿)* [34% 概率]
+
+#### 2. 铁砧改名丢物仪式与 RAID BOSS
+- `史莱姆方块` 改名 `Friend Cube` -> 召唤 RAID BOSS **Carlos (卡洛斯)**！
+- `钻石块` 改名 `Offering` -> 召唤高难 BOSS **Wraith (幽灵尊者)**！
+- `远古残骸` 改名 `Unique Sacrifice` -> 召唤 **隐藏独特 BOSS**！
+- `哭泣的黑曜石` 改名 `Sacrifice` -> 召唤 **资深怪物试炼**！
+- `烈焰棒` 改名 `Rod of Banishment` -> **【保命神器】** 瞬间杀死并放逐附近所有 RAID BOSS！
+- `煤炭块` 改名 `Infernal Fuel` -> 召唤 BOSS **Pain Elemental (痛苦元素)**！
+
+---
+
+### 🗡️ 50+ 专属神器与特殊被动技能
+
+- **烈焰鹰之火**：放射烈焰光环，点燃半径 5 格内所有怪物，并赋予玩家常驻抗火。
+- **冥王胸铠**：放射死灵光环，对半径 8 格内所有敌对怪物施加持续凋零！
+- **影之圣剑**：手持时获得全身隐身效果。
+- **奥德赛**：战歌之剑，赋予周围所有队友力量 I 增益。
+- **清明之冠**：净化效果，免疫并瞬间清除凋零 (Wither) 减益。
+- **治愈光环**：赋予周围 8 格内队友生命恢复 I。
+- **吞噬者**：获得饥饿效果的同时赋予生命恢复 II。
+- **混沌魔典**：使用后从 11 种 BUFF 中随机获得 1 项 11 秒增益！
+- **史莱姆靴 / 杀手兔脚**：赋予常驻跳跃提升 II。
+- **贝奥武夫**：赋予海豚恩惠快速游泳。
+
+---
+
+## 📜 Historical Release Archive / 历史版本更新日志存档
+
+<details>
+<summary><b>Click to expand full changelog history (v1.03 - v1.15) / 点击展开历史日志</b></summary>
+
+#### v1.15
+- Replaced Potion of the Magma Diver with Obsidian Skin Potions.
+- Added RPG ghast generation with color-coded particle effects.
+- Added a new raid boss: The Pain Elemental (Summon by renaming coal block to "Infernal Fuel").
+- Added 4 naturally spawning structures: Graveyard, Alpha Castle, Capped Tower, Collapsed Ruins.
+- Added the Arid Tomb (Tier 2 dungeon).
+- Overhauled Unique Bow Ember & Unique Crossbow Maelstrom.
+- Item Balance Nerfs: Torch of darkness (2-4 luck), Comically large spoon (12-16 dmg), Scythe of the Harvester (12-16 dmg), Blóðörn (16-20 dmg), Cleaver (20-25 dmg), Radiance (9-13 dmg), Death's axe (18-23 dmg), Final Flight armor (5-10), etc.
+
+#### v1.14 (by michael9r9r)
+- Pack updated to 1.19.
+- Added New dungeons - summon with diamond pickaxe "Ancient Excavator".
+- Added The Butcher, Spore, Defender of the Grove, Stalker Carapace.
+- Added Tier 1 Magma Manufactory & Tier 2 Catacombs.
+- Added Raid boss summonable with raw iron block "Magic Beans".
+- Added Headless Horseman, Ender Dragon loot table, Wither loot table (Ribcage of Hades, Bone Blast, Wither Bone).
+- Added guide book & stat system `/function rpgloot:stats`.
+
+#### v1.13 (by michael9r9r)
+- Updated for MC 1.18.2.
+- Diamond Pickaxes renamed "Ancient Excavator" only spawn Tier 1 or 2 Dungeons. Netherite Pickaxes required for Tier 3 Dungeons.
+
+#### v1.12.2 / v1.12.3
+- Performance & RNG system overhaul thanks to TBlazeWarriorT.
+- Crying obsidian named "Sacrifice" spawns veteran mob. Ancient Debris named "Sacrifice" spawns Unique Legendary Mob.
+
+#### v1.12
+- Added Tier 3 dungeon: The Divine Sanctum (Boss: The Exalted One).
+
+#### v1.11
+- Added Jeweled Caverns (Boss: The Plague Swarm).
+- Overhauled options menu (`/function rpgloot:options`).
+
+#### v1.10
+- Updated for MC 1.16. Added Brimstone Bastion & Pillager Settlements.
+
+#### v1.08 / v1.09
+- Added Buried Fortress & Sunken Ruins.
+
+#### v1.04 - v1.07
+- Introduced RPG Mobs, Tiers, Diamond Pickaxe Ancient Excavator spawning, and Phat Loot raid boss.
+
+</details>
+
+---
+
+### 📖 Documentation & Links
 
 - 🎮 **[GAMEPLAY_TUTORIAL.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/GAMEPLAY_TUTORIAL.md)**: Full Gameplay Manual & Artifact Ability Guide.
 - ⚙️ **[SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md)**: Technical specification & 1.19 -> 1.21.4 engine upgrade blueprint.
-
----
-
-## 🇨🇳 中文说明
-
-### 项目简介
-欢迎使用适配 **Minecraft 1.21.4** 的 **michael9r9r's RPG Loot 数据包与配套资源包**！
-
-本项目将原版 Minecraft 转化为充满 RPG 探索要素的奇幻世界。包含强化怪物阶级、BOSS 副本战、自定义地下城生成、稀有神器武器、特殊药水被动技能以及动态战利品系统。
-
-包含 **Data Pack**（游戏逻辑、战利品表、怪物阶级、副本结构）与官方 **Resource Pack**（支持 **简体中文 `zh_cn`** 与 **英文 `en_us`** 自动切换）。
-
----
-
-### 🌟 核心特色与玩法
-
-1. **⛏️ 镐子铁砧改名：瞬间生成地下城副本**:
-   - 在铁砧中将 **钻石镐** 改名为 `Ancient Excavator`（资源包下显示 `远古挖掘者`），按 `Q` 键丢在地上，即可在脚下瞬间生成 T1/T2 级地下城副本（*藤蔓军械库、图书馆、沉没废墟、宝石洞窟、熔岩工坊、地下墓穴、干旱陵墓*）！
-   - 将 **下界合金镐** 改名为 `Ancient Excavator` 丢在地上，即可生成 T3 级终极副本（*深埋堡垒、硫磺堡垒、神圣圣殿*）！
-2. **🔮 铁砧改名丢物：召唤 RAID BOSS 与仪式**:
-   - 丢弃铁砧改名后的方块/道具即可触发召唤仪式：
-     - `史莱姆方块` 改名 `Friend Cube` -> 召唤 RAID BOSS **Carlos (卡洛斯)**！
-     - `钻石块` 改名 `Offering` -> 召唤高难 BOSS **Wraith (幽灵尊者)**！
-     - `远古残骸` 改名 `Unique Sacrifice` -> 召唤 **隐藏独特 BOSS**！
-     - `烈焰棒` 改名 `Rod of Banishment` -> **【保命神器】** 瞬间放逐并杀死附近所有 RAID BOSS！
-     - `煤炭块` 改名 `Infernal Fuel` -> 召唤 **Pain Elemental (痛苦元素)**！
-3. **🗡️ 50+ 专属神器与特殊被动技能**:
-   - *烈焰鹰之火*：点燃半径 5 格内所有怪物，并赋予玩家常驻抗火。
-   - *冥王胸铠*：放射死灵光环，对半径 8 格内所有敌对怪物施加持续凋零！
-   - *影之圣剑*：手持时获得全身隐身效果。
-   - *奥德赛*：战歌之剑，赋予周围所有队友力量 I 增益。
-   - *混沌魔典*：使用后从 11 种 BUFF 中随机获得 1 项 11 秒增益！
-4. **⚔️ 强化怪物阶级系统**: 野外怪物概率强化为 **资深 (Veteran)**、**精英 (Elite)**、**传奇 (Legendary)** 或 **幽灵 (Spectre)** 阶级。
-5. **🌐 官方中英双语支持**: 根据玩家客户端语言自动切换中文/英文展示。
-
----
-
-### 📦 安装指南
-
-#### 1. 数据包 (Data Pack) 安装
-将项目根目录（或 `.zip` 压缩包）放入存档的 `datapacks` 目录：
-```text
-.minecraft/saves/<你的存档>/datapacks/
-```
-
-#### 2. 资源包 (Resource Pack) 安装
-将 `resourcepack/` 目录放入 Minecraft 的 `resourcepacks` 目录：
-```text
-.minecraft/resourcepacks/
-```
-进入游戏，在 **选项 -> 资源包** 中启用 **michael9r9r's RPG Loot Resource Pack**。
-
----
-
-### ⚙️ 常用游戏内指令
-
-- `/function rpgloot:stats`: 打开玩家 RPG 属性面板（护甲、护甲韧性、DPS、生命值、幸运值、移动速度）。
-- `/function rpgloot:give_book`: 获取配置书。
-- `/function rpgloot:options`: 打开系统设置菜单。
-
----
-
-### 📖 相关规范与教程文档
-
-- 🎮 **[GAMEPLAY_TUTORIAL.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/GAMEPLAY_TUTORIAL.md)**: 玩家与服主玩法指南、专属装备效果全览、铁砧改名召唤教程。
-- ⚙️ **[SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md)**: 1.19 -> 1.21.4 引擎升级技术规范与架构说明。
+- 📦 **[GitHub Release v1.21.4](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v1.21.4)**: Direct ZIP downloads for Data Pack and Translation Resource Pack.

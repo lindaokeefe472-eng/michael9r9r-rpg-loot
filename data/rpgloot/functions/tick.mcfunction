@@ -1,3 +1,4 @@
+execute as @a[tag=!rpgloot_welcomed] run function rpgloot:welcome_player
 scoreboard players add rpgloot timer 1
 
 execute if score rpgloot timer matches 101.. run scoreboard players set rpgloot timer 0

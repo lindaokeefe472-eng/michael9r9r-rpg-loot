@@ -1,0 +1,424 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 35,
+        "max": 45
+      },
+      "bonus_rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 12,
+        "max": 16
+      },
+      "bonus_rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 400,
+          "quality": 1,
+          "name": "rpgloot:rare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "quality": 3,
+          "name": "rpgloot:veryrare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": 5,
+          "name": "rpgloot:legendary_items"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "quality": 5,
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "armor",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 5,
+                    "max": 10
+                  },
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "maxhealth",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 4
+                  },
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "attackdamage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  },
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "toughness",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 4
+                  },
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "luck",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 0.5
+                  },
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "speed",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": -0.2,
+                    "max": 0
+                  },
+                  "operation": "multiply_base",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Feel her strength",
+                  "italic": "true",
+                  "color": "purple"
+                },
+                {
+                  "text": "Ability: Strength II",
+                  "italic": "false",
+                  "color": "purple"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Final Flight",
+                "color": "dark_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{finalflight:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "quality": 6,
+          "name": "minecraft:dragon_head",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.max_health",
+                  "name": "maxhealth",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 6
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "mainhand",
+                    "head"
+                  ]
+                },
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 10,
+                    "max": 15
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "attackspeed",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": -3.1,
+                    "max": -2.5
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.luck",
+                  "name": "luck",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 2
+                  },
+                  "operation": "addition",
+                  "slot": [
+                    "mainhand",
+                    "head"
+                  ]
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "armor",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 6
+                  },
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.armor_toughness",
+                  "name": "toughness",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 3
+                  },
+                  "operation": "addition",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "speed",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 0.1,
+                    "max": 0.25
+                  },
+                  "operation": "multiply_base",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Trophy of the End",
+                "color": "dark_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Be the dragon...",
+                  "italic": "true",
+                  "color": "purple"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{trophyoftheend:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4
+              },
+              "add": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 5,
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "damage",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": 10,
+                    "max": 14
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "attackspeed",
+                  "amount": {
+                    "type": "minecraft:uniform",
+                    "min": -2.5,
+                    "max": -2.1
+                  },
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Dragon's Talon",
+                "color": "dark_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "Get back ye demons!!",
+                  "italic": "true",
+                  "color": "purple"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{dragonstalon:1}"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": 4
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:looting": 4
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:alternative",
+          "terms": [
+            {
+              "condition": "minecraft:killed_by_player"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1.5,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Legendary Potion of Vitality",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16770102,
+                  "custom_effects": [
+                    {
+                      "id": 6,
+                      "amplifier": 4,
+                      "duration": 20
+                    },
+                    {
+                      "id": 10,
+                      "amplifier": 2,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:4,Duration:20,Id:10,Amplifier:2,Duration:2400}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1.5,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of the Stone Sentinel",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16775800,
+                  "custom_effects": [
+                    {
+                      "id": 6,
+                      "amplifier": 2,
+                      "duration": 20
+                    },
+                    {
+                      "id": 11,
+                      "amplifier": 0,
+                      "duration": 3600
+                    },
+                    {
+                      "id": 12,
+                      "amplifier": 0,
+                      "duration": 3600
+                    },
+                    {
+                      "id": 21,
+                      "amplifier": 4,
+                      "duration": 3600
+                    },
+                    {
+                      "id": 23,
+                      "amplifier": 0,
+                      "duration": 3600
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:2,Duration:20,Id:11,Amplifier:0,Duration:3600,Id:12,Amplifier:0,Duration:3600,Id:21,Amplifier:4,Duration:3600,Id:22,Amplifier:4,Duration:3600,ShowParticles:0b,Id:23,Amplifier:0,Duration:3600}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 1.5,
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": "false",
+                  "color": "gold"
+                },
+                {
+                  "text": "",
+                  "italic": "true",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Invulnerability Potion",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16777215,
+                  "custom_effects": [
+                    {
+                      "id": 11,
+                      "amplifier": 4,
+                      "duration": 600
+                    },
+                    {
+                      "id": 12,
+                      "amplifier": 0,
+                      "duration": 600
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Id:6,Amplifier:4,Id:11,Amplifier:4,Duration:600,Id:12,Duration:600}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

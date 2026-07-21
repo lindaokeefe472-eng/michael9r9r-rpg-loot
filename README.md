@@ -52,4 +52,6 @@ In Minecraft, go to **Options -> Resource Packs** and enable **michael9r9r's RPG
 
 ## 📖 Specifications & Technical Reference
 
-For detailed breakdown of technical changes from MC 1.19 (`pack_format: 9`) to MC 1.21.4 (`pack_format: 61`), see [SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md).
+- 🎮 **[GAMEPLAY_TUTORIAL.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/GAMEPLAY_TUTORIAL.md)**: 玩家与服主玩法指南、专属装备效果全览、丢物仪式与指令教程。
+- ⚙️ **[SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md)**: Technical breakdown of changes from MC 1.19 (`pack_format: 9`) to MC 1.21.4 (`pack_format: 61`).
+

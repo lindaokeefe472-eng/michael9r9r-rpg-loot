@@ -5,7 +5,147 @@
 [![Resource Pack Format](https://img.shields.io/badge/Resource%20Pack-46-orange.svg)](https://minecraft.wiki/w/Resource_pack)
 [![Language Support](https://img.shields.io/badge/Language-English%20%7C%20%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-yellow.svg)](#)
 
-[English Changelog & Guide](#-english) | [中文完整更新日志与指南](#-中文说明与版本日志)
+[English Installation & Guide](#-english-installation--guide) | [中文安装说明与指南](#-中文安装说明与指南)
+
+---
+
+## 🇺🇸 English Installation & Guide
+
+### 📦 Downloads / 下载
+
+前往 [GitHub Releases](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v1.21.4) 下载以下两个文件：
+
+| 文件 | 用途 |
+| :--- | :--- |
+| `michael9r9r-rpg-loot-datapack-v1.21.4.zip` | 数据包本体 (Data Pack) |
+| `michael9r9r-rpg-loot-resourcepack-v1.21.4.zip` | 中文翻译资源包 (Resource Pack, 可选) |
+
+---
+
+### 🔧 Step 1: Install the Data Pack (安装数据包)
+
+**适用于新存档 / New World：**
+1. 打开 Minecraft，在创建新世界界面点击 **「数据包 (Data Packs)」**。
+2. 将 `michael9r9r-rpg-loot-datapack-v1.21.4.zip` **直接拖入** 弹出的文件夹窗口。
+3. 在数据包列表中找到它，点击 **▶** 箭头将其移至"已选"列。
+4. 点击「完成」并继续创建世界。
+
+**适用于已有存档 / Existing World：**
+1. 找到你的存档文件夹：
+   - Windows：`%appdata%\.minecraft\saves\<你的存档名>\datapacks\`
+   - MacOS / Linux：`~/.minecraft/saves/<你的存档名>/datapacks/`
+2. 将 `michael9r9r-rpg-loot-datapack-v1.21.4.zip` **直接复制粘贴** 到 `datapacks` 文件夹中（无需解压！）。
+3. 进入游戏后，在聊天框输入：
+   ```
+   /reload
+   ```
+4. 如果看到聊天框输出加载成功提示，即代表安装成功！
+
+---
+
+### 🌐 Step 2: Install the Chinese Translation Resource Pack (安装中文翻译资源包，可选)
+
+> 资源包为可选项。安装后，数据包中所有物品、BOSS、提示消息均会显示为简体中文。
+
+**Java Edition 安装步骤：**
+1. 找到资源包文件夹：
+   - Windows：`%appdata%\.minecraft\resourcepacks\`
+   - MacOS / Linux：`~/.minecraft/resourcepacks/`
+2. 将 `michael9r9r-rpg-loot-resourcepack-v1.21.4.zip` **直接复制粘贴** 到 `resourcepacks` 文件夹中（无需解压！）。
+3. 打开 Minecraft，点击 **「选项 (Options)」→「资源包 (Resource Packs)」**。
+4. 在左侧"可用"列表中找到 `michael9r9r-rpg-loot-resourcepack`，点击 **▶** 箭头将其移至"已选"列。
+5. 点击「完成」，等待资源包加载，界面中文字段将全部汉化。
+
+---
+
+### ✅ Step 3: Verify Installation (验证安装)
+
+进入世界后，在聊天框中输入以下指令来确认数据包已正常运行：
+```
+/function rpgloot:give_book
+```
+如果你收到了一本 RPG 指南书，恭喜安装成功！
+
+你也可以输入以下指令查看你的 RPG 属性面板：
+```
+/function rpgloot:stats
+```
+
+---
+
+### ⚙️ Step 4: Options Menu (可选配置)
+
+输入以下指令打开配置菜单，可调整 BOSS 生成开关、怪物上限数量、地形破坏开关等：
+```
+/function rpgloot:options
+```
+
+---
+
+## 🇨🇳 中文安装说明与指南
+
+### 📦 第一步：下载资源文件
+
+前往 [GitHub Releases 页面](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v1.21.4) 下载以下两个文件：
+
+| 文件 | 用途 |
+| :--- | :--- |
+| `michael9r9r-rpg-loot-datapack-v1.21.4.zip` | 数据包本体 |
+| `michael9r9r-rpg-loot-resourcepack-v1.21.4.zip` | 中文翻译资源包（可选） |
+
+---
+
+### 🔧 第二步：安装数据包
+
+**如果你是新建存档：**
+1. 在 Minecraft 创建新世界界面，点击 **「数据包」**。
+2. 将 `michael9r9r-rpg-loot-datapack-v1.21.4.zip` 直接**拖入**弹出的文件夹窗口。
+3. 在数据包列表中点击 **▶** 箭头将其移至右侧"已选"列，点击「完成」即可。
+
+**如果你是已有存档：**
+1. 找到存档目录下的 `datapacks` 文件夹：
+   - Windows 默认路径：`%appdata%\.minecraft\saves\<存档名>\datapacks\`
+2. 将 `michael9r9r-rpg-loot-datapack-v1.21.4.zip` **直接复制进该文件夹**（不要解压）。
+3. 进入存档，在聊天框输入 `/reload` 重载数据包。
+
+---
+
+### 🌐 第三步：安装中文翻译资源包（可选）
+
+1. 找到资源包目录：Windows 默认路径 `%appdata%\.minecraft\resourcepacks\`
+2. 将 `michael9r9r-rpg-loot-resourcepack-v1.21.4.zip` **直接复制进该文件夹**（不要解压）。
+3. 打开游戏 → **选项 → 资源包**，在左侧"可用"列表中找到该资源包，点击 **▶** 移至右侧"已选"列，点击「完成」加载即可。
+4. 加载完成后，游戏内的 BOSS 名称、物品属性、系统提示等均将显示为**简体中文**。
+
+---
+
+### ✅ 第四步：验证安装
+
+进入存档后，在聊天框输入：
+```
+/function rpgloot:give_book
+```
+如果你的背包出现了一本 **RPG 指南书**，说明数据包安装成功！
+
+查看 RPG 属性面板：
+```
+/function rpgloot:stats
+```
+
+打开数据包配置菜单（可调整 BOSS 生成频率、怪物上限等）：
+```
+/function rpgloot:options
+```
+
+---
+
+### ❌ 卸载方式
+
+如需卸载本数据包，请在聊天框输入：
+```
+/function rpgloot:uninstall
+```
+该指令会安全清理所有计分板数据，之后再从 `datapacks` 文件夹中删除压缩包即可。
 
 ---
 

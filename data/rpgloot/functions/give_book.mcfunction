@@ -1,1 +1,1 @@
-give @s written_book[written_book_content={title:"RPG Loot Guide",author:"michael9r9r",pages:['{"text":"⚔️ Welcome to RPG Loot!\\n\\nCommands:\\n- /function rpgloot:options\\n- /function rpgloot:stats\\n- /function rpgloot:generate_structure\\n\\nWiki Guide: WIKI.md"}']}]
+give @s written_book[written_book_content={title:"RPG Loot Guide",author:"michael9r9r",pages:['{"text":"RPG Loot Guide\\n\\nCommands:\\n- /function rpgloot:options\\n- /function rpgloot:stats\\n- /function rpgloot:generate_structure"}']}]

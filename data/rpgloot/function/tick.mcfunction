@@ -45,7 +45,7 @@ execute unless entity @e[tag=rpgloot.painelemental] run bossbar set rpgloot.pain
 
 #Life Steal (Credit to MC_Ninja38 for this method)
 
-execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{lifesteal:1b}}}, scores={dealt=40..}] run effect give @s instant_health 1 0
+execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{lifesteal:1b}}}}, scores={dealt=40..}] run effect give @s instant_health 1 0
 
 scoreboard players reset @a dealt
 

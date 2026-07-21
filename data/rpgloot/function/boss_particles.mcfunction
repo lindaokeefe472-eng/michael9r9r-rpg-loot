@@ -1,7 +1,7 @@
-particle dust 1.000 0.098 0.098 1 ~ ~ ~ 1 0.5 1 1 1 normal
-particle dust 1.000 1.000 0.090 1 ~ ~ ~ 1 0.5 1 1 1 normal
-particle dust 0.220 1.000 0.325 1 ~ ~ ~ 1 0.5 1 1 1 normal
-particle dust 0.212 1.000 1.000 1 ~ ~ ~ 1 0.5 1 1 1 normal
-particle dust 0.251 0.302 1.000 1 ~ ~ ~ 1 0.5 1 1 1 normal
-particle dust 1.000 0.259 1.000 1 ~ ~ ~ 1 0.5 1 1 1 normal
-particle dust 1.000 0.620 0.847 1 ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[1.000f,0.098f,0.098f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[1.000f,1.000f,0.090f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[0.220f,1.000f,0.325f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[0.212f,1.000f,1.000f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[0.251f,0.302f,1.000f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[1.000f,0.259f,1.000f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal
+particle dust{color:[1.000f,0.620f,0.847f],scale:1.0f} ~ ~ ~ 1 0.5 1 1 1 normal

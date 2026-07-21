@@ -2,7 +2,7 @@
 
 function rpgloot:item_effects
 execute as @a at @s run function rpgloot:item_effects_player
-function rpgloot:carlos 
+function rpgloot:bosses/carlos
 
 execute at @e[type=trident,tag=lightningTrident] run summon lightning_bolt
 

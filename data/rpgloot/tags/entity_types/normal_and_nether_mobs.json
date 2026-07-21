@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cave_spider",
+    "minecraft:spider",
+    "minecraft:zombified_piglin",
+    "minecraft:creeper",
+    "minecraft:drowned",
+    "minecraft:evoker",
+    "minecraft:guardian",
+    "minecraft:husk",
+    "minecraft:phantom",   
+    "minecraft:pillager",   
+    "minecraft:ravager",     
+    "minecraft:silverfish",   
+    "minecraft:skeleton",   
+    "minecraft:slime",   
+    "minecraft:stray",   
+    "minecraft:vex",   
+    "minecraft:vindicator",   
+    "minecraft:witch",   
+    "minecraft:wither_skeleton",   
+    "minecraft:zombie",   
+    "minecraft:zombie_villager",
+	"minecraft:zombified_piglin",
+    "minecraft:blaze",
+    "minecraft:ghast",
+    "minecraft:magma_cube",   
+    "minecraft:wither_skeleton"  	
+  ]
+}

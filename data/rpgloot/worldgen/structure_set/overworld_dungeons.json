@@ -1,0 +1,50 @@
+{
+  "structures": [
+    {
+      "structure": "rpgloot:overgrown_armory",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:library",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:sunken_ruins",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:jeweled_caverns",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:magma_manufactory",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:catacombs",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:arid_tomb",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:buried_fortress",
+      "weight": 1
+    },
+	{
+      "structure": "rpgloot:brimstone_bastion",
+      "weight": 1
+    },
+	{
+      "structure": "rpgloot:divine_sanctum",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 732158,
+    "spacing": 25,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

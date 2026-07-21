@@ -1,0 +1,4036 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+		{
+        "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+            "entries": [
+
+				{
+					"type": "minecraft:item",
+                    "name": "minecraft:wooden_sword",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 4.8,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -1.76,
+                                      "max": -0.8,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Wooden Sword",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 7.0,
+                                      "max": 10.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.4,
+                                      "max": -2.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Stone Sword",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 4.8,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.08,
+                                      "max": -1.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Golden Sword",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 7.2,
+                                      "max": 9.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -1.92,
+                                      "max": -1.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Iron Sword",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+		
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 8.40,
+                                      "max": 14.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.08,
+                                      "max": -1.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond Sword",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 28,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+					"type": "minecraft:item",
+                    "name": "minecraft:wooden_axe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 9.6,
+                                      "max": 14.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.88,
+                                      "max": -2.56,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Wooden Axe",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+
+
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 12.6,
+                                      "max": 19.8,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -3.2,
+                                      "max": -3.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Stone Axe",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 9.8,
+                                      "max": 14.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.8,
+                                      "max": -2.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Golden Axe",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 12.6,
+                                      "max": 18.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.74,
+                                      "max": -2.45,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Iron Axe",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+		
+
+{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 19.5,
+                                      "max": 19.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.8,
+                                      "max": -2.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond Axe",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 28,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:trident",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 10.8,
+                                      "max": 13.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.68,
+                                      "max": -2.35,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Trident",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "weight": 2,
+					"quality": 0.5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "armortoughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackResistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.3,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxHealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Shield",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                       {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                          {
+                            "text": "Legendary",
+                            "color": "gold"
+                          },
+                          {
+                            "text": "Its limb and string are always warm to the touch.",
+                            "color": "gray"
+                          },
+                          {
+                            "text": "Ability: Flaming arrows that have Fire Aura. Radius: 5.",
+                            "color": "gray"
+                          }
+                        ]
+                      },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Ember",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{ember:1}"
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:infinity"
+                            ]
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:power"
+                            ]
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:punch"
+                            ]
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+			
+
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [      
+                        {
+                        "function": "minecraft:set_lore",
+                        "lore": [
+                          {
+                            "text": "Legendary",
+                            "color": "gold"
+                          },
+                          {
+                            "text": "Our arrows will block out the sun!",
+                            "color": "gray"
+                          },
+                          {
+                            "text": "Ability: Arrows shot will drop additional arrows.",
+                            "color": "gray"
+                          }
+                        ]
+                      },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Maelstrom",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{maelstrom:1}"
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:multishot"
+                            ]
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:quick_charge"
+                            ]
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Javelin",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{javelin:1}"
+                        },
+						{
+								"function": "set_nbt",
+								"tag": "{Enchantments:[{id:piercing,lvl:10}]}"
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:quick_charge"
+                            ]
+                        }
+                    ]
+                },
+
+				{
+					"type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 6.0,
+                                      "max": 7.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.6,
+                                      "max": -2.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Bounty",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+								"function": "set_nbt",
+								"tag": "{Enchantments:[{id:fortune,lvl:4}]}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{bounty:1}"
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:looting"
+                            ]
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:efficiency"
+                            ]
+                        }
+                    ]
+                },
+
+			{
+					"type": "minecraft:item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 6.0,
+                                      "max": 7.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.6,
+                                      "max": -2.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Core Splitter",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{coresplitter:1}"
+                        },
+                        {
+								"function": "set_nbt",
+								"tag": "{Enchantments:[{id:efficiency,lvl:7}]}"
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "armortoughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 1.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackResistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.3,
+                                      "max": 0.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxHealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Bulwark",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{bulwark:1}"
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 1.2,
+                                      "max": 2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Leather Cap",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 3.6,
+                                      "max": 4.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Leather Tunic",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Leather Pants",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 1.2,
+                                      "max": 2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Leather Boots",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_helmet",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.15,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 3.0,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.30,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Chainmail Helmet",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 6.0,
+                                      "max": 7.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.15,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 3.0,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.30,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Chainmail Chestplate",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 4.8,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.15,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 3.0,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.30,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Chainmail Leggings",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_boots",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 1.2,
+                                      "max": 2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.15,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 3.0,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.30,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Chainmail Boots",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+		
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },				
+								{
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							   
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Golden Helmet",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 6.0,
+                                      "max": 7.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							    {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Golden Chestplate",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 3.6,
+                                      "max": 4.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							    {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Golden Leggings",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 1.2,
+                                      "max": 2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Golden Boots",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Iron Helmet",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 7.2,
+                                      "max": 8.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Iron Chestplate",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 6.0,
+                                      "max": 7.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.40,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Iron Leggings",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.00,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Iron Boots",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 3.6,
+                                      "max": 4.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond Helmet",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 9.6,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							  {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond Chestplate",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 7.2,
+                                      "max": 8.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond Leggings",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 3.3,
+                                      "max": 3.9,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 2.2,
+                                      "max": 2.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.60,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond Boots",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:turtle_helmet",
+                    "weight": 2,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Turtle Shell",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 1,
+					"quality": 0.5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 4.0,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Totem of Undying",
+							"color": "gold"
+							}
+						}
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:rabbit_foot",
+                    "weight": 1,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 1.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation":"multiply_base",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.08,
+                                      "max": 0.16,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Rabbit's Foot",
+							"color": "gold"
+							}
+						}
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz",
+                    "weight": 1,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation":"multiply_base",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.12,
+                                      "max": 0.24,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.12,
+                                      "max": 0.36,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }		
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Quartz",
+							"color": "gold"
+							}
+						}
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+					"quality": 0.50,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 4.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.20,
+                                      "max": 0.40,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }		
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Diamond",
+							"color": "gold"
+							}
+						}
+                    ]
+                }
+				
+
+      ]
+    }
+		]
+			}

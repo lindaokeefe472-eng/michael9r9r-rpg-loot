@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Golden egg",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{enchanted_egg:1b}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Drop on the ground and you will gain weath...",
+                  "color": "grey"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

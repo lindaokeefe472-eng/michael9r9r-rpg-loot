@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+		{
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+	{
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+	{
+          "type": "minecraft:item",
+          "weight": 200,
+		  "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 200,
+		  "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:arrow"
+        }
+		]
+    },
+		]
+			}

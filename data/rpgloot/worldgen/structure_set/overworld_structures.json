@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "rpgloot:graveyard",
+      "weight": 3
+    },
+	{
+      "structure": "rpgloot:alpha_castle",
+      "weight": 2
+    },
+	{
+      "structure": "rpgloot:capped_tower",
+      "weight": 2
+    },
+	{
+      "structure": "rpgloot:collapsed_ruins",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 994521,
+    "spacing": 32,
+    "separation": 22,
+    "type": "minecraft:random_spread"
+  }
+}

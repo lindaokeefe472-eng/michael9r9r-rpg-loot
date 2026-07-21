@@ -1,0 +1,2 @@
+execute if score rpgloot timeofday >= rpgloot14000 constants as @s run function rpgloot:summon_spectre
+execute if score rpgloot timeofday < rpgloot14000 constants as @s run function rpgloot:remove_spectres

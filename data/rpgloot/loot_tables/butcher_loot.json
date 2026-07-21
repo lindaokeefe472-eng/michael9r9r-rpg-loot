@@ -1,0 +1,259 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 14.0,
+        "max": 16.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+		{
+        "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+{
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 400,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 100,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 10,
+					"quality": 5 
+             },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 20.0,
+                                      "max": 25.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -3.3,
+                                      "max": -3.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Rip and Tear\",\"italic\":\"true\",\"color\":\"dark_red\"}']}    }"
+                        
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Cleaver",
+							"color": "dark_red"
+							}
+						},
+						{
+								"function": "set_nbt",
+								"tag": "{Enchantments:[{id:looting,lvl:5}]}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 4.5,
+                                      "max": 6.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.30,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 4.0,
+                                      "max": 12.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 3.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.20,
+                                      "max": 0.40,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"I hunger.\",\"italic\":\"true\",\"color\":\"dark_red\"}','{\"text\":\"Ability: Hunger I and Regeneration II\",\"italic\":\"false\",\"color\":\"dark_gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Flesh of the Devourer",
+							"color": "dark_red"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{display:{color:10551296}}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{devourer:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+				
+				
+				
+
+      ]
+    }
+		]
+			}

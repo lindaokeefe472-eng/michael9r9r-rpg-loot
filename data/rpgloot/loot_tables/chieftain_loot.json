@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 14.0,
+        "max": 16.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+	
+	{
+      "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_sword",
+                    "weight": 100,
+					"quality": 1,
+                    "functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "chieftainDeath"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{chieftainDeath:1b}"
+                        }
+                    ]
+		}
+      ]
+    },
+	
+		{
+        "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+{
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 400,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 100,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 10,
+					"quality": 5 
+             }
+				
+			
+				
+				
+
+      ]
+    }
+		]
+			}

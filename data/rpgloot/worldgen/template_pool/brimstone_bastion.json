@@ -1,0 +1,15 @@
+{
+  "name": "rpgloot:brimstone_bastion",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "rpgloot:brimstonebastion",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

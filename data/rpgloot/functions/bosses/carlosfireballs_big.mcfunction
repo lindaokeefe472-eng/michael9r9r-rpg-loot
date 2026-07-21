@@ -1,0 +1,12 @@
+summon minecraft:fireball ~ ~3 ~ {direction:[0.0,0.0,0.0],power:[0.0,0.9,0.0],ExplosionPower:1}
+summon minecraft:fireball ~3 ~3 ~1 {direction:[0.0,0.0,0.0],power:[-0.1,1.0,-0.1],ExplosionPower:2}
+summon minecraft:fireball ~1 ~3 ~7 {direction:[0.0,0.0,0.0],power:[0.1,1.1,0.1],ExplosionPower:1}
+summon minecraft:fireball ~ ~3 ~ {direction:[0.0,0.0,0.0],power:[0.0,0.9,0.0],ExplosionPower:1}
+summon minecraft:fireball ~3 ~3 ~3 {direction:[0.0,0.0,0.0],power:[-0.1,1.0,-0.1],ExplosionPower:2}
+summon minecraft:fireball ~1 ~3 ~5 {direction:[0.0,0.0,0.0],power:[0.1,1.1,0.1],ExplosionPower:1}
+summon minecraft:fireball ~ ~3 ~ {direction:[0.0,0.0,0.0],power:[0.0,0.9,0.0],ExplosionPower:1}
+summon minecraft:fireball ~3 ~4 ~10 {direction:[0.0,0.0,0.0],power:[-0.1,1.0,-0.1],ExplosionPower:2}
+summon minecraft:fireball ~8 ~5 ~7 {direction:[0.0,0.0,0.0],power:[0.1,1.1,0.1],ExplosionPower:1}
+summon minecraft:fireball ~8 ~3 ~3 {direction:[0.0,0.0,0.0],power:[1.0,0.8,1.0],ExplosionPower:1}
+summon minecraft:fireball ~3 ~6 ~3 {direction:[0.0,0.0,0.0],power:[-0.5,0.8,-0.1],ExplosionPower:2}
+summon minecraft:fireball ~1 ~7 ~5 {direction:[0.0,0.0,0.0],power:[0.2,0.7,0.1],ExplosionPower:1}

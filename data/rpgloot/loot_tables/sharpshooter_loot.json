@@ -1,0 +1,283 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 14.0,
+        "max": 16.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+		{
+        "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 400,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 100,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 10,
+					"quality": 5 
+             },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 2.4,
+                                      "max": 3.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                             "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Perfect for displays of skill and cowardice alike.\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Pants of Haste",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 45,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 3.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 4.0,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -1.6,
+                                      "max": -2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }						  
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                             "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Headshot!\",\"italic\":\"true\",\"color\":\"dark_red\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Sharpshooter's Crossbow",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:multishot"
+                            ]
+                        },
+						{
+                            "function": "minecraft:enchant_randomly",
+                            "enchantments": [
+                                "minecraft:quick_charge"
+                            ]
+                        }
+                    ]
+                }
+				
+			
+				
+				
+
+      ]
+    }
+		]
+			}

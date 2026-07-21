@@ -1,0 +1,151 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 7.0,
+        "max": 9.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+		{
+        "rolls": {
+        "min": 1.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+				"entries": [
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:uncommon_items",
+                    "weight": 1000,
+					"quality": 0 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 400,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 100,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 10,
+					"quality": 5 
+             },
+			 {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_sword",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 9.0,
+                                      "max": 15.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -1.8,
+                                      "max": -1.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 0.05,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"The darkness creeps.\",\"italic\":\"true\",\"color\":\"dark_gray\"}','{\"text\":\"Ability: Invisibility\",\"italic\":\"false\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Shadowsabre",
+							"color": "dark_gray"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{shadowsabre:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 60,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+				]
+		}
+		]
+			}

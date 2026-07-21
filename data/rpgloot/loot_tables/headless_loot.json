@@ -1,0 +1,661 @@
+{
+
+    "type": "minecraft:chest",
+
+    "pools": [
+
+      {
+
+        "rolls": {
+
+          "min": 35,
+
+          "max": 45
+
+        },
+
+        "bonus_rolls": 1,
+
+        "entries": [
+
+          {
+
+            "type": "minecraft:item",
+
+            "name": "minecraft:experience_bottle"
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "rolls": {
+
+          "min": 4.0,
+
+          "max": 6.0
+
+        },
+
+        "bonus_rolls": 2,
+
+        "entries": [
+
+          {
+
+            "type": "minecraft:loot_table",
+
+            "weight": 400,
+
+            "quality": 1,
+
+            "name": "rpgloot:rare_items"
+
+          },
+
+          {
+
+            "type": "minecraft:loot_table",
+
+            "weight": 100,
+
+            "quality": 3,
+
+            "name": "rpgloot:veryrare_items"
+
+          },
+
+          {
+
+            "type": "minecraft:loot_table",
+
+            "weight": 10,
+
+            "quality": 5,
+
+            "name": "rpgloot:legendary_items"
+
+          },
+
+          {
+
+            "type": "minecraft:item",
+
+            "weight": 8,
+
+            "quality": 5,
+
+            "name": "minecraft:netherite_axe",
+
+            "functions": [
+
+              {
+
+                "function": "minecraft:set_attributes",
+
+                "modifiers": [
+
+                  {
+
+                    "attribute": "minecraft:generic.attack_damage",
+
+                    "name": "damage",
+
+                    "amount": {
+
+                      "min": 22,
+
+                      "max": {
+
+                        "min": 18,
+
+                        "max": 23
+
+                      }
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "mainhand"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.attack_speed",
+
+                    "name": "attackSpeed",
+
+                    "amount": {
+
+                      "min": -2.7,
+
+                      "max": -3.5
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "mainhand"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.attack_knockback",
+
+                    "name": "",
+
+                    "amount": 4,
+
+                    "operation": "addition",
+
+                    "slot": "mainhand"
+
+                  }
+
+                ]
+
+              },
+
+              {
+
+                "function": "minecraft:set_name",
+
+                "name": {
+
+                  "text": "Death's Axe",
+
+                  "color": "red"
+
+                }
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Unbreakable:1}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Age:-32768}"
+
+              },
+
+              {
+
+                "function": "minecraft:enchant_randomly",
+
+                "enchantments": [
+
+                  "minecraft:fortune",
+
+                  "minecraft:efficiency",
+
+                  "minecraft:silk_touch"
+
+                ]
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Enchantments:[{id:smite,lvl:10},{id:fire_aspect,lvl:2}]}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_lore",
+
+                "lore": [
+
+                  {
+
+                    "text": "Legendary",
+
+                    "color": "gold"
+
+                  },
+
+                  {
+
+                    "text": "By the fires of hell...",
+
+                    "color": "red"
+
+                  }
+
+                ]
+
+              }
+
+            ]
+
+          },
+
+          {
+
+            "type": "minecraft:item",
+
+            "weight": 8,
+
+            "quality": 5,
+
+            "name": "minecraft:carved_pumpkin",
+
+            "functions": [
+
+              {
+
+                "function": "minecraft:set_attributes",
+
+                "modifiers": [
+
+                  {
+
+                    "attribute": "minecraft:generic.armor",
+
+                    "name": "armor",
+
+                    "amount": {
+
+                      "min": 8,
+
+                      "max": 12
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "head"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.max_health",
+
+                    "name": "maxhealth",
+
+                    "amount": {
+
+                      "min": 2,
+
+                      "max": 10
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "head"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.armor_toughness",
+
+                    "name": "toughness",
+
+                    "amount": {
+
+                      "min": 2,
+
+                      "max": 4
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "head"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.attack_speed",
+
+                    "name": "attackspeed",
+
+                    "amount": {
+
+                      "min": 0,
+
+                      "max": 2
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "head"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.knockback_resistance",
+
+                    "name": "knockbackresistance",
+
+                    "amount": {
+
+                      "min": 0,
+
+                      "max": 0.5
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "head"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.movement_speed",
+
+                    "name": "movementspeed",
+
+                    "amount": {
+
+                      "min": 0,
+
+                      "max": 0.15
+
+                    },
+
+                    "operation": "multiply_base",
+
+                    "slot": "head"
+
+                  }
+
+                ]
+
+              },
+
+              {
+
+                "function": "minecraft:set_name",
+
+                "name": {
+
+                  "text": "Haunted Pumpkin",
+
+                  "color": "gold"
+
+                }
+
+              },
+
+              {
+
+                "function": "minecraft:set_count",
+
+                "count": 1
+
+              },
+
+              {
+
+                "function": "minecraft:enchant_randomly",
+
+                "enchantments": [
+
+                  "minecraft:aqua_affinity",
+
+                  "minecraft:respiration"
+
+                ]
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Age:-32768}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Unbreakable:1}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Enchantments:[{id:protection,lvl:4},{id:binding_curse,lvl:1}]}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_lore",
+
+                "lore": [
+
+                  {
+
+                    "text": "Legendary",
+
+                    "color": "gold"
+
+                  },
+
+                  {
+
+                    "text": "May ye be cursed by his soul...",
+
+                    "color": "red"
+
+                  }
+
+                ]
+
+              }
+
+            ]
+
+          },
+
+          {
+
+            "type": "minecraft:item",
+
+            "weight": 8,
+
+            "quality": 5,
+
+            "name": "minecraft:flint_and_steel",
+
+            "functions": [
+
+              {
+
+                "function": "minecraft:set_name",
+
+                "name": {
+
+                  "text": "Eternal Flame",
+
+                  "color": "red"
+
+                }
+
+              },
+
+              {
+
+                "function": "minecraft:set_attributes",
+
+                "modifiers": [
+
+                  {
+
+                    "attribute": "minecraft:generic.movement_speed",
+
+                    "name": "movementspeed",
+
+                    "amount": {
+
+                      "min": 0.1,
+
+                      "max": 0.2
+
+                    },
+
+                    "operation": "multiply_base",
+
+                    "slot": "offhand"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.max_health",
+
+                    "name": "maxhealth",
+
+                    "amount": {
+
+                      "min": 2,
+
+                      "max": 5
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "offhand"
+
+                  },
+
+                  {
+
+                    "attribute": "minecraft:generic.attack_damage",
+
+                    "name": "damage",
+
+                    "amount": {
+
+                      "min": 3,
+
+                      "max": 5
+
+                    },
+
+                    "operation": "addition",
+
+                    "slot": "offhand"
+
+                  }
+
+                ]
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Unbreakable:1}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_nbt",
+
+                "tag": "{Age:-32768}"
+
+              },
+
+              {
+
+                "function": "minecraft:set_count",
+
+                "count": 1
+
+              },
+
+              {
+
+                "function": "minecraft:set_lore",
+
+                "lore": [
+
+                  {
+
+                    "text": "Legendary",
+
+                    "color": "gold"
+
+                  },
+
+                  {
+
+                    "text": "Flames of hell forever lit...",
+
+                    "color": "red",
+
+                    "italic": true
+
+                  }
+
+                ]
+
+              }
+
+            ]
+
+          }
+
+        ],
+
+        "conditions": [
+
+          {
+
+            "condition": "minecraft:alternative",
+
+            "terms": [
+
+              {
+
+                "condition": "minecraft:killed_by_player"
+
+              }
+
+            ]
+
+          }
+
+        ]
+
+      }
+
+    ]
+
+  }
+
+  

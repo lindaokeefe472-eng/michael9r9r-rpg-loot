@@ -1,0 +1,1 @@
+summon minecraft:evoker ~ ~ ~ {PersistenceRequired:1b,Tags:["rpgloot.pillager"]}

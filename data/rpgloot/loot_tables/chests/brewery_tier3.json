@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    
+		{
+        "rolls": {
+        "min": 2.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+		},
+            "entries": [
+			{
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:uncommon_potions",
+                    "weight": 200,
+					"quality": 0 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_potions",
+                    "weight": 200,
+					"quality": 2 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_potions",
+                    "weight": 75,
+					"quality": 4 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_potions",
+                    "weight": 6,
+					"quality": 6 
+             }
+  ]
+}
+]
+}

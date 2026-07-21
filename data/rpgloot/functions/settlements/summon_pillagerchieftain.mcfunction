@@ -1,0 +1,2 @@
+summon pillager ~ ~ ~ {CustomName:"\"§6Chieftain\"",CustomNameVisible:1,DeathLootTable:"rpgloot:chieftain_loot",HandItems:[{Count:1,id:crossbow,tag:{Enchantments:[{id:multishot,lvl:3},{id:piercing,lvl:5},{id:quick_charge,lvl:5},{id:power,lvl:10},{id:punch,lvl:10}]}}],HandDropChances:[0.0f],Count:1b,ActiveEffects:[{Id:10,Amplifier:0,Duration:999999}],Attributes:[{Name:generic.maxHealth, Base:40.0},{Name:generic.attackDamage,Base:9.0f}],Silent:0,Glowing:0,Health:40.0f,PersistenceRequired:1b,PatrolLeader:1,Tags:["rpgloot.pillagerchieftain"]}
+kill @e[tag=rpgloot.heightdetector]

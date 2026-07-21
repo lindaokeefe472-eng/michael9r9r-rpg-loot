@@ -1,0 +1,259 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 14.0,
+        "max": 16.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+		{
+        "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+{
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 400,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 100,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 10,
+					"quality": 5 
+             },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 5.0,
+                                      "max": 6.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							    {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.10,
+                                      "max": 0.20,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.30,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.40,
+                                      "max": 0.50,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },							  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"A cuirass of celestial bronze. They cant hurt what they cant hit...\",\"italic\":\"true\",\"color\":\"yellow\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Sentinels Ward",
+							"color": "yellow"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 5.8,
+                                      "max": 6.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -0.5,
+                                      "max": -1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"A blade of celestial bronze. It feels lighter than air itself.\",\"italic\":\"true\",\"color\":\"yellow\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Windshredder",
+							"color": "yellow"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 64,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+                    
+				
+				
+
+      ]
+    }
+		]
+			}

@@ -1,0 +1,326 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 35,
+                "max": 45
+            },
+            "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:experience_bottle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 11,
+                "max": 15
+            },
+            "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 400,
+                    "quality": 1,
+                    "name": "rpgloot:rare_items"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 100,
+                    "quality": 3,
+                    "name": "rpgloot:veryrare_items"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 10,
+                    "quality": 5,
+                    "name": "rpgloot:legendary_items"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "quality": 6,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "armor",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 11,
+                                        "max": 16
+                                    },
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.max_health",
+                                    "name": "maxhealth",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 2,
+                                        "max": 9
+                                    },
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "attackdamage",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 2,
+                                        "max": 4
+                                    },
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.armor_toughness",
+                                    "name": "toughness",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 3,
+                                        "max": 4
+                                    },
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.luck",
+                                    "name": "luck",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 0,
+                                        "max": 1
+                                    },
+                                    "operation": "addition",
+                                    "slot": "chest"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.movement_speed",
+                                    "name": "speed",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 0,
+                                        "max": 0.17
+                                    },
+                                    "operation": "multiply_base",
+                                    "slot": "chest"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Bones cursed to all those near...\",\"italic\":\"true\",\"color\":\"gray\"}','{\"text\":\"Ability: Wither I Aura (8 blocks)\",\"italic\":\"false\",\"color\":\"dark_gray\"}']}    }"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Ribcage of Hades",
+                                "color": "dark_gray"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ribcageofhades:1}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:thorns": 4,
+                                "minecraft:protection": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "quality": 4,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.armor",
+                                    "name": "armor",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 0,
+                                        "max": 4
+                                    },
+                                    "operation": "addition",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.movement_speed",
+                                    "name": "speed",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 0.09,
+                                        "max": 0.17
+                                    },
+                                    "operation": "multiply_base",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Bone Blast",
+                                "color": "dark_gray"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Shoot the skulls of your enemies\",\"italic\":\"true\",\"color\":\"dark_gray\"}']}    }"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{boneblast:1}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "minecraft:mending": 1
+                            },
+                            "add": true
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 12,
+                    "quality": 5,
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_knockback",
+                                    "name": "attackknockback",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 0,
+                                        "max": 1.25
+                                    },
+                                    "operation": "addition",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "damage",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 5,
+                                        "max": 8
+                                    },
+                                    "operation": "addition",
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.movement_speed",
+                                    "name": "attackspeed",
+                                    "amount": {
+                                        "type": "minecraft:uniform",
+                                        "min": 0,
+                                        "max": 0.1
+                                    },
+                                    "operation": "multiply_base",
+                                    "slot": "offhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "text": "Wither Bone",
+                                "color": "dark_gray"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"The tail bone of the Wither\",\"italic\":\"true\",\"color\":\"dark_gray\"}']}    }"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{witherbone:1}"
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                        {
+                            "condition": "minecraft:killed_by_player"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

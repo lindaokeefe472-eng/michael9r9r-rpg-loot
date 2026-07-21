@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+		{
+        "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+            "entries": [
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+					"quality": 1,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Greater Potion of Vitality",
+							"color": "dark_purple"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4s,Duration:20},{Id:10,Amplifier:1,Duration:2400}],CustomPotionColor:11534525}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+					"quality": 1,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Potion of the Night Stalker",
+							"color": "dark_purple"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:3600},{Id:14,Amplifier:0,Duration:3600},{Id:16,Amplifier:0,Duration:6000}],CustomPotionColor:0}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+					"quality": 1,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Atlantean Potion",
+							"color": "dark_purple"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:13,Duration:6000},{Id:29,Duration:6000},{Id:30,Duration:6000}],CustomPotionColor:11534525}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                }
+      ]
+    }
+		]
+			}

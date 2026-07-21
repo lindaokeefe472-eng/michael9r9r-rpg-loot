@@ -1,0 +1,1 @@
+scoreboard players set @s atk_cool 600

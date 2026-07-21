@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+		{
+        "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+            "entries": [
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+					"quality": 1.5,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Potion of Vitality",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4,Duration:20},{Id:10,Amplifier:2,Duration:2400}],CustomPotionColor:16770102}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+					"quality": 1.5,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Potion of the Stone Sentinel",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:2,Duration:20},{Id:11,Amplifier:0,Duration:3600},{Id:12,Amplifier:0,Duration:3600},{Id:21,Amplifier:4,Duration:3600},{Id:22,Amplifier:4,Duration:3600,ShowParticles:0b},{Id:23,Amplifier:0,Duration:3600}],CustomPotionColor:16775800}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+					"quality": 1.5,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Invulnerability Potion",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:6,Amplifier:4},{Id:11,Amplifier:4,Duration:600},{Id:12,Duration:600}],CustomPotionColor:16777215}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                }
+      ]
+    }
+		]
+			}

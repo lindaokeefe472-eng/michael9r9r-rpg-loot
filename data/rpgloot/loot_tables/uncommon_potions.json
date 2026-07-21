@@ -1,0 +1,232 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+	
+		{
+        "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+
+            "entries": [
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 120,
+					"quality": 0,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Vial of the Crimson Rite",
+							"color": "green"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:5,Amplifier:1,Duration:3000,ShowParticles:0b},{Id:7,Amplifier:0,Duration:20}],CustomPotionColor:14367250}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 120,
+					"quality": 0,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Ironskin Potion",
+							"color": "green"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:11,Amplifier:0,Duration:3600}],CustomPotionColor:16252680}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 120,
+					"quality": 0,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Potion of Shielding",
+							"color": "green"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:22,Amplifier:4,Duration:6000,ShowParticles:0b}],CustomPotionColor:61183}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 120,
+					"quality": 0,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Potion of Dexterity",
+							"color": "green"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:3600},{Id:3,Amplifier:0,Duration:3600}],CustomPotionColor:2279737}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 120,
+					"quality": 0,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Charisma Elixer",
+							"color": "green"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:32,Duration:2400}],CustomPotionColor:4770112}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 120,
+					"quality": 0,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Feather Fall Potion",
+							"color": "green"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:28,Duration:3600}],CustomPotionColor:4770112}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                }
+      ]
+    }
+		]
+			}

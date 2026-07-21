@@ -1,0 +1,618 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    
+		{
+        "rolls": {
+        "min": 0.0,
+        "max": 5.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+            "entries": [
+			{
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:uncommon_items",
+                    "weight": 100,
+					"quality": 0 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 80,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 20,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 4,
+					"quality": 5 
+             },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 4,
+					"quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Elytra",
+							"color": "green"
+							}
+						}
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 3,
+					"quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Rare\",\"italic\":\"false\",\"color\":\"blue\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Rare Elytra",
+							"color": "blue"
+							}
+						}
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 2,
+					"quality": 3,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 1.0,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Very Rare\",\"italic\":\"false\",\"color\":\"dark_purple\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Very Rare Elytra",
+							"color": "dark_purple"
+							}
+						}
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:elytra",
+                    "weight": 1,
+					"quality": 4,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 8.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.15,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },						  
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Legendary Elytra",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        }
+                    ]
+                }
+				
+
+      ]
+    },
+	
+
+
+   {
+      "rolls": {
+        "min": 2.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+					"quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:saddle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20.0,
+                "max": 39.0,
+                "type": "minecraft:uniform"
+              },
+              "treasure": true
+            }
+          ],
+          "name": "minecraft:iron_shovel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1718 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+	
+		{
+        "rolls": {
+        "min": 1.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+
+            "entries": [
+			 {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_sword",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 4,
+                                      "max": 4.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.4,
+                                      "max": -2.06,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Wooden Sword",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+
+
+
+		 {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 5.0,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.4,
+                                      "max": -2.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Stone Sword",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 4,
+                                      "max": 4.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.4,
+                                      "max": -2.24,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Golden Sword",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 21,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 6,
+                                      "max": 6.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.4,
+                                      "max": -2.16,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Iron Sword",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_axe",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 7.0,
+                                      "max": 8.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -3.2,
+                                      "max": -3.04,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Wooden Axe",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+
+
+
+		 {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 9.0,
+                                      "max": 11.7,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -3.2,
+                                      "max": -3.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Stone Axe",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 7.0,
+                                      "max": 8.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -3.0,
+                                      "max": -2.9,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Golden Axe",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 21,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 9.0,
+                                      "max": 10.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -3.1,
+                                      "max": -2.97,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Iron Axe",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+
+			 {
+                    "type": "minecraft:item",
+                    "name": "minecraft:trident",
+                    "weight": 25,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "damage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": 9,
+                                      "max": 9.9,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "attackSpeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "mainhand",
+                                  "amount": {
+                                      "min": -2.9,
+                                      "max": -2.79,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Trident",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "weight": 200,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackResistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.1,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Shield",
+							"color": "green"
+							}
+						}
+                    ]
+                },
+				
+				
+
+
+			 {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 1.0,
+                                      "max": 1.1,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Leather Cap",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 3,
+                                      "max": 3.3,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Leather Tunic",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 2,
+                                      "max": 2.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Leather Pants",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 1,
+                                      "max": 1.1,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Leather Boots",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 10,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_helmet",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 2.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Chainmail Helmet",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 5,
+                                      "max": 5.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Chainmail Chestplate",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 4,
+                                      "max": 4.4,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Chainmail Leggings",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:chainmail_boots",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 1,
+                                      "max": 1.1,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 1.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Chainmail Boots",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 2.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Golden Helmet",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 21,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 5,
+                                      "max": 5.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Golden Chestplate",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 21,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 3,
+                                      "max": 3.3,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Golden Leggings",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 21,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 1,
+                                      "max": 1.1,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Golden Boots",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 10,
+                                "max": 21,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_helmet",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2.0,
+                                      "max": 2.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Iron Helmet",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+			{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_chestplate",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 6,
+                                      "max": 6.6,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "chest",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Iron Chestplate",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_leggings",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 5,
+                                      "max": 5.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "legs",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Iron Leggings",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_boots",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 2,
+                                      "max": 2.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "feet",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Iron Boots",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:turtle_helmet",
+                    "weight": 200,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 2,
+                                      "max": 2.2,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "knockbackresistance",
+                                  "attribute": "generic.knockback_resistance",
+                                  "operation": "addition",
+                                  "slot": "head",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.15,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Turtle Shell",
+							"color": "green"
+							}
+						},
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 0,
+                                "max": 15,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 75,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "armor",
+                                  "attribute": "generic.armor",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Totem of Undying",
+							"color": "green"
+							}
+						}
+                    ]
+                },
+				
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:rabbit_foot",
+                    "weight": 100,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.2,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation":"multiply_base",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.02,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Rabbit's Foot",
+							"color": "green"
+							}
+						}
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:quartz",
+                    "weight": 100,
+					"quality": 0,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [
+                               {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation":"multiply_base",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.03,
+                                      "max": 0.06,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.03,
+                                      "max": 0.09,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }		
+                            ]
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Uncommon\",\"italic\":\"false\",\"color\":\"green\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Uncommon Quartz",
+							"color": "green"
+							}
+						}
+                    ]
+                }
+				
+				
+
+      ]
+    }
+		]
+			}

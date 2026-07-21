@@ -1,0 +1,247 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 14.0,
+        "max": 16.0,
+        "type": "minecraft:uniform"
+      },
+	  "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+		  "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:experience_bottle"
+        }
+      ]
+    },
+		{
+        "rolls": {
+        "min": 4.0,
+        "max": 6.0,
+        "type": "minecraft:uniform"
+		},
+		"bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+		},
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "entries": [
+{
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:rare_items",
+                    "weight": 400,
+					"quality": 1 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:veryrare_items",
+                    "weight": 100,
+					"quality": 3 
+             },
+			 {
+                    "type": "minecraft:loot_table",
+                    "name": "rpgloot:legendary_items",
+                    "weight": 10,
+					"quality": 5 
+             },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        {
+                            "function": "set_attributes",
+                            "modifiers": [                               
+                               {
+                                  "name": "toughness",
+                                  "attribute": "generic.armor_toughness",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 1.0,
+                                      "max": 2.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "movementspeed",
+                                  "attribute": "generic.movement_speed",
+                                  "operation": "multiply_base",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.05,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "maxhealth",
+                                  "attribute": "generic.max_health",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 4.0,
+                                      "max": 6.0,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackdamage",
+                                  "attribute": "generic.attack_damage",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 4.00,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "attackspeed",
+                                  "attribute": "generic.attack_speed",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.10,
+                                      "type": "minecraft:uniform"
+                                  }
+                               },
+							   {
+                                  "name": "luck",
+                                  "attribute": "generic.luck",
+                                  "operation": "addition",
+                                  "slot": "offhand",
+                                  "amount": {
+                                      "min": 0.0,
+                                      "max": 0.5,
+                                      "type": "minecraft:uniform"
+                                  }
+                               }		
+                            ]
+                        },
+                       {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"A rather unpredictable source of magic...\",\"italic\":\"true\",\"color\":\"gray\"}','{\"text\":\"Ability: Random Buff every 10 seconds.\",\"italic\":\"false\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Tome of Chaos",
+							"color": "gold"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{tomeofchaos:1}"
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+					"quality": 5,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"Primum non nocere.\",\"italic\":\"true\",\"color\":\"gray\"}','{\"text\":\"Ability: Regeneration II Arrows.\",\"italic\":\"false\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Longbow of the Cleric",
+							"color": "light_purple"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{healbow:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Unbreakable:1}"
+                        },
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        },
+						{
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 40,
+                                "max": 64,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "minecraft:item",
+                    "name": "minecraft:potion",
+                    "weight": 10,
+					"quality": 5,
+                    "functions": [
+                        
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:['{\"text\":\"\"}','{\"text\":\"Legendary\",\"italic\":\"false\",\"color\":\"gold\"}','{\"text\":\"\",\"italic\":\"true\",\"color\":\"gray\"}']}    }"
+                        },
+						{
+							"function": "minecraft:set_name",
+							"name": {
+							"text": "Elixir of the Illusioner",
+							"color": "dark_purple"
+							}
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:1b,Amplifier:0b,Duration:600},{Id:14b,Amplifier:0b,Duration:600},{Id:22b,Amplifier:3b,Duration:600}],CustomPotionColor:9705983}"
+                        },
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						},	
+						{
+                            "function": "set_nbt",
+                            "tag": "{Age:-32768}"
+                        }
+                    ]
+                }
+                    
+				
+				
+
+      ]
+    }
+		]
+			}

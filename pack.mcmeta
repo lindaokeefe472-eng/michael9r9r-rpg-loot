@@ -1,7 +1,10 @@
 {
    "pack": {
       "pack_format": 107,
-      "supported_formats": [61, 107],
+      "supported_formats": {
+         "min_inclusive": 61,
+         "max_inclusive": 107
+      },
       "description": "michael9r9r's RPG Loot (MC 1.21.4 - 26.2)"
    }
 }

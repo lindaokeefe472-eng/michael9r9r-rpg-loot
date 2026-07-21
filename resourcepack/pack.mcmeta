@@ -1,7 +1,10 @@
 {
    "pack": {
       "pack_format": 84,
-      "supported_formats": [46, 84],
+      "supported_formats": {
+         "min_inclusive": 46,
+         "max_inclusive": 84
+      },
       "description": "michael9r9r's RPG Loot Translation Pack (MC 1.21.4 - 26.2)"
    }
 }

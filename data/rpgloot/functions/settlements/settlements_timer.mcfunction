@@ -12,9 +12,9 @@ execute as @s[scores={timer10sdays=56}] at @s if score pillager_settlements pils
 
 
 
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run scoreboard players set pillager_settlements pilset1exists 0
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run scoreboard players set pillager_settlements pilset1size 0
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run scoreboard players set pillager_settlements pilset1built 0
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run kill @e[tag=rpgloot.pillagerarchitect]
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run tellraw @a {"translate":"rpgloot.msg.chieftain_slain","fallback":"A Pillager Chieftain has been slain! But how long until they reorganize?","color":"green"}
-execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run kill @e[type=minecraft:item,nbt={Item:{id:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}]
+execute at @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run scoreboard players set pillager_settlements pilset1exists 0
+execute at @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run scoreboard players set pillager_settlements pilset1size 0
+execute at @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run scoreboard players set pillager_settlements pilset1built 0
+execute at @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run kill @e[tag=rpgloot.pillagerarchitect]
+execute at @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run tellraw @a {"translate":"rpgloot.msg.chieftain_slain","fallback":"A Pillager Chieftain has been slain! But how long until they reorganize?","color":"green"}
+execute at @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}] run kill @e[type=minecraft:item,nbt={Item:{name:"minecraft:wooden_sword",components:{"minecraft:custom_name":'{"text":"chieftainDeath"}'}}}]

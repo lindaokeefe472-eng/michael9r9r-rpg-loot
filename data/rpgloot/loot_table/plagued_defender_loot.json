@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
@@ -122,7 +122,7 @@
       },
       "conditions": [
         {
-          "condition": "killed_by_player"
+          "condition": "minecraft:killed_by_player"
         }
       ],
       "entries": [

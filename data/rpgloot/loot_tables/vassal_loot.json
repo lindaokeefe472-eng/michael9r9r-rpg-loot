@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
@@ -44,7 +44,7 @@
       },
       "conditions": [
         {
-          "condition": "killed_by_player"
+          "condition": "minecraft:killed_by_player"
         }
       ],
       "entries": [
@@ -252,7 +252,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Kr\u00e1nos tis th\u00e1lassas",
+                "text": "Krános tis thálassas",
                 "color": "gold"
               }
             },
@@ -415,7 +415,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "\u0397\u03b3\u03b5th\u03af\u03b1",
+                "text": "Ηγεthία",
                 "color": "aqua"
               }
             },

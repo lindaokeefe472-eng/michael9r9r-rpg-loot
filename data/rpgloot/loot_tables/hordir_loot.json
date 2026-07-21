@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:chest",
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
@@ -44,7 +44,7 @@
       },
       "conditions": [
         {
-          "condition": "killed_by_player"
+          "condition": "minecraft:killed_by_player"
         }
       ],
       "entries": [
@@ -123,7 +123,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sver\u00f0i V\u00edkinga",
+                "text": "Sverði Víkinga",
                 "color": "gold"
               }
             },
@@ -219,7 +219,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Bl\u00f3\u00f0\u00f6rn",
+                "text": "Blóðörn",
                 "color": "gold"
               }
             },
@@ -528,7 +528,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Skj\u00f6ldr af M\u00e6tti",
+                "text": "Skjöldr af Mætti",
                 "color": "gold"
               }
             },

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "_comment": "DEBUG EASTER EGG: Bat drops 100% legendary item for easy datapack testing. Kill any bat to verify legendary loot tables work.",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rpgloot:legendary_items"
+        }
+      ]
+    }
+  ]
+}

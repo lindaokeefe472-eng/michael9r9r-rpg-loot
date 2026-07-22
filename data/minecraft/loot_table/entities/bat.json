@@ -5,8 +5,141 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Legendary Diamond Sword",
+                "color": "gold",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 50,
+                "max": 64
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "name": "rpgloot_damage",
+                  "amount": {
+                    "min": 8.0,
+                    "max": 15.0
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "minecraft:max_health",
+                  "name": "rpgloot_health",
+                  "amount": {
+                    "min": 10.0,
+                    "max": 20.0
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Lightning Trident",
+                "color": "yellow",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 50,
+                "max": 64
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:attack_damage",
+                  "name": "rpgloot_damage",
+                  "amount": {
+                    "min": 10.0,
+                    "max": 18.0
+                  },
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Maelstrom Crossbow",
+                "color": "dark_purple",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 50,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Longbow of the Cleric",
+                "color": "aqua",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 50,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:loot_table",
-          "value": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items",
+          "weight": 60
         }
       ]
     }

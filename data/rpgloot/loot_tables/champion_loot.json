@@ -67,6 +67,11 @@
           "quality": 3,
           "name": "rpgloot:legendary_items"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
       ]
     }
   ]

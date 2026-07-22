@@ -69,7 +69,7 @@
                 },
                 {
                   "text": "Uncommon",
-                  "italic": "false",
+                  "italic": false,
                   "color": "green"
                 }
               ]
@@ -139,7 +139,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -209,7 +209,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -315,7 +315,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]

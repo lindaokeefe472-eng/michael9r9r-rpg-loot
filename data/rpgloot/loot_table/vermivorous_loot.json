@@ -158,12 +158,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Float like a butterfly...",
-                  "italic": "true",
+                  "italic": true,
                   "color": "red"
                 }
               ]
@@ -300,22 +300,22 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "From the ashes she will rise.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "red"
                 },
                 {
                   "text": "Ability: Fire Aura. Hostile Mobs within 5 blocks will be set ablaze.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Fire Resistance.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -367,17 +367,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Man Killer.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "red"
                 },
                 {
                   "text": "Ability: Flaming and Floating middle projectile.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]

@@ -158,17 +158,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "May it clear your mind.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Resistant to Wither effect.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -211,17 +211,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Like a dagger in the wind...",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Floating Arrows.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]

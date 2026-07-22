@@ -158,17 +158,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "A rather unpredictable source of magic...",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Random Buff every 10 seconds.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -201,17 +201,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Primum non nocere.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Regeneration II Arrows.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -263,12 +263,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

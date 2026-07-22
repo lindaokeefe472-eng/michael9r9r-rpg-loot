@@ -170,12 +170,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "A cuirass of celestial bronze. They cant hurt what they cant hit...",
-                  "italic": "true",
+                  "italic": true,
                   "color": "yellow"
                 }
               ]
@@ -252,12 +252,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "A blade of celestial bronze. It feels lighter than air itself.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "yellow"
                 }
               ]

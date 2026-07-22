@@ -52,7 +52,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -119,7 +119,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -186,7 +186,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -253,7 +253,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -320,7 +320,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -387,7 +387,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -454,7 +454,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -521,7 +521,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -588,7 +588,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -655,7 +655,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -721,7 +721,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -812,7 +812,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -882,7 +882,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -961,7 +961,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1040,7 +1040,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1119,7 +1119,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1222,7 +1222,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1325,7 +1325,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1428,7 +1428,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1531,7 +1531,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1622,7 +1622,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1713,7 +1713,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1804,7 +1804,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1895,7 +1895,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -1986,7 +1986,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2077,7 +2077,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2168,7 +2168,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2259,7 +2259,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2350,7 +2350,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2441,7 +2441,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2532,7 +2532,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2623,7 +2623,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2714,7 +2714,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2793,7 +2793,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2851,7 +2851,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2909,7 +2909,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]
@@ -2967,7 +2967,7 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 }
               ]

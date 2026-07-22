@@ -110,12 +110,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "An iron blade forged in the northlands.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -206,12 +206,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "An axe that has tasted the blood of many.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -336,17 +336,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Mail coat that once belonged to an ancient hero. ",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Dolphins Grace ",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -515,12 +515,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Shield that has defended many raiders over the centuries.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

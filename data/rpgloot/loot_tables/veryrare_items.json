@@ -52,7 +52,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -119,7 +119,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -186,7 +186,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -253,7 +253,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -320,7 +320,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -387,7 +387,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -454,7 +454,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -521,7 +521,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -588,7 +588,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -655,7 +655,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -721,7 +721,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -812,7 +812,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -882,7 +882,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -961,7 +961,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1040,7 +1040,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1119,7 +1119,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1222,7 +1222,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1325,7 +1325,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1428,7 +1428,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1531,7 +1531,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1646,7 +1646,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1761,7 +1761,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1876,7 +1876,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -1991,7 +1991,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2094,7 +2094,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2197,7 +2197,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2300,7 +2300,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2403,7 +2403,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2494,7 +2494,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2585,7 +2585,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2676,7 +2676,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2767,7 +2767,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2858,7 +2858,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2937,7 +2937,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -2995,7 +2995,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -3053,7 +3053,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]
@@ -3111,7 +3111,7 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 }
               ]

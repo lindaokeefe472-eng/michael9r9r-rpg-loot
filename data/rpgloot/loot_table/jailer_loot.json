@@ -141,12 +141,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Stained with the blood of ancient inmates.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -238,12 +238,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Stained with the blood of ancient inmates.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -320,17 +320,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Ability: Life Steal",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "For every life cut short, another continues.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

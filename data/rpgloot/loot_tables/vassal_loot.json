@@ -110,12 +110,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Of sharp iron and powerful magic.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -244,7 +244,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -265,17 +265,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Helmet used by the Knights of Poseidon.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Water Breathing I",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -397,17 +397,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "The breastplate of a true hero.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Regeneration I Aura (8 Blocks)",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]

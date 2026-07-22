@@ -110,12 +110,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Sword once wielded by The Slayer of Demons.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "red"
                 }
               ]
@@ -171,22 +171,22 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "A bow of such strength that",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "few warriors are able to draw it.",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Strength I Aura when Held",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]

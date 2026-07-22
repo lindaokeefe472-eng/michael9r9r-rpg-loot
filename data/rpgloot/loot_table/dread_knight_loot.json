@@ -182,12 +182,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Let your health double...",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -276,12 +276,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Sword with a guard that provides extra defense.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -418,12 +418,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Heavy armor hewn from raw diamond.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

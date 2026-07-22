@@ -122,22 +122,22 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Greatsword of the Abyss watchers.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "The undead legion fought using unique tecnique,",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "similar to a pack of wolves hunting prey.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -238,17 +238,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Specialized Dagger,",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "used with the Farron Greatsword.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -373,27 +373,27 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Attire of the Abyss Watchers, the Undead Legion of Farron.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "A black-dyed leather vest worn over chainmail.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "They acted in the dark, seeking out any sign of the Abyss,",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "fighting a constant war with its abominations.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

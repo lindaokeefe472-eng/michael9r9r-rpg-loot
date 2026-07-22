@@ -52,7 +52,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -129,7 +129,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -206,7 +206,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -283,7 +283,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -360,7 +360,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -437,7 +437,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -514,7 +514,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -591,7 +591,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -668,7 +668,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -745,7 +745,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -822,7 +822,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -959,7 +959,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1004,7 +1004,8 @@
                   "text": "Ability: Flaming arrows that have Fire Aura. Radius: 5.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_name",
@@ -1068,7 +1069,8 @@
                   "text": "Ability: Arrows shot will drop additional arrows.",
                   "color": "gray"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
               "function": "minecraft:set_name",
@@ -1120,7 +1122,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1212,7 +1214,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1310,7 +1312,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1456,7 +1458,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1576,7 +1578,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1701,7 +1703,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1826,7 +1828,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -1951,7 +1953,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2100,7 +2102,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2249,7 +2251,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2398,7 +2400,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2547,7 +2549,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2684,7 +2686,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2821,7 +2823,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -2958,7 +2960,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3095,7 +3097,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3244,7 +3246,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3393,7 +3395,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3542,7 +3544,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3691,7 +3693,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3840,7 +3842,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -3989,7 +3991,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4138,7 +4140,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4283,7 +4285,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4420,7 +4422,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4517,7 +4519,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4575,7 +4577,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4633,7 +4635,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]
@@ -4691,7 +4693,7 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 }
               ]

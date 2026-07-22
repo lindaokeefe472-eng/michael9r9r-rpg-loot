@@ -23,12 +23,12 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -47,12 +47,12 @@
                   "custom_color": 11534525,
                   "custom_effects": [
                     {
-                      "id": 6,
+                      "id": "minecraft:instant_health",
                       "amplifier": 4,
                       "duration": 20
                     },
                     {
-                      "id": 10,
+                      "id": "minecraft:regeneration",
                       "amplifier": 1,
                       "duration": 2400
                     }
@@ -93,12 +93,12 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -117,17 +117,17 @@
                   "custom_color": 0,
                   "custom_effects": [
                     {
-                      "id": 1,
+                      "id": "minecraft:speed",
                       "amplifier": 0,
                       "duration": 3600
                     },
                     {
-                      "id": 14,
+                      "id": "minecraft:invisibility",
                       "amplifier": 0,
                       "duration": 3600
                     },
                     {
-                      "id": 16,
+                      "id": "minecraft:night_vision",
                       "amplifier": 0,
                       "duration": 6000
                     }
@@ -168,12 +168,12 @@
                 },
                 {
                   "text": "Very Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "dark_purple"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -192,17 +192,17 @@
                   "custom_color": 11534525,
                   "custom_effects": [
                     {
-                      "id": 13,
+                      "id": "minecraft:water_breathing",
                       "amplifier": 0,
                       "duration": 6000
                     },
                     {
-                      "id": 29,
+                      "id": "minecraft:conduit_power",
                       "amplifier": 0,
                       "duration": 6000
                     },
                     {
-                      "id": 30,
+                      "id": "minecraft:dolphins_grace",
                       "amplifier": 0,
                       "duration": 6000
                     }

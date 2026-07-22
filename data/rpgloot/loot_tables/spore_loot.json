@@ -158,12 +158,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "With explosive force but calm temper.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "white"
                 }
               ]
@@ -261,17 +261,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "An axe carved from Living Wood.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "white"
                 },
                 {
                   "text": "It still breaths and hungers for the enemies of the grove.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "white"
                 }
               ]

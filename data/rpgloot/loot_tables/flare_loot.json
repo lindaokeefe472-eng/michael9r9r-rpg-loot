@@ -158,12 +158,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Stop, drop, and roll.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -263,12 +263,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Shining. Shimmering. Splendid.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "yellow"
                 }
               ]

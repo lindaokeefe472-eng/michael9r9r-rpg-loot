@@ -123,17 +123,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "The darkness creeps.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "dark_gray"
                 },
                 {
                   "text": "Ability: Invisibility",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]

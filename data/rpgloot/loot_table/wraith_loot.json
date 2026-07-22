@@ -146,17 +146,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Enjoy his presence.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Speed I",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -272,17 +272,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "The darkness beckons...",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Night Vision",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -372,17 +372,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Those who can see the future",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "are destined to change it.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

@@ -69,7 +69,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.armor",
+                  "attribute": "minecraft:armor",
                   "name": "armor",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -81,7 +81,7 @@
                   "id": "rpgloot:generic_armor_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.max_health",
+                  "attribute": "minecraft:max_health",
                   "name": "maxhealth",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -93,7 +93,7 @@
                   "id": "rpgloot:generic_max_health_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "name": "attackdamage",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -105,7 +105,7 @@
                   "id": "rpgloot:generic_attack_damage_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
                   "name": "toughness",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -117,7 +117,7 @@
                   "id": "rpgloot:generic_armor_toughness_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.luck",
+                  "attribute": "minecraft:luck",
                   "name": "luck",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -129,7 +129,7 @@
                   "id": "rpgloot:generic_luck_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.movement_speed",
+                  "attribute": "minecraft:movement_speed",
                   "name": "speed",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -151,18 +151,18 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Feel her strength",
-                  "italic": "true",
-                  "color": "purple"
+                  "italic": true,
+                  "color": "dark_purple"
                 },
                 {
                   "text": "Ability: Strength II",
-                  "italic": "false",
-                  "color": "purple"
+                  "italic": false,
+                  "color": "dark_purple"
                 }
               ]
             },
@@ -201,7 +201,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.max_health",
+                  "attribute": "minecraft:max_health",
                   "name": "maxhealth",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -216,7 +216,7 @@
                   "id": "rpgloot:generic_max_health_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "name": "damage",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -228,7 +228,7 @@
                   "id": "rpgloot:generic_attack_damage_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "name": "attackspeed",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -240,7 +240,7 @@
                   "id": "rpgloot:generic_attack_speed_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.luck",
+                  "attribute": "minecraft:luck",
                   "name": "luck",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -255,7 +255,7 @@
                   "id": "rpgloot:generic_luck_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.armor",
+                  "attribute": "minecraft:armor",
                   "name": "armor",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -267,7 +267,7 @@
                   "id": "rpgloot:generic_armor_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.armor_toughness",
+                  "attribute": "minecraft:armor_toughness",
                   "name": "toughness",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -279,7 +279,7 @@
                   "id": "rpgloot:generic_armor_toughness_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.movement_speed",
+                  "attribute": "minecraft:movement_speed",
                   "name": "speed",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -308,13 +308,13 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Be the dragon...",
-                  "italic": "true",
-                  "color": "purple"
+                  "italic": true,
+                  "color": "dark_purple"
                 }
               ]
             },
@@ -347,7 +347,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "name": "damage",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -359,7 +359,7 @@
                   "id": "rpgloot:generic_attack_damage_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "name": "attackspeed",
                   "amount": {
                     "type": "minecraft:uniform",
@@ -389,13 +389,13 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Get back ye demons!!",
-                  "italic": "true",
-                  "color": "purple"
+                  "italic": true,
+                  "color": "dark_purple"
                 }
               ]
             },
@@ -426,7 +426,7 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:alternative",
+          "condition": "minecraft:any_of",
           "terms": [
             {
               "condition": "minecraft:killed_by_player"

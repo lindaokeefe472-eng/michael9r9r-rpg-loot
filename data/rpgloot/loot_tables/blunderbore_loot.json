@@ -49,7 +49,7 @@
               "function": "minecraft:set_attributes",
               "modifiers": [
                 {
-                  "attribute": "minecraft:generic.attack_damage",
+                  "attribute": "minecraft:attack_damage",
                   "name": "damage",
                   "amount": {
                     "min": 12,
@@ -60,7 +60,7 @@
                   "id": "rpgloot:generic_attack_damage_mod"
                 },
                 {
-                  "attribute": "minecraft:generic.attack_speed",
+                  "attribute": "minecraft:attack_speed",
                   "name": "attackSpeed",
                   "amount": {
                     "min": -2.2,
@@ -81,12 +81,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Smells of human stew.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "red"
                 }
               ]
@@ -175,17 +175,17 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "The harp of the giant Blunderbore",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 },
                 {
                   "text": "Ability: Regeneration I Aura (8 Blocks)",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gray"
                 }
               ]
@@ -216,7 +216,7 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:alternative",
+          "condition": "minecraft:any_of",
           "terms": [
             {
               "condition": "minecraft:killed_by_player"

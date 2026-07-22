@@ -188,12 +188,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Do a flip!",
-                  "italic": "true",
+                  "italic": true,
                   "color": "white"
                 }
               ]
@@ -320,12 +320,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Some scars never fade.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "dark_gray"
                 }
               ]
@@ -383,12 +383,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "Batter up, b**** boy!",
-                  "italic": "true",
+                  "italic": true,
                   "color": "dark_red"
                 }
               ]

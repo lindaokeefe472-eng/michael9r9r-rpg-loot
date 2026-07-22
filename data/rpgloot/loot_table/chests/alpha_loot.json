@@ -69,12 +69,12 @@
                 },
                 {
                   "text": "Legendary",
-                  "italic": "false",
+                  "italic": false,
                   "color": "gold"
                 },
                 {
                   "text": "A forgotten sword forged many years ago.",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]

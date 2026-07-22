@@ -23,12 +23,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "green"
                 }
               ]
@@ -81,12 +81,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -139,12 +139,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -163,12 +163,12 @@
                   "custom_color": 16711680,
                   "custom_effects": [
                     {
-                      "id": 6,
+                      "id": "minecraft:instant_health",
                       "amplifier": 4,
                       "duration": 20
                     },
                     {
-                      "id": 10,
+                      "id": "minecraft:regeneration",
                       "amplifier": 0,
                       "duration": 2400
                     }
@@ -209,12 +209,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -233,12 +233,12 @@
                   "custom_color": 3158364,
                   "custom_effects": [
                     {
-                      "id": 14,
+                      "id": "minecraft:invisibility",
                       "amplifier": 0,
                       "duration": 2400
                     },
                     {
-                      "id": 16,
+                      "id": "minecraft:night_vision",
                       "amplifier": 0,
                       "duration": 6000
                     }
@@ -279,12 +279,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "green"
                 }
               ]
@@ -303,12 +303,12 @@
                   "custom_color": 7675765,
                   "custom_effects": [
                     {
-                      "id": 12,
+                      "id": "minecraft:fire_resistance",
                       "amplifier": 0,
                       "duration": 6000
                     },
                     {
-                      "id": 11,
+                      "id": "minecraft:resistance",
                       "amplifier": 0,
                       "duration": 6000
                     }
@@ -349,12 +349,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -373,7 +373,7 @@
                   "custom_color": 16122059,
                   "custom_effects": [
                     {
-                      "id": 10,
+                      "id": "minecraft:regeneration",
                       "amplifier": 0,
                       "duration": 2400
                     }
@@ -414,12 +414,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "gray"
                 }
               ]
@@ -438,7 +438,7 @@
                   "custom_color": 1756671,
                   "custom_effects": [
                     {
-                      "id": 2,
+                      "id": "minecraft:slowness",
                       "amplifier": 5,
                       "duration": 200
                     }
@@ -479,12 +479,12 @@
                 },
                 {
                   "text": "Rare",
-                  "italic": "false",
+                  "italic": false,
                   "color": "blue"
                 },
                 {
                   "text": "",
-                  "italic": "true",
+                  "italic": true,
                   "color": "green"
                 }
               ]
@@ -503,7 +503,7 @@
                   "custom_color": 11206405,
                   "custom_effects": [
                     {
-                      "id": 10,
+                      "id": "minecraft:regeneration",
                       "amplifier": 0,
                       "duration": 2400
                     }

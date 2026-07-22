@@ -1,4 +1,4 @@
-setblock ~ -32 ~ minecraft:structure_block[mode=load]{name:"rpgloot:brimstonebastion",posX:-8,posY:-2,posZ:-8,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
+setblock ~ -32 ~ minecraft:structure_block{name:"rpgloot:brimstonebastion",posX:-8,posY:-2,posZ:-8,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
 
 setblock ~ -31 ~ minecraft:redstone_block
 

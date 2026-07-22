@@ -52,25 +52,25 @@
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 0,
-          "value": "rpgloot:uncommon_items"
+          "name": "rpgloot:uncommon_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 80,
           "quality": 1,
-          "value": "rpgloot:rare_items"
+          "name": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 20,
           "quality": 2,
-          "value": "rpgloot:veryrare_items"
+          "name": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 4,
           "quality": 4,
-          "value": "rpgloot:legendary_items"
+          "name": "rpgloot:legendary_items"
         }
       ]
     }

@@ -52,25 +52,25 @@
           "type": "minecraft:loot_table",
           "weight": 1000,
           "quality": 0,
-          "value": "rpgloot:uncommon_items"
+          "name": "rpgloot:uncommon_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "value": "rpgloot:rare_items"
+          "name": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "value": "rpgloot:veryrare_items"
+          "name": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "value": "rpgloot:legendary_items"
+          "name": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -201,7 +201,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Nárazu",
+                "text": "N\u00e1razu",
                 "color": "gold"
               }
             },

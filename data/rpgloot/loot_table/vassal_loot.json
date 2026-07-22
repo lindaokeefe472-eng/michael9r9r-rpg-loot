@@ -52,19 +52,19 @@
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "value": "rpgloot:rare_items"
+          "name": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "value": "rpgloot:veryrare_items"
+          "name": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "value": "rpgloot:legendary_items"
+          "name": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",
@@ -252,7 +252,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Krános tis thálassas",
+                "text": "Kr\u00e1nos tis th\u00e1lassas",
                 "color": "gold"
               }
             },
@@ -415,7 +415,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Ηγεthία",
+                "text": "\u0397\u03b3\u03b5th\u03af\u03b1",
                 "color": "aqua"
               }
             },

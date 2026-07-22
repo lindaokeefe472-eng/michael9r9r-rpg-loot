@@ -44,26 +44,20 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 100,
-          "quality": 0,
-          "value": "rpgloot:uncommon_items"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 80,
+          "weight": 150,
           "quality": 1,
           "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 20,
+          "weight": 550,
           "quality": 2,
           "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 4,
-          "quality": 4,
+          "weight": 300,
+          "quality": 3,
           "value": "rpgloot:legendary_items"
         }
       ]

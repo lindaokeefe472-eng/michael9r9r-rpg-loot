@@ -104,15 +104,15 @@ execute unless score mob_setting mobset matches 0..1 as @s run scoreboard player
 execute if score pillager_settlements pilset matches 1.. run function rpgloot:settlements/settlements_timer
 
 #Ember
-execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..3,nbt={SelectedItem:{name:"minecraft:bow",components:{"minecraft:custom_data":{ember:1}}}}] run tag @s add emberarrow
+execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",components:{"minecraft:custom_data":{ember:1}}}}] run tag @s add emberarrow
 execute as @e[tag=emberarrow] run function rpgloot:items/ember_arrow
 
 #Maelstrom
-execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..2,nbt={SelectedItem:{name:"minecraft:crossbow",components:{"minecraft:custom_data":{maelstrom:1}}}}] run tag @s add maelstromarrow
+execute as @e[type=#rpgloot:arrows] at @s if entity @p[distance=0..2,nbt={SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{maelstrom:1}}}}] run tag @s add maelstromarrow
 execute as @e[tag=maelstromarrow] run function rpgloot:items/maelstrom_arrow
 
 #Longbow of the Cleric
-execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{name:"minecraft:bow",components:{"minecraft:custom_data":{healbow:1}}}}] run tag @s add healarrow
+execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",components:{"minecraft:custom_data":{healbow:1}}}}] run tag @s add healarrow
 execute as @e[tag=healarrow] run data merge entity @s {life:1200,pickup:0}
 execute at @e[tag=healarrow] run summon area_effect_cloud ~ ~ ~ {Particle:spell,ReapplicationDelay:20,Radius:1f,Duration:20,Potion:"minecraft:regeneration"}
 execute as @e[tag=healarrow] run function rpgloot:items/heal_arrow
@@ -148,7 +148,7 @@ execute as @e[tag=painelemental.ghastball] run function rpgloot:bosses/pain_elem
 
 #Bone Blast
 
-execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{name:"minecraft:bow",components:{"minecraft:custom_data":{boneblast:1}}}}] run tag @s add boneblast
+execute as @e[type=minecraft:arrow] at @s if entity @p[distance=0..3,nbt={SelectedItem:{id:"minecraft:bow",components:{"minecraft:custom_data":{boneblast:1}}}}] run tag @s add boneblast
 
 execute as @e[type=minecraft:arrow,tag=boneblast] as @p at @s anchored eyes run function rpgloot:boneblastarrow
 
@@ -236,7 +236,7 @@ execute as @e[tag=layedegg] run scoreboard players add @s timer 1
 
 
 
-execute as @e[type=chicken,scores={timer=1..},tag=layedegg] at @s run kill @e[type=item,nbt={Age:0s,Item:{name:"minecraft:egg"}}, sort=nearest, limit=1, distance=..0.25] 
+execute as @e[type=chicken,scores={timer=1..},tag=layedegg] at @s run kill @e[type=item,nbt={Age:0s,Item:{id:"minecraft:egg"}}, sort=nearest, limit=1, distance=..0.25] 
 
 execute as @e[type=chicken,scores={timer=1..},tag=layedegg] at @s run loot spawn ~ ~ ~ loot rpgloot:enchanted_chicken_loot
 

@@ -152,7 +152,7 @@
               "tag": "{lvl:5}"
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
@@ -234,7 +234,7 @@
               "tag": "{Age:-32768}"
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 10,
@@ -401,7 +401,7 @@
               "tag": "{lvl:1}"
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,

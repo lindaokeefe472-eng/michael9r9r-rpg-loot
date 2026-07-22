@@ -65,7 +65,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 0,
@@ -132,7 +132,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -199,7 +199,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 60,
@@ -266,7 +266,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -333,7 +333,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -400,7 +400,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 0,
@@ -467,7 +467,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -534,7 +534,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 60,
@@ -601,7 +601,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -668,7 +668,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -734,7 +734,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -895,7 +895,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 0,
@@ -974,7 +974,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 0,
@@ -1053,7 +1053,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 0,
@@ -1132,7 +1132,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 0,
@@ -1235,7 +1235,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -1338,7 +1338,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -1441,7 +1441,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -1544,7 +1544,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -1635,7 +1635,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 60,
@@ -1726,7 +1726,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 60,
@@ -1817,7 +1817,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 60,
@@ -1908,7 +1908,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 60,
@@ -1999,7 +1999,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2090,7 +2090,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2181,7 +2181,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2272,7 +2272,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2363,7 +2363,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2454,7 +2454,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2545,7 +2545,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2636,7 +2636,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,
@@ -2727,7 +2727,7 @@
               }
             },
             {
-              "function": "enchant_with_levels",
+              "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 9,

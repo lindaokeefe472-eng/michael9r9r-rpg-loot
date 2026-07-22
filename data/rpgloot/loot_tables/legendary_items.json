@@ -4667,6 +4667,69 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "weight": 50,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 20.0,
+                    "max": 30.0
+                  },
+                  "id": "rpgloot:attack_damage_mod"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Legendary",
+                  "italic": false,
+                  "color": "gold"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Legendary Heavy Mace",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 40,
+                "max": 60
+              }
+            }
+          ]
         }
       ]
     }

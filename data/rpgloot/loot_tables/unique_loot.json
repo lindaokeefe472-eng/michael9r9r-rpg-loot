@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 5.0,
+        "max": 7.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 400,
+          "quality": 2,
+          "value": "rpgloot:veryrare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 600,
+          "quality": 4,
+          "value": "rpgloot:legendary_items"
+        }
+      ]
+    }
+  ]
+}

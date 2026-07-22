@@ -2012,6 +2012,69 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_sword",
+          "weight": 100,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 5.0,
+                    "max": 7.0
+                  },
+                  "id": "rpgloot:attack_damage_mod"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Uncommon",
+                  "italic": false,
+                  "color": "green"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Uncommon Copper Sword",
+                "color": "green"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 5,
+                "max": 15
+              }
+            }
+          ]
         }
       ]
     }

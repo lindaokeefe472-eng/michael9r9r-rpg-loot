@@ -1,2 +1,2 @@
-summon chicken ~ ~ ~ {OnGround:1b,CustomNameVisible:0b,Tags:["enchanted_chicken","rpgloot"],CustomName:'{"text":"Enchanted Chicken","color":"gold"}'}
+summon chicken ~ ~ ~ {OnGround:1b,CustomNameVisible:0b,Tags:["enchanted_chicken","rpgloot"],CustomName:'"§6Enchanted Chicken"'}
 kill @e[type=minecraft:item,nbt={Item:{name:"minecraft:egg",components:{"minecraft:custom_data":{enchanted_egg:1b}}}}]

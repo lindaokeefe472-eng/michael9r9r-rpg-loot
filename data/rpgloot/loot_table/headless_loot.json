@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
@@ -25,19 +24,19 @@
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "name": "rpgloot:veryrare_items"
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "name": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items"
         },
         {
           "type": "minecraft:item",

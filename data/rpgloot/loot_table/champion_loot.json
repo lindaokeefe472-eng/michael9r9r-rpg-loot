@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
@@ -47,30 +46,25 @@
           "type": "minecraft:loot_table",
           "weight": 200,
           "quality": 0,
-          "name": "rpgloot:uncommon_items"
+          "value": "rpgloot:uncommon_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 80,
           "quality": 1,
-          "name": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 40,
           "quality": 3,
-          "name": "rpgloot:veryrare_items"
+          "value": "rpgloot:veryrare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 1,
           "quality": 3,
-          "name": "rpgloot:legendary_items"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
+          "value": "rpgloot:legendary_items"
         }
       ]
     }

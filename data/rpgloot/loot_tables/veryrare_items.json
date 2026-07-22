@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": {
@@ -69,8 +68,7 @@
               "treasure": true,
               "levels": {
                 "min": 5,
-                "max": 21,
-                "type": "minecraft:uniform"
+                "max": 21
               }
             }
           ]
@@ -136,8 +134,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -203,8 +200,7 @@
               "treasure": true,
               "levels": {
                 "min": 64,
-                "max": 64,
-                "type": "minecraft:uniform"
+                "max": 64
               }
             }
           ]
@@ -270,8 +266,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -337,8 +332,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -404,8 +398,7 @@
               "treasure": true,
               "levels": {
                 "min": 5,
-                "max": 21,
-                "type": "minecraft:uniform"
+                "max": 21
               }
             }
           ]
@@ -471,8 +464,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -538,8 +530,7 @@
               "treasure": true,
               "levels": {
                 "min": 64,
-                "max": 64,
-                "type": "minecraft:uniform"
+                "max": 64
               }
             }
           ]
@@ -605,8 +596,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -672,8 +662,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -738,8 +727,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -899,8 +887,7 @@
               "treasure": true,
               "levels": {
                 "min": 5,
-                "max": 21,
-                "type": "minecraft:uniform"
+                "max": 21
               }
             }
           ]
@@ -978,8 +965,7 @@
               "treasure": true,
               "levels": {
                 "min": 5,
-                "max": 21,
-                "type": "minecraft:uniform"
+                "max": 21
               }
             }
           ]
@@ -1057,8 +1043,7 @@
               "treasure": true,
               "levels": {
                 "min": 5,
-                "max": 21,
-                "type": "minecraft:uniform"
+                "max": 21
               }
             }
           ]
@@ -1136,8 +1121,7 @@
               "treasure": true,
               "levels": {
                 "min": 5,
-                "max": 21,
-                "type": "minecraft:uniform"
+                "max": 21
               }
             }
           ]
@@ -1239,8 +1223,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -1342,8 +1325,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -1445,8 +1427,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -1548,8 +1529,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -1663,8 +1643,7 @@
               "treasure": true,
               "levels": {
                 "min": 64,
-                "max": 64,
-                "type": "minecraft:uniform"
+                "max": 64
               }
             }
           ]
@@ -1778,8 +1757,7 @@
               "treasure": true,
               "levels": {
                 "min": 64,
-                "max": 64,
-                "type": "minecraft:uniform"
+                "max": 64
               }
             }
           ]
@@ -1893,8 +1871,7 @@
               "treasure": true,
               "levels": {
                 "min": 64,
-                "max": 64,
-                "type": "minecraft:uniform"
+                "max": 64
               }
             }
           ]
@@ -2008,8 +1985,7 @@
               "treasure": true,
               "levels": {
                 "min": 64,
-                "max": 64,
-                "type": "minecraft:uniform"
+                "max": 64
               }
             }
           ]
@@ -2111,8 +2087,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2214,8 +2189,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2317,8 +2291,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2420,8 +2393,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2511,8 +2483,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2602,8 +2573,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2693,8 +2663,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2784,8 +2753,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]
@@ -2875,8 +2843,7 @@
               "treasure": true,
               "levels": {
                 "min": 10,
-                "max": 28,
-                "type": "minecraft:uniform"
+                "max": 28
               }
             }
           ]

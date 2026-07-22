@@ -1,102 +1,41 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:entities/evoker"
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
         }
       ]
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.veteran\"]}"
-          }
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:veteran_loot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.elite\"]}"
-          }
-        }
-      ],
-      "entries": [
+          "weight": 50,
+          "value": "rpgloot:veteran_loot"
+        },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:elite_loot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.champion\"]}"
-          }
-        }
-      ],
-      "entries": [
+          "weight": 30,
+          "value": "rpgloot:elite_loot"
+        },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:champion_loot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.legendary\"]}"
-          }
-        }
-      ],
-      "entries": [
+          "weight": 15,
+          "value": "rpgloot:champion_loot"
+        },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:legendary_loot"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.unique\"]}"
-          }
-        }
-      ],
-      "entries": [
+          "weight": 4,
+          "value": "rpgloot:legendary_loot"
+        },
         {
           "type": "minecraft:loot_table",
-          "name": "rpgloot:unique_loot"
+          "weight": 1,
+          "value": "rpgloot:unique_loot"
         }
       ]
     }

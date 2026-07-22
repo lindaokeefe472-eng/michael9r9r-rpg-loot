@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"[RPG Loot] 默认配置文件已成功加载！当前刷新率已自动设为 50% / 上限 30 只。","color":"green"}]
+tellraw @a ["",{"text":"[RPG Loot] 默认配置文件已加载！刷新率设为 100% / 上限 30 只。","color":"green"}]
 
 scoreboard objectives add rpgloot.rng dummy
 scoreboard objectives add boss_chance dummy
@@ -16,7 +16,7 @@ scoreboard objectives add eventchance dummy
 scoreboard players reset rpgloot.spawn_chance
 scoreboard players reset rpgloot
 scoreboard players set mob_setting mobset 1
-scoreboard players set rpgloot boss_chance 50
+scoreboard players set rpgloot boss_chance 100
 scoreboard players set rpgloot bosslimitset 30
 scoreboard players set rpgloot eventset 1
 scoreboard players set rpgloot eventchance 5

@@ -70,3 +70,7 @@ scoreboard objectives add FB_z1 dummy
 scoreboard objectives add FB_x2 dummy
 scoreboard objectives add FB_y2 dummy
 scoreboard objectives add FB_z2 dummy
+
+# AUTO-INITIALIZE DEFAULT SETTINGS ON LOAD (Fixes uninitialized scoreboards causing 0 natural mob spawns)
+scoreboard players set rpgloot0 constants 0
+execute unless score mob_setting mobset matches 1.. run function rpgloot:options/default

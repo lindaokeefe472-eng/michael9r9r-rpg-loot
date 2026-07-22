@@ -42,11 +42,6 @@
         "max": 1.0,
         "type": "minecraft:uniform"
       },
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:loot_table",

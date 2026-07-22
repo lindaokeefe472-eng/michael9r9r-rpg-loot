@@ -14,8 +14,8 @@ execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_da
 execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{aspectofterror:1}}}]}] run effect give @s speed 3 0 true
 execute if entity @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{nightmare:1}}}]}] run effect give @s night_vision 12 0 true
 
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{shadowsabre:1}}}}] run effect give @s invisibility 3 0 true
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{odyssey:1}}}}] run effect give @a[distance=..12] strength 3 0 true
+execute if entity @s[nbt={Selecteditem:{components:{"minecraft:custom_data":{shadowsabre:1}}}}] run effect give @s invisibility 3 0 true
+execute if entity @s[nbt={Selecteditem:{components:{"minecraft:custom_data":{odyssey:1}}}}] run effect give @a[distance=..12] strength 3 0 true
 
 
 execute if entity @s[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{flameoffirehawk:1}}}]}] run effect give @s fire_resistance 3 0 true

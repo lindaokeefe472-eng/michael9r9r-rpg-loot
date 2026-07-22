@@ -112,10 +112,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:smite": 10,
-                    "minecraft:fire_aspect": 2
-                  }
+                  "minecraft:smite": 10,
+                  "minecraft:fire_aspect": 2
                 }
               }
             },
@@ -248,10 +246,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:protection": 4,
-                    "minecraft:binding_curse": 1
-                  }
+                  "minecraft:protection": 4,
+                  "minecraft:binding_curse": 1
                 }
               }
             },

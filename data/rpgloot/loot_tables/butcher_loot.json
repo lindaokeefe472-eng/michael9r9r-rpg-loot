@@ -131,9 +131,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:looting": 5
-                  }
+                  "minecraft:looting": 5
                 }
               }
             },
@@ -279,10 +277,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 10551296,
-                  "show_in_tooltip": true
-                }
+                "minecraft:dyed_color": 10551296
               }
             },
             {

@@ -119,9 +119,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:efficiency": 8
-                  }
+                  "minecraft:efficiency": 8
                 }
               }
             },

@@ -184,9 +184,11 @@
               }
             },
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 4
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:protection": 4
+                }
               }
             }
           ]
@@ -329,11 +331,12 @@
               }
             },
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:protection": 4
-              },
-              "add": true
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:protection": 4
+                }
+              }
             }
           ]
         },
@@ -410,15 +413,19 @@
               }
             },
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:knockback": 4
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:knockback": 4
+                }
               }
             },
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:looting": 4
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:looting": 4
+                }
               }
             }
           ]

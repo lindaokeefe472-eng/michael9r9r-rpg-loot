@@ -1,4 +1,2 @@
-#use loot table set_attributes to generate rng
-loot spawn ~ -9 ~ loot rpgloot:rng/1-100
-#call a function as the item to only have to use @e once
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{rng:1}}}},limit=1] run function rpgloot:rng/1-100_save
+# 1.21.4 Native Random Number Generator
+execute store result score rpgloot rpgloot.rng run random value 1..100

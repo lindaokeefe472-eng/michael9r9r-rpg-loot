@@ -407,10 +407,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:quick_charge": 4,
-                    "minecraft:multishot": 1
-                  }
+                  "minecraft:quick_charge": 4,
+                  "minecraft:multishot": 1
                 }
               }
             },

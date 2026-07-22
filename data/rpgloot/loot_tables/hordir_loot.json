@@ -141,9 +141,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:looting": 5
-                  }
+                  "minecraft:looting": 5
                 }
               }
             },
@@ -376,9 +374,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fire_protection": 5
-                  }
+                  "minecraft:fire_protection": 5
                 }
               }
             },
@@ -390,9 +386,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:respiration": 1
-                  }
+                  "minecraft:respiration": 1
                 }
               }
             },

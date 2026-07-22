@@ -188,19 +188,14 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:dyed_color": {
-                  "rgb": 16741376,
-                  "show_in_tooltip": true
-                }
+                "minecraft:dyed_color": 16741376
               }
             },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fire_protection": 10
-                  }
+                  "minecraft:fire_protection": 10
                 }
               }
             },
@@ -294,9 +289,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fire_aspect": 5
-                  }
+                  "minecraft:fire_aspect": 5
                 }
               }
             },

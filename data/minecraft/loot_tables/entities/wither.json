@@ -203,10 +203,12 @@
               }
             },
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:thorns": 4,
-                "minecraft:protection": 4
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:thorns": 4,
+                  "minecraft:protection": 4
+                }
               }
             }
           ]
@@ -283,11 +285,12 @@
               }
             },
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:mending": 1
-              },
-              "add": true
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:mending": 1
+                }
+              }
             }
           ]
         },

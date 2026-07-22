@@ -219,9 +219,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:feather_falling": 10
-                  }
+                  "minecraft:feather_falling": 10
                 }
               }
             },
@@ -414,9 +412,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:knockback": 10
-                  }
+                  "minecraft:knockback": 10
                 }
               }
             },

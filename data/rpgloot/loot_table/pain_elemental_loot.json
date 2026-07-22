@@ -131,12 +131,10 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:looting": 4,
-                    "minecraft:sharpness": 10,
-                    "minecraft:smite": 10,
-                    "minecraft:fire_aspect": 2
-                  }
+                  "minecraft:looting": 4,
+                  "minecraft:sharpness": 10,
+                  "minecraft:smite": 10,
+                  "minecraft:fire_aspect": 2
                 }
               }
             },
@@ -216,10 +214,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:power": 8,
-                    "minecraft:punch": 5
-                  }
+                  "minecraft:power": 8,
+                  "minecraft:punch": 5
                 }
               }
             },

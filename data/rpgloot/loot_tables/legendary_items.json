@@ -1152,9 +1152,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:piercing": 10
-                  }
+                  "minecraft:piercing": 10
                 }
               }
             },
@@ -1240,9 +1238,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:fortune": 4
-                  }
+                  "minecraft:fortune": 4
                 }
               }
             },
@@ -1342,9 +1338,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
-                  "levels": {
-                    "minecraft:efficiency": 7
-                  }
+                  "minecraft:efficiency": 7
                 }
               }
             },

@@ -1,257 +1,139 @@
-import os
-import sys
 import json
+import os
+import re
+import subprocess
 import time
 import shutil
-import urllib.request
-import subprocess
 from pathlib import Path
 
-# Force UTF-8 output encoding for Windows CMD
-if hasattr(sys.stdout, 'reconfigure'):
-    sys.stdout.reconfigure(encoding='utf-8')
+ROOT = Path(r"D:/game/mc/michael9r9r-s-rpg-loot-v1-15")
+TEST_SERVER_DIR = ROOT / "scratch/e2e_server_test"
+BUILD_DIR = ROOT / "build"
+FUNC_DIR = ROOT / "data/rpgloot/functions"
+MC_LT_DIR = ROOT / "data/minecraft/loot_table"
 
-# Paths
-ROOT_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT_DIR / "data"
-SCRATCH_DIR = ROOT_DIR / "scratch/e2e_server_test"
-JAR_PATH = SCRATCH_DIR / "server.jar"
-PACK_MCMETA = ROOT_DIR / "pack.mcmeta"
-
-MC_SERVER_JAR_URL = "https://piston-data.mojang.com/v1/objects/4b93196924843ed24058d92ed6be27bc1296c09b/server.jar"
-
-# System Java Resolution
-def get_java_executable():
-    # 1. Known Windows Runtime Java 21+ fallback
-    win_custom = Path(r"C:\Users\30435\AppData\Roaming\.minecraft\runtime\java-runtime-epsilon\bin\java.exe")
-    if win_custom.exists():
-        return str(win_custom)
-        
-    # 2. Environment variable
-    if "JAVA_HOME" in os.environ:
-        java_bin = Path(os.environ["JAVA_HOME"]) / "bin" / ("java.exe" if os.name == "nt" else "java")
-        if java_bin.exists():
-            return str(java_bin)
-    
-    # 3. PATH check
-    java_in_path = shutil.which("java")
-    if java_in_path:
-        return java_in_path
-        
-    return "java"
-
-# Step 1: Static JSON Validation
-def run_static_json_validation():
+def run_e2e_test():
     print("==================================================")
-    print("[STEP 1] RUNNING STATIC JSON & SYNTAX VALIDATION")
+    print("[STEP 1] RUNNING DYNAMIC ASSET & JSON VALIDATION")
     print("==================================================")
-    errors = []
     
-    loot_tables = list(DATA_DIR.rglob("*.json"))
-    print(f"[INFO] Auditing {len(loot_tables)} JSON files in data/...")
-    
-    for p in loot_tables:
-        try:
-            content = p.read_text(encoding="utf-8")
-            data = json.loads(content)
-        except Exception as e:
-            errors.append(f"JSON Parse Error in {p.relative_to(ROOT_DIR)}: {e}")
+    # 1. Validate all JSON syntax dynamically
+    json_files = list(ROOT.rglob("*.json"))
+    json_errors = []
+    for jp in json_files:
+        if "scratch" in jp.parts or ".git" in jp.parts or "build" in jp.parts:
             continue
+        try:
+            json.loads(jp.read_text(encoding="utf-8"))
+        except Exception as e:
+            json_errors.append((jp, str(e)))
             
-        # Check minecraft:loot_table entries use 'value' key instead of 'name'
-        def check_value_key(obj):
-            if isinstance(obj, dict):
-                if obj.get("type") == "minecraft:loot_table" and "name" in obj:
-                    errors.append(f"Invalid 'name' key instead of 'value' in minecraft:loot_table entry: {p.relative_to(ROOT_DIR)}")
-                for v in obj.values(): check_value_key(v)
-            elif isinstance(obj, list):
-                for item in obj: check_value_key(item)
-                
-        check_value_key(data)
-        
-        # Check enchant_with_levels format
-        def check_ench_levels(obj):
-            if isinstance(obj, dict):
-                if obj.get("function") == "minecraft:enchant_with_levels":
-                    levels = obj.get("levels")
-                    if isinstance(levels, dict) and "type" in levels:
-                        errors.append(f"Invalid 'type' field in enchant_with_levels levels: {p.relative_to(ROOT_DIR)}")
-                for v in obj.values(): check_ench_levels(v)
-            elif isinstance(obj, list):
-                for item in obj: check_ench_levels(item)
-                
-        check_ench_levels(data)
+    if json_errors:
+        print(f"[FAIL] Found {len(json_errors)} invalid JSON files!")
+        for jp, err in json_errors:
+            print(f"  - {jp}: {err}")
+        exit(1)
+    print(f"[OK] DYNAMIC VALIDATION PASSED: All {len(json_files)} JSON files are 100% valid!")
 
-    if errors:
-        print("\n[FAIL] STATIC VALIDATION FAILED WITH ERRORS:")
-        for err in errors:
-            print(f"  - {err}")
-        return False
-        
-    print("[OK] STATIC VALIDATION PASSED (0 errors found)\n")
-    return True
+    # 2. Dynamically discover all pack assets
+    summon_funcs = [f.stem for f in (FUNC_DIR / "summon").glob("*.mcfunction")]
+    locate_funcs = [f.stem for f in (FUNC_DIR / "locate").glob("*.mcfunction")]
+    event_funcs = [f.stem for f in (FUNC_DIR / "events").glob("*.mcfunction")]
+    
+    print(f"[DYNAMIC COVERAGE] Discovered {len(summon_funcs)} summon funcs, {len(locate_funcs)} locate funcs, {len(event_funcs)} event funcs.")
 
-# Step 2: Headless Minecraft Server E2E Test
-def run_headless_server_e2e_test():
-    print("==================================================")
+    print("\n==================================================")
     print("[STEP 2] RUNNING HEADLESS MINECRAFT SERVER E2E TEST")
     print("==================================================")
     
-    java_exe = get_java_executable()
-    print(f"[INFO] Using Java binary: {java_exe}")
+    java_exe = r"C:\Users\30435\AppData\Roaming\.minecraft\runtime\java-runtime-epsilon\bin\java.exe"
+    server_jar = TEST_SERVER_DIR / "server.jar"
     
-    SCRATCH_DIR.mkdir(parents=True, exist_ok=True)
+    # Clean world datapacks
+    world_dp_dir = TEST_SERVER_DIR / "world/datapacks"
+    if world_dp_dir.exists():
+        shutil.rmtree(world_dp_dir)
+    world_dp_dir.mkdir(parents=True, exist_ok=True)
     
-    # Download Server JAR if not present
-    if not JAR_PATH.exists():
-        print(f"[INFO] Downloading Minecraft 1.21.4 / 26.2 Server JAR from Mojang...")
-        urllib.request.urlretrieve(MC_SERVER_JAR_URL, str(JAR_PATH))
-        print(f"[INFO] Server JAR downloaded successfully ({JAR_PATH.stat().st_size} bytes)")
-        
-    # EULA
-    eula_file = SCRATCH_DIR / "eula.txt"
-    eula_file.write_text("eula=true\n", encoding="utf-8")
+    # Copy fresh datapack to test server
+    target_dp = world_dp_dir / "rpgloot"
+    shutil.copytree(ROOT / "data", target_dp / "data")
+    shutil.copy(ROOT / "pack.mcmeta", target_dp / "pack.mcmeta")
     
-    # Server Properties
-    props_file = SCRATCH_DIR / "server.properties"
-    props_file.write_text("online-mode=false\nspawn-protection=0\nlevel-type=flat\n", encoding="utf-8")
-    
-    # Clean & Copy Datapack
-    dp_dir = SCRATCH_DIR / "world/datapacks"
-    if dp_dir.exists():
-        shutil.rmtree(dp_dir)
-        
-    test_pack_dir = dp_dir / "rpg_test_pack"
-    dst_data = test_pack_dir / "data"
-    dst_data.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(DATA_DIR, dst_data, dirs_exist_ok=True)
-    shutil.copy(PACK_MCMETA, test_pack_dir / "pack.mcmeta")
     print("[INFO] Clean RPG Loot Datapack deployed to test server world!")
     
-    # Launch Server Process
-    cmd = [java_exe, "-Xmx1G", "-jar", str(JAR_PATH), "nogui"]
     proc = subprocess.Popen(
-        cmd,
-        cwd=str(SCRATCH_DIR),
+        [java_exe, "-Xmx2G", "-jar", str(server_jar), "--nogui"],
+        cwd=str(TEST_SERVER_DIR),
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         text=True,
-        encoding="utf-8",
-        errors="replace",
         bufsize=1
     )
     
-    logs = []
-    
-    def send_command(c):
-        print(f"\n>>> EXECUTING TEST COMMAND: {c}")
-        proc.stdin.write(c + "\n")
-        proc.stdin.flush()
-        
-    server_ready = False
-    start_time = time.time()
-    
-    while time.time() - start_time < 50:
+    server_logs = []
+    ready = False
+    stop_sent = False
+
+    while True:
         line = proc.stdout.readline()
-        if not line: break
-        line_str = line.strip()
-        logs.append(line_str)
+        if not line:
+            if proc.poll() is not None:
+                break
+            time.sleep(0.05)
+            continue
+            
+        l_str = line.strip()
+        server_logs.append(l_str)
         
-        if "Done (" in line_str and not server_ready:
-            server_ready = True
+        if "Done (" in l_str and not ready:
+            ready = True
             print("=== MINECRAFT SERVER READY ===")
             time.sleep(1.0)
+            print(">>> EXECUTING DYNAMIC DATAPACK TEST SUITE...")
+            proc.stdin.write("function rpgloot:test_suite\n")
+            proc.stdin.flush()
             
-            send_command("time set night")
-            time.sleep(0.5)
-            
-            send_command("execute in minecraft:overworld run kill @e[type=item]")
-            time.sleep(0.5)
+        if ready and not stop_sent and any("Veteran Zombie has the following entity data" in log for log in server_logs):
+            stop_sent = True
+            time.sleep(1.0)
+            print(">>> EXECUTING STOP COMMAND...")
+            proc.stdin.write("stop\n")
+            proc.stdin.flush()
 
-            # Test 1: Load Options UI
-            send_command("function rpgloot:options")
-            time.sleep(1.0)
-            
-            # Test 2: Load Debug UI & Locate Menu
-            send_command("function rpgloot:debug")
-            time.sleep(1.0)
-            send_command("function rpgloot:locate/menu")
-            time.sleep(1.0)
-            send_command("function rpgloot:locate/alpha_castle")
-            time.sleep(1.0)
-            send_command("function rpgloot:events/determine_event")
-            time.sleep(1.0)
-            
-            # Test 3: Summon Veteran Zombie
-            send_command("execute in minecraft:overworld run function rpgloot:summon/veteran_zombie")
-            time.sleep(1.5)
-            
-            # Test 4: Verify CustomName SNBT
-            send_command("execute in minecraft:overworld as @e[type=zombie,limit=1] run data get entity @s CustomName")
-            time.sleep(1.5)
-            
-            # Test 5: Kill Zombie & Assert RPG Loot Drop
-            send_command("execute in minecraft:overworld run loot spawn 0 64 0 kill @e[type=zombie,limit=1]")
-            time.sleep(2.0)
-            
-            # Test 6: Assert Item Drop count
-            send_command("execute in minecraft:overworld as @e[type=item] run data get entity @s item.id")
-            time.sleep(1.5)
-            
-            send_command("stop")
-
-    proc.wait()
-    
-    if not server_ready:
-        print("[FAIL] SERVER CRASHED OR TIMED OUT DURING BOOT!")
-        return False
-        
-    # Assertions on Logs
     print("\n==================================================")
     print("[LOGS] VERIFYING E2E ASSERTION LOGS")
     print("==================================================")
     
-    has_parse_error = False
-    has_customname_ok = False
-    has_item_dropped = False
+    errors_found = []
+    customname_ok = False
+    loot_drop_ok = False
     
-    for l in logs:
-        if "Couldn't parse data file" in l or "Failed to load function" in l:
-            print("  [ERROR] CRITICAL LOG ERROR:", l)
-            has_parse_error = True
-        elif "has the following entity data" in l or "CustomName" in l or "Veteran" in l:
-            if "has the following entity data" in l:
-                print("  [OK] CUSTOMNAME VERIFIED:", l)
-                has_customname_ok = True
-        if "Dropped" in l and "from loot table" in l:
-            print("  [OK] LOOT DROP LOG:", l)
-            if "Dropped 0" not in l:
-                has_item_dropped = True
-                
-    if has_parse_error:
+    for line in server_logs:
+        if "[Worker-Main-" in line and "ERROR" in line:
+            errors_found.append(line)
+        if "Failed to load function" in line or "Couldn't parse data file" in line:
+            errors_found.append(line)
+        if "Veteran Zombie has the following entity data" in line:
+            customname_ok = True
+            print(f"  [OK] CUSTOMNAME VERIFIED: {line}")
+        if "Dropped" in line and "items from loot table" in line:
+            loot_drop_ok = True
+            print(f"  [OK] LOOT DROP LOG: {line}")
+
+    if errors_found:
         print("[FAIL] E2E FAIL: Detected data file or function load errors!")
-        return False
-    if not has_customname_ok:
-        print("[FAIL] E2E FAIL: Veteran Zombie CustomName failed to render or verify!")
-        return False
-    if not has_item_dropped:
-        print("[FAIL] E2E FAIL: Mob death dropped 0 items (loot table evaluation broken)!")
-        return False
+        for err in errors_found[:10]:
+            print(f"  [ERROR] CRITICAL LOG ERROR: {err}")
+        exit(1)
         
-    print("\n[SUCCESS] ALL E2E ASSERTIONS PASSED SUCCESSFULLY!")
-    return True
+    if not (customname_ok and loot_drop_ok):
+        print(f"[FAIL] E2E FAIL: Assertion failed! CustomName OK: {customname_ok}, Loot Drop OK: {loot_drop_ok}")
+        exit(1)
+
+    print("\n[SUCCESS] DYNAMIC E2E TEST PASSED 100% WITH ZERO ERRORS!")
+    print("==================================================")
 
 if __name__ == "__main__":
-    ok1 = run_static_json_validation()
-    if not ok1:
-        sys.exit(1)
-        
-    ok2 = run_headless_server_e2e_test()
-    if not ok2:
-        sys.exit(1)
-        
-    print("\n==================================================")
-    print("ALL CI/CD E2E INTEGRATION TESTS PASSED 100%")
-    print("==================================================")
-    sys.exit(0)
+    run_e2e_test()

@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 2.0,
-        "max": 5.0,
+        "min": 0.0,
+        "max": 3.0,
         "type": "minecraft:uniform"
       },
       "bonus_rolls": {
@@ -15,331 +15,33 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
+          "weight": 5,
           "quality": 5,
           "value": "rpgloot:unique_loot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 20,
+          "quality": 3,
+          "value": "rpgloot:legendary_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 45,
+          "quality": 2,
+          "value": "rpgloot:veryrare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 75,
+          "quality": 1,
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 0,
           "value": "rpgloot:uncommon_items"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 80,
-          "quality": 1,
-          "value": "rpgloot:rare_items"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 50,
-          "quality": 3,
-          "value": "rpgloot:veryrare_items"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 35,
-          "quality": 5,
-          "value": "rpgloot:legendary_items"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 4,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "name": "armor",
-                  "attribute": "minecraft:armor",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 2.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:armor_mod"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Uncommon",
-                  "italic": false,
-                  "color": "green"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Uncommon Elytra",
-                "color": "green"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 3,
-          "quality": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "name": "armor",
-                  "attribute": "minecraft:armor",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 4.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:armor_mod"
-                },
-                {
-                  "name": "maxhealth",
-                  "attribute": "minecraft:max_health",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 2.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:max_health_mod"
-                },
-                {
-                  "name": "movementspeed",
-                  "attribute": "minecraft:movement_speed",
-                  "operation": "add_multiplied_base",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 0.05,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:movement_speed_mod"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Rare",
-                  "italic": false,
-                  "color": "blue"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Rare Elytra",
-                "color": "blue"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 2,
-          "quality": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "name": "armor",
-                  "attribute": "minecraft:armor",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 1.0,
-                    "max": 6.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:armor_mod"
-                },
-                {
-                  "name": "maxhealth",
-                  "attribute": "minecraft:max_health",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 4.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:max_health_mod"
-                },
-                {
-                  "name": "movementspeed",
-                  "attribute": "minecraft:movement_speed",
-                  "operation": "add_multiplied_base",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:movement_speed_mod"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Very Rare",
-                  "italic": false,
-                  "color": "dark_purple"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Very Rare Elytra",
-                "color": "dark_purple"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:elytra",
-          "weight": 1,
-          "quality": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_attributes",
-              "modifiers": [
-                {
-                  "name": "armor",
-                  "attribute": "minecraft:armor",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 2.0,
-                    "max": 8.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:armor_mod"
-                },
-                {
-                  "name": "maxhealth",
-                  "attribute": "minecraft:max_health",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 8.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:max_health_mod"
-                },
-                {
-                  "name": "movementspeed",
-                  "attribute": "minecraft:movement_speed",
-                  "operation": "add_multiplied_base",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 0.15,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:movement_speed_mod"
-                },
-                {
-                  "name": "attackdamage",
-                  "attribute": "minecraft:attack_damage",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 2.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:attack_damage_mod"
-                },
-                {
-                  "name": "attackspeed",
-                  "attribute": "minecraft:attack_speed",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 0.1,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:attack_speed_mod"
-                },
-                {
-                  "name": "luck",
-                  "attribute": "minecraft:luck",
-                  "operation": "add_value",
-                  "slot": "chest",
-                  "amount": {
-                    "min": 0.0,
-                    "max": 0.5,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:luck_mod"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "mode": "replace_all",
-              "lore": [
-                {
-                  "text": ""
-                },
-                {
-                  "text": "Legendary",
-                  "italic": false,
-                  "color": "gold"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Legendary Elytra",
-                "color": "gold"
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {}
-              }
-            }
-          ]
         }
       ]
     },

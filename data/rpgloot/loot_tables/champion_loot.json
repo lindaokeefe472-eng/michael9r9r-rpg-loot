@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 8.0,
-        "max": 12.0,
+        "min": 7.0,
+        "max": 9.0,
         "type": "minecraft:uniform"
       },
       "entries": [
@@ -33,17 +33,17 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 600,
-          "value": "rpgloot:veryrare_items"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 250,
+          "weight": 450,
           "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 150,
+          "weight": 450,
+          "value": "rpgloot:veryrare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
           "value": "rpgloot:legendary_items"
         }
       ]

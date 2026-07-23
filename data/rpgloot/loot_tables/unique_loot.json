@@ -3,20 +3,53 @@
   "pools": [
     {
       "rolls": {
+        "min": 15.0,
+        "max": 25.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
         "min": 2.0,
-        "max": 4.0,
+        "max": 3.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 5,
+          "weight": 200,
           "value": "rpgloot:legendary_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 500,
+          "value": "rpgloot:veryrare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 300,
+          "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "weight": 1,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_attributes",
@@ -32,18 +65,6 @@
                     "type": "minecraft:uniform"
                   },
                   "id": "rpgloot:unique_abyss_damage"
-                },
-                {
-                  "name": "attackSpeed",
-                  "attribute": "minecraft:attack_speed",
-                  "operation": "add_value",
-                  "slot": "mainhand",
-                  "amount": {
-                    "min": -1.5,
-                    "max": -0.8,
-                    "type": "minecraft:uniform"
-                  },
-                  "id": "rpgloot:unique_abyss_speed"
                 }
               ]
             },
@@ -69,42 +90,7 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": 7,
-                "minecraft:looting": 4,
-                "minecraft:unbreaking": 5
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Javelin Crossbow of Destruction",
-                "color": "dark_red",
-                "bold": true
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:unbreakable": {}
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{javelin:1,Age:-32768}"
-            },
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:piercing": 10,
-                "minecraft:quick_charge": 5,
-                "minecraft:unbreaking": 5
+                "minecraft:looting": 4
               },
               "add": false
             }

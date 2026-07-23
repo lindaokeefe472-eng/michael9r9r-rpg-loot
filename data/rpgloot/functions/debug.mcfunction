@@ -10,4 +10,4 @@ tellraw @s [{"text":"🏰 副本与环境清理: ","color":"green"},{"text":"[�
 
 tellraw @s ["",{"text":"═══════════════════════════════════════════════════════════\n","color":"gold","bold":true}]
 
-tellraw @a [{"text":" [RPG 结构定位菜单] ","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function rpgloot:locate/menu"},"hoverEvent":{"action":"show_text","contents":"点击打开 14 个 RPG 结构的快速 Locate 定位菜单"}}]
+tellraw @a [{"text":" [RPG 结构定位菜单] ","color":"gold","bold":true,"click_event":{"action":"run_command","command":"/function rpgloot:locate/menu"},"hoverEvent":{"action":"show_text","contents":"点击打开 14 个 RPG 结构的快速 Locate 定位菜单"}}]

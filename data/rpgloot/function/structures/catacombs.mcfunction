@@ -1,5 +1,2 @@
-setblock ~ 1 ~ minecraft:structure_block{name:"rpgloot:catacombs",posX:-8,posY:-2,posZ:-8,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
-
-setblock ~ 2 ~ minecraft:redstone_block
-
-execute if block ~ ~ ~ structure_block run setblock ~ ~ ~ minecraft:stone
+# Modern native structure placement for MC 1.19~26.2+
+place template rpgloot:catacombs ~-8 ~-2 ~-8

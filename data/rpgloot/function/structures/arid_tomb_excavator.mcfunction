@@ -1,5 +1,2 @@
-setblock ~ ~-16 ~ minecraft:structure_block{name:"rpgloot:arid_tomb_excavator",posX:-8,posY:-2,posZ:-8,rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b} replace
-
-setblock ~ ~-17 ~ minecraft:redstone_block
-
-execute if block ~ ~ ~ structure_block run setblock ~ ~ ~ minecraft:stone
+# Modern native structure placement for MC 1.19~26.2+
+place template rpgloot:arid_tomb_excavator ~-8 ~-2 ~-8

@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_sword",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -86,7 +86,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_sword",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -162,7 +162,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_sword",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -238,7 +238,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_sword",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -314,7 +314,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -390,7 +390,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wooden_axe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -466,7 +466,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -542,7 +542,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_axe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -618,7 +618,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -694,7 +694,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -770,7 +770,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:trident",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -846,7 +846,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield",
-          "weight": 2,
+          "weight": 5,
           "quality": 0.5,
           "functions": [
             {
@@ -974,7 +974,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1035,7 +1035,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1090,7 +1090,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1142,7 +1142,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1229,7 +1229,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1304,7 +1304,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:shield",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1432,7 +1432,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_helmet",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1556,7 +1556,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1680,7 +1680,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_leggings",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1804,7 +1804,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather_boots",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -1928,7 +1928,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2076,7 +2076,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_chestplate",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2224,7 +2224,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_leggings",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2372,7 +2372,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chainmail_boots",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2520,7 +2520,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_helmet",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2656,7 +2656,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_chestplate",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2792,7 +2792,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_leggings",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -2928,7 +2928,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_boots",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3064,7 +3064,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3212,7 +3212,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3360,7 +3360,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3508,7 +3508,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3656,7 +3656,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3804,7 +3804,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -3952,7 +3952,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_leggings",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -4096,7 +4096,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_boots",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -4244,7 +4244,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:turtle_helmet",
-          "weight": 2,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -4376,7 +4376,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
-          "weight": 1,
+          "weight": 5,
           "quality": 0.5,
           "functions": [
             {
@@ -4458,7 +4458,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_foot",
-          "weight": 1,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -4516,7 +4516,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:quartz",
-          "weight": 1,
+          "weight": 5,
           "quality": 1,
           "functions": [
             {
@@ -4574,7 +4574,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1,
+          "weight": 5,
           "quality": 0.5,
           "functions": [
             {

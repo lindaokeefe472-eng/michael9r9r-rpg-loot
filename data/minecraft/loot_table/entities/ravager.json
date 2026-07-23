@@ -10,16 +10,29 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"rpgloot.boss\"]}"
+          }
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 50,
+          "weight": 40,
           "value": "rpgloot:veteran_loot"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 30,
+          "weight": 35,
           "value": "rpgloot:elite_loot"
         },
         {
@@ -29,22 +42,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 4,
+          "weight": 8,
           "value": "rpgloot:legendary_loot"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 1,
+          "weight": 2,
           "value": "rpgloot:unique_loot"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.boss\"]}"
-          }
         }
       ]
     }

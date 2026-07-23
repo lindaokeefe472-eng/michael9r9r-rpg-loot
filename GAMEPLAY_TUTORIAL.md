@@ -94,3 +94,12 @@
 - **查看玩家当前 RPG 属性面板**：`/function rpgloot:stats`
 - **获取配置书**：`/function rpgloot:give_book`
 - **打开配置菜单**：`/function rpgloot:options`
+
+
+---
+
+## 6. 🏺 MC 1.21+ 试炼密室与全新装备
+
+- **试炼密室 (Trial Chambers)**：探索 1.21 试炼密室的走廊、入口、普通奖励箱与不祥宝库，均可直接开出 RPG 稀有/史诗/传说装备！
+- **铜质装备 (Copper Equipment)**：铜剑、铜斧、铜镐与全套铜重甲已加入 RPG 战利品池。
+- **重锤 (Mace)**：1.21 重锤已加入史诗与传说战利品池，附带 +15~+30 破甲打击与高阶附魔！

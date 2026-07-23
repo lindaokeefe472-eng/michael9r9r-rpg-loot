@@ -1,5 +1,5 @@
 # RPG Loot Datapack Wiki
-> **Version:** v26.2 · **Target:** Minecraft Java Edition 1.21.4 / 26.2  
+> **Version:** v26.2.11 · **Target:** Minecraft Java Edition 1.21.4 / 26.2  
 > **Last Updated:** Auto-generated from datapack source
 
 ---
@@ -77,14 +77,14 @@ Boss mobs can spawn at any naturally occurring:
 All drop rates apply **only when killed by a player**.  
 Each kill rolls the loot pool 1–3 times (Veteran) up to 4–6 times (Legendary).
 
-### Per-Roll Tier Selection Odds
+### Per-Roll Tier Selection Odds (Commercial ARPG Standard)
 
-| Item Tier | 🟢 Veteran | 🔵 Elite | 🟣 Champion | 🟡 Legendary |
-|-----------|-----------|---------|-----------|------------|
-| Uncommon | 79.8% | 52.5% | 62.3% | 49.0% |
-| Rare | 16.0% | 42.0% | 24.9% | 39.2% |
-| Very Rare | 4.0% | 5.2% | 12.5% | 9.8% |
-| Legendary | ****0.20%**** | ****0.26%**** | ****0.31%**** | **2.0%** |
+| Item Tier | 🟢 Veteran | 🔵 Elite | 🟣 Champion | 🟡 Legendary | 🔴 Unique |
+|-----------|-----------|---------|-----------|------------|-----------|
+| Uncommon | **80.0%** | **30.0%** | 0% *(Eliminated)* | 0% *(Eliminated)* | 0% |
+| Rare | **18.0%** | **55.0%** | **45.0%** | **15.0%** | 0% |
+| Very Rare | **2.0%** | **13.0%** | **45.0%** | **55.0%** | **40.0%** |
+| Legendary | 0% | **2.0%** | **10.0%** | **30.0%** | **60.0%** |
 
 > **Reading the table:** A Champion mob rolls its loot pool 3–4 times per kill.  
 > Each roll has a **0.31%** chance of pulling from the Legendary item pool.
@@ -302,3 +302,11 @@ Why bats?
 
 *This wiki was auto-generated from the datapack source files.*  
 *Report issues at: https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot*
+
+---
+
+## 11. MC 1.21+ Trial Chambers & New Equipment Integration
+
+- **Trial Chambers Chest Integration**: RPG Loot tables are injected into all Trial Chambers chests (`corridor`, `entrance`, `reward`, `reward_ominous`, `supply`, `vault`) & Ancient City chests.
+- **Copper Tools & Armor**: Added Copper Sword, Axe, Pickaxe, Helmet, Chestplate, Leggings, Boots into Uncommon/Rare item pools with random RPG attribute modifiers and enchantments.
+- **Heavy Mace (重锤)**: Added 1.21 Mace into Very Rare & Legendary item pools with +15~+30 heavy strike attack damage modifiers.

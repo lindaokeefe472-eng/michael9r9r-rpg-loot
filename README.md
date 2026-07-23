@@ -13,12 +13,12 @@
 
 ### 📦 Downloads / 下载
 
-前往 [GitHub Releases](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2) 下载以下两个文件：
+前往 [GitHub Releases](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.11-CONTENT-UPDATE) 下载以下两个文件：
 
 | 文件 | 用途 |
 | :--- | :--- |
-| `michael9r9r-rpg-loot-datapack-v26.2.zip` | 数据包本体 (Data Pack) |
-| `michael9r9r-rpg-loot-resourcepack-v26.2.zip` | 中文翻译资源包 (Resource Pack, 可选) |
+| `michael9r9r-rpg-loot-datapack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` | 数据包本体 (Data Pack) |
+| `michael9r9r-rpg-loot-resourcepack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` | 中文翻译资源包 (Resource Pack, 可选) |
 
 ---
 
@@ -26,7 +26,7 @@
 
 **适用于新存档 / New World：**
 1. 打开 Minecraft，在创建新世界界面点击 **「数据包 (Data Packs)」**。
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.zip` **直接拖入** 弹出的文件夹窗口。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` **直接拖入** 弹出的文件夹窗口。
 3. 在数据包列表中找到它，点击 **▶** 箭头将其移至"已选"列。
 4. 点击「完成」并继续创建世界。
 
@@ -34,7 +34,7 @@
 1. 找到你的存档文件夹：
    - Windows：`%appdata%\.minecraft\saves\<你的存档名>\datapacks\`
    - MacOS / Linux：`~/.minecraft/saves/<你的存档名>/datapacks/`
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.zip` **直接复制粘贴** 到 `datapacks` 文件夹中（无需解压！）。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` **直接复制粘贴** 到 `datapacks` 文件夹中（无需解压！）。
 3. 进入游戏后，在聊天框输入：
    ```
    /reload
@@ -51,7 +51,7 @@
 1. 找到资源包文件夹：
    - Windows：`%appdata%\.minecraft\resourcepacks\`
    - MacOS / Linux：`~/.minecraft/resourcepacks/`
-2. 将 `michael9r9r-rpg-loot-resourcepack-v26.2.zip` **直接复制粘贴** 到 `resourcepacks` 文件夹中（无需解压！）。
+2. 将 `michael9r9r-rpg-loot-resourcepack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` **直接复制粘贴** 到 `resourcepacks` 文件夹中（无需解压！）。
 3. 打开 Minecraft，点击 **「选项 (Options)」→「资源包 (Resource Packs)」**。
 4. 在左侧"可用"列表中找到 `michael9r9r-rpg-loot-resourcepack`，点击 **▶** 箭头将其移至"已选"列。
 5. 点击「完成」，等待资源包加载，界面中文字段将全部汉化。
@@ -86,12 +86,12 @@
 
 ### 📦 第一步：下载资源文件
 
-前往 [GitHub Releases 页面](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2) 下载以下两个文件：
+前往 [GitHub Releases 页面](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.11-CONTENT-UPDATE) 下载以下两个文件：
 
 | 文件 | 用途 |
 | :--- | :--- |
-| `michael9r9r-rpg-loot-datapack-v26.2.zip` | 数据包本体 |
-| `michael9r9r-rpg-loot-resourcepack-v26.2.zip` | 中文翻译资源包（可选） |
+| `michael9r9r-rpg-loot-datapack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` | 数据包本体 |
+| `michael9r9r-rpg-loot-resourcepack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` | 中文翻译资源包（可选） |
 
 ---
 
@@ -99,13 +99,13 @@
 
 **如果你是新建存档：**
 1. 在 Minecraft 创建新世界界面，点击 **「数据包」**。
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.zip` 直接**拖入**弹出的文件夹窗口。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` 直接**拖入**弹出的文件夹窗口。
 3. 在数据包列表中点击 **▶** 箭头将其移至右侧"已选"列，点击「完成」即可。
 
 **如果你是已有存档：**
 1. 找到存档目录下的 `datapacks` 文件夹：
    - Windows 默认路径：`%appdata%\.minecraft\saves\<存档名>\datapacks\`
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.zip` **直接复制进该文件夹**（不要解压）。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` **直接复制进该文件夹**（不要解压）。
 3. 进入存档，在聊天框输入 `/reload` 重载数据包。
 
 ---
@@ -113,7 +113,7 @@
 ### 🌐 第三步：安装中文翻译资源包（可选）
 
 1. 找到资源包目录：Windows 默认路径 `%appdata%\.minecraft\resourcepacks\`
-2. 将 `michael9r9r-rpg-loot-resourcepack-v26.2.zip` **直接复制进该文件夹**（不要解压）。
+2. 将 `michael9r9r-rpg-loot-resourcepack-v26.2.11-CONTENT-UPDATE.11-CONTENT-UPDATE.zip` **直接复制进该文件夹**（不要解压）。
 3. 打开游戏 → **选项 → 资源包**，在左侧"可用"列表中找到该资源包，点击 **▶** 移至右侧"已选"列，点击「完成」加载即可。
 4. 加载完成后，游戏内的 BOSS 名称、物品属性、系统提示等均将显示为**简体中文**。
 
@@ -323,4 +323,4 @@ We've got a massive update here folks! The entire Data Pack has been fully moder
 - 🎮 **[GAMEPLAY_TUTORIAL.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/GAMEPLAY_TUTORIAL.md)**: Full Gameplay Manual & Quick Start Guide.
 - ⚙️ **[SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md)**: Technical specification & 1.19 -> 1.21.4 engine upgrade blueprint.
 
-- 📦 **[GitHub Release v26.2](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2)**: Direct ZIP downloads for Data Pack and Translation Resource Pack.
+- 📦 **[GitHub Release v26.2.11-CONTENT-UPDATE](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.11-CONTENT-UPDATE)**: Direct ZIP downloads for Data Pack and Translation Resource Pack.

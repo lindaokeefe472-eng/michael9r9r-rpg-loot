@@ -9,3 +9,5 @@ tellraw @s [{"text":"🗡️ 一键战利品获取: ","color":"light_purple"},{"
 tellraw @s [{"text":"🏰 副本与环境清理: ","color":"green"},{"text":"[生成随机副本]","color":"gold","click_event":{"action":"run_command","command":"/function rpgloot:generate_structure"}},{"text":" ","color":"white"},{"text":"[清空附近怪物]","color":"red","click_event":{"action":"run_command","command":"/kill @e[type=!player,distance=..50]"}},{"text":" ","color":"white"},{"text":"[清理掉落物]","color":"gray","click_event":{"action":"run_command","command":"/kill @e[type=item,distance=..50]"}}]
 
 tellraw @s ["",{"text":"═══════════════════════════════════════════════════════════\n","color":"gold","bold":true}]
+
+tellraw @a [{"text":" [RPG 结构定位菜单] ","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/function rpgloot:locate/menu"},"hoverEvent":{"action":"show_text","contents":"点击打开 14 个 RPG 结构的快速 Locate 定位菜单"}}]

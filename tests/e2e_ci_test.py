@@ -173,8 +173,12 @@ def run_headless_server_e2e_test():
             send_command("function rpgloot:options")
             time.sleep(1.0)
             
-            # Test 2: Load Debug UI
+            # Test 2: Load Debug UI & Locate Menu
             send_command("function rpgloot:debug")
+            time.sleep(1.0)
+            send_command("function rpgloot:locate/menu")
+            time.sleep(1.0)
+            send_command("function rpgloot:locate/alpha_castle")
             time.sleep(1.0)
             
             # Test 3: Summon Veteran Zombie

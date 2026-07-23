@@ -28,13 +28,15 @@ execute as @e[tag=rpgloot.painelemental] at @s run bossbar set rpgloot.paineleme
 
 
 # Always keep trigger clicks enabled for all non-OP survival players
-scoreboard players enable @a rpgloot_opt
-scoreboard players enable @a rpgloot_dbg
 
-# If a non-OP player types /trigger rpgloot_opt in chat (value 0 or >0), open Options Menu
-execute as @a[scores={rpgloot_opt=0..}] run function rpgloot:options
-scoreboard players reset @a[scores={rpgloot_opt=0..}] rpgloot_opt
 
-# If a non-OP player types /trigger rpgloot_dbg in chat, open Debug Menu
-execute as @a[scores={rpgloot_dbg=0..}] run function rpgloot:debug
-scoreboard players reset @a[scores={rpgloot_dbg=0..}] rpgloot_dbg
+
+# Always enable trigger objectives for all players every tick
+
+# Options menu dispatching
+
+# Set processed options trigger score to -1 and re-enable
+
+# Debug menu dispatching
+
+# Set processed debug trigger score to -1 and re-enable

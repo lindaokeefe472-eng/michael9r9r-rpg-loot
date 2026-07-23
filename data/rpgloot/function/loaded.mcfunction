@@ -81,3 +81,6 @@ execute as @a run function rpgloot:welcome_player
 # Register Trigger objectives for non-OP player UI clicks
 scoreboard objectives add rpgloot_opt trigger
 scoreboard objectives add rpgloot_dbg trigger
+
+scoreboard players enable @a rpgloot_opt
+scoreboard players enable @a rpgloot_dbg

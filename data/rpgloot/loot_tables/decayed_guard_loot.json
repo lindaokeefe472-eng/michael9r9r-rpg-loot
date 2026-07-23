@@ -1,21 +1,16 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
-        "min": 0.0,
-        "max": 2.0,
-        "type": "minecraft:uniform"
-      },
-      "bonus_rolls": {
-        "min": 0.0,
-        "max": 1.0,
+        "min": 5.0,
+        "max": 10.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
-          "quality": 1,
+          "name": "minecraft:experience_bottle",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -25,123 +20,92 @@
                 "type": "minecraft:uniform"
               }
             }
-          ],
-          "name": "minecraft:experience_bottle"
+          ]
         }
       ]
     },
     {
       "rolls": {
-        "min": 2.0,
-        "max": 4.0,
-        "type": "minecraft:uniform"
-      },
-      "bonus_rolls": {
-        "min": 0.0,
-        "max": 1.0,
+        "min": 1.0,
+        "max": 2.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 25,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "quality": 0.25,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "quality": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 1.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:emerald"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 200,
-          "quality": 0,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:rotten_flesh"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0,
-        "type": "minecraft:uniform"
-      },
-      "bonus_rolls": {
-        "min": 0.0,
-        "max": 1.0,
-        "type": "minecraft:uniform"
-      },
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
-      "entries": [
-        {
           "type": "minecraft:loot_table",
-          "weight": 300,
-          "quality": 1,
-          "value": "rpgloot:uncommon_items"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 40,
-          "quality": 3,
+          "weight": 60,
           "value": "rpgloot:rare_items"
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 10,
-          "quality": 5,
+          "weight": 30,
           "value": "rpgloot:veryrare_items"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "value": "rpgloot:legendary_items"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "minecraft:armor",
+                  "operation": "add_value",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 6.0,
+                    "max": 12.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "id": "rpgloot:decayed_guard_loot_mod_1"
+                },
+                {
+                  "name": "health",
+                  "attribute": "minecraft:max_health",
+                  "operation": "add_value",
+                  "slot": "chest",
+                  "amount": {
+                    "min": 4.0,
+                    "max": 10.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "id": "rpgloot:decayed_guard_loot_mod_2"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Relic of Decayed Guard",
+                "color": "gold",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 5
+              },
+              "add": false
+            }
+          ]
         }
       ]
     }

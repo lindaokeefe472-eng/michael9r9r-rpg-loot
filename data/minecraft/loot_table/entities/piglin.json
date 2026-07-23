@@ -15,40 +15,71 @@
         "max": 2.0,
         "type": "minecraft:uniform"
       },
-      "conditions": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Tags:[\"rpgloot.boss\"]}"
-          }
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 40,
-          "value": "rpgloot:veteran_loot"
+          "value": "rpgloot:unique_loot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"rpgloot.unique\"]}"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 35,
-          "value": "rpgloot:elite_loot"
+          "value": "rpgloot:legendary_loot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"rpgloot.legendary\"]}"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 15,
-          "value": "rpgloot:champion_loot"
+          "value": "rpgloot:champion_loot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"rpgloot.champion\"]}"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 8,
-          "value": "rpgloot:legendary_loot"
+          "value": "rpgloot:elite_loot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"rpgloot.elite\"]}"
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:loot_table",
-          "weight": 2,
-          "value": "rpgloot:unique_loot"
+          "value": "rpgloot:veteran_loot",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"rpgloot.boss\"]}"
+              }
+            }
+          ]
         }
       ]
     }

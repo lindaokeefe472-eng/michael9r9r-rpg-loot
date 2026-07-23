@@ -127,12 +127,6 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 300,
-          "quality": 1,
-          "value": "rpgloot:uncommon_items"
-        },
-        {
-          "type": "minecraft:loot_table",
           "weight": 40,
           "quality": 3,
           "value": "rpgloot:rare_items"

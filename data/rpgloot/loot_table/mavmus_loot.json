@@ -84,7 +84,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:mavmus_loot_book_offhand_armor_toughness_1_3_0"
                 },
                 {
                   "name": "movementspeed",
@@ -96,7 +96,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:mavmus_loot_book_offhand_movement_speed_1_3_1"
                 },
                 {
                   "name": "maxhealth",
@@ -108,7 +108,7 @@
                     "max": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:mavmus_loot_book_offhand_max_health_1_3_2"
                 },
                 {
                   "name": "attackdamage",
@@ -120,7 +120,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:mavmus_loot_book_offhand_attack_damage_1_3_3"
                 },
                 {
                   "name": "attackspeed",
@@ -132,7 +132,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:mavmus_loot_book_offhand_attack_speed_1_3_4"
                 },
                 {
                   "name": "luck",
@@ -144,7 +144,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:mavmus_loot_book_offhand_luck_1_3_5"
                 }
               ]
             },

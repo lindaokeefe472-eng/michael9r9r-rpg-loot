@@ -63,7 +63,7 @@
                   },
                   "operation": "add_value",
                   "slot": "mainhand",
-                  "id": "rpgloot:generic_attack_damage_mod"
+                  "id": "rpgloot:headless_loot_netherite_axe_mainhand_attack_damage_1_3_0"
                 },
                 {
                   "attribute": "minecraft:attack_speed",
@@ -74,7 +74,7 @@
                   },
                   "operation": "add_value",
                   "slot": "mainhand",
-                  "id": "rpgloot:generic_attack_speed_mod"
+                  "id": "rpgloot:headless_loot_netherite_axe_mainhand_attack_speed_1_3_1"
                 },
                 {
                   "attribute": "minecraft:attack_knockback",
@@ -82,7 +82,7 @@
                   "amount": 4,
                   "operation": "add_value",
                   "slot": "mainhand",
-                  "id": "rpgloot:generic_attack_knockback_mod"
+                  "id": "rpgloot:headless_loot_netherite_axe_mainhand_attack_knockback_1_3_2"
                 }
               ]
             },
@@ -157,7 +157,7 @@
                   },
                   "operation": "add_value",
                   "slot": "head",
-                  "id": "rpgloot:generic_armor_mod"
+                  "id": "rpgloot:headless_loot_carved_pumpkin_head_armor_1_4_0"
                 },
                 {
                   "attribute": "minecraft:max_health",
@@ -168,7 +168,7 @@
                   },
                   "operation": "add_value",
                   "slot": "head",
-                  "id": "rpgloot:generic_max_health_mod"
+                  "id": "rpgloot:headless_loot_carved_pumpkin_head_max_health_1_4_1"
                 },
                 {
                   "attribute": "minecraft:armor_toughness",
@@ -179,7 +179,7 @@
                   },
                   "operation": "add_value",
                   "slot": "head",
-                  "id": "rpgloot:generic_armor_toughness_mod"
+                  "id": "rpgloot:headless_loot_carved_pumpkin_head_armor_toughness_1_4_2"
                 },
                 {
                   "attribute": "minecraft:attack_speed",
@@ -190,7 +190,7 @@
                   },
                   "operation": "add_value",
                   "slot": "head",
-                  "id": "rpgloot:generic_attack_speed_mod"
+                  "id": "rpgloot:headless_loot_carved_pumpkin_head_attack_speed_1_4_3"
                 },
                 {
                   "attribute": "minecraft:knockback_resistance",
@@ -201,7 +201,7 @@
                   },
                   "operation": "add_value",
                   "slot": "head",
-                  "id": "rpgloot:generic_knockback_resistance_mod"
+                  "id": "rpgloot:headless_loot_carved_pumpkin_head_knockback_resistance_1_4_4"
                 },
                 {
                   "attribute": "minecraft:movement_speed",
@@ -212,7 +212,7 @@
                   },
                   "operation": "add_multiplied_base",
                   "slot": "head",
-                  "id": "rpgloot:generic_movement_speed_mod"
+                  "id": "rpgloot:headless_loot_carved_pumpkin_head_movement_speed_1_4_5"
                 }
               ]
             },
@@ -297,7 +297,7 @@
                   },
                   "operation": "add_multiplied_base",
                   "slot": "offhand",
-                  "id": "rpgloot:generic_movement_speed_mod"
+                  "id": "rpgloot:headless_loot_flint_and_steel_offhand_movement_speed_1_5_0"
                 },
                 {
                   "attribute": "minecraft:max_health",
@@ -308,7 +308,7 @@
                   },
                   "operation": "add_value",
                   "slot": "offhand",
-                  "id": "rpgloot:generic_max_health_mod"
+                  "id": "rpgloot:headless_loot_flint_and_steel_offhand_max_health_1_5_1"
                 },
                 {
                   "attribute": "minecraft:attack_damage",
@@ -319,7 +319,7 @@
                   },
                   "operation": "add_value",
                   "slot": "offhand",
-                  "id": "rpgloot:generic_attack_damage_mod"
+                  "id": "rpgloot:headless_loot_flint_and_steel_offhand_attack_damage_1_5_2"
                 }
               ]
             },

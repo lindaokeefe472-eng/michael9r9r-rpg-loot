@@ -26,7 +26,7 @@
                     "max": 4.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_wooden_sword_mainhand_attack_damage_0_0_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -38,7 +38,7 @@
                     "max": -2.06,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_wooden_sword_mainhand_attack_speed_0_0_1"
                 }
               ]
             },
@@ -92,7 +92,7 @@
                     "max": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_stone_sword_mainhand_attack_damage_0_1_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -104,7 +104,7 @@
                     "max": -2.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_stone_sword_mainhand_attack_speed_0_1_1"
                 }
               ]
             },
@@ -158,7 +158,7 @@
                     "max": 4.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_golden_sword_mainhand_attack_damage_0_2_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -170,7 +170,7 @@
                     "max": -2.24,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_golden_sword_mainhand_attack_speed_0_2_1"
                 }
               ]
             },
@@ -224,7 +224,7 @@
                     "max": 6.6,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_iron_sword_mainhand_attack_damage_0_3_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -236,7 +236,7 @@
                     "max": -2.16,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_iron_sword_mainhand_attack_speed_0_3_1"
                 }
               ]
             },
@@ -290,7 +290,7 @@
                     "max": 8.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_wooden_axe_mainhand_attack_damage_0_4_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -302,7 +302,7 @@
                     "max": -3.04,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_wooden_axe_mainhand_attack_speed_0_4_1"
                 }
               ]
             },
@@ -356,7 +356,7 @@
                     "max": 11.7,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_stone_axe_mainhand_attack_damage_0_5_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -368,7 +368,7 @@
                     "max": -3.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_stone_axe_mainhand_attack_speed_0_5_1"
                 }
               ]
             },
@@ -422,7 +422,7 @@
                     "max": 8.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_golden_axe_mainhand_attack_damage_0_6_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -434,7 +434,7 @@
                     "max": -2.9,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_golden_axe_mainhand_attack_speed_0_6_1"
                 }
               ]
             },
@@ -488,7 +488,7 @@
                     "max": 10.6,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_iron_axe_mainhand_attack_damage_0_7_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -500,7 +500,7 @@
                     "max": -2.97,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_iron_axe_mainhand_attack_speed_0_7_1"
                 }
               ]
             },
@@ -553,7 +553,7 @@
                     "max": 9.9,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_trident_mainhand_attack_damage_0_8_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -565,7 +565,7 @@
                     "max": -2.79,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_trident_mainhand_attack_speed_0_8_1"
                 }
               ]
             },
@@ -618,7 +618,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_shield_offhand_armor_0_9_0"
                 },
                 {
                   "name": "knockbackResistance",
@@ -630,7 +630,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:uncommon_items_shield_offhand_knockback_resistance_0_9_1"
                 }
               ]
             },
@@ -676,7 +676,7 @@
                     "max": 1.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_leather_helmet_head_armor_0_10_0"
                 },
                 {
                   "name": "movementspeed",
@@ -688,7 +688,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:uncommon_items_leather_helmet_head_movement_speed_0_10_1"
                 }
               ]
             },
@@ -742,7 +742,7 @@
                     "max": 3.3,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_leather_chestplate_chest_armor_0_11_0"
                 },
                 {
                   "name": "movementspeed",
@@ -754,7 +754,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:uncommon_items_leather_chestplate_chest_movement_speed_0_11_1"
                 }
               ]
             },
@@ -808,7 +808,7 @@
                     "max": 2.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_leather_leggings_legs_armor_0_12_0"
                 },
                 {
                   "name": "movementspeed",
@@ -820,7 +820,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:uncommon_items_leather_leggings_legs_movement_speed_0_12_1"
                 }
               ]
             },
@@ -874,7 +874,7 @@
                     "max": 1.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_leather_boots_feet_armor_0_13_0"
                 },
                 {
                   "name": "movementspeed",
@@ -886,7 +886,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:uncommon_items_leather_boots_feet_movement_speed_0_13_1"
                 }
               ]
             },
@@ -940,7 +940,7 @@
                     "max": 2.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_helmet_head_armor_0_14_0"
                 },
                 {
                   "name": "toughness",
@@ -952,7 +952,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_helmet_head_armor_toughness_0_14_1"
                 },
                 {
                   "name": "maxhealth",
@@ -964,7 +964,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_helmet_head_max_health_0_14_2"
                 }
               ]
             },
@@ -1018,7 +1018,7 @@
                     "max": 5.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_chestplate_chest_armor_0_15_0"
                 },
                 {
                   "name": "toughness",
@@ -1030,7 +1030,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_chestplate_chest_armor_toughness_0_15_1"
                 },
                 {
                   "name": "maxhealth",
@@ -1042,7 +1042,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_chestplate_chest_max_health_0_15_2"
                 }
               ]
             },
@@ -1096,7 +1096,7 @@
                     "max": 4.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_leggings_legs_armor_0_16_0"
                 },
                 {
                   "name": "toughness",
@@ -1108,7 +1108,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_leggings_legs_armor_toughness_0_16_1"
                 },
                 {
                   "name": "maxhealth",
@@ -1120,7 +1120,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_leggings_legs_max_health_0_16_2"
                 }
               ]
             },
@@ -1174,7 +1174,7 @@
                     "max": 1.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_boots_feet_armor_0_17_0"
                 },
                 {
                   "name": "toughness",
@@ -1186,7 +1186,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_boots_feet_armor_toughness_0_17_1"
                 },
                 {
                   "name": "maxhealth",
@@ -1198,7 +1198,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:uncommon_items_chainmail_boots_feet_max_health_0_17_2"
                 }
               ]
             },
@@ -1252,7 +1252,7 @@
                     "max": 2.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_golden_helmet_head_armor_0_18_0"
                 },
                 {
                   "name": "attackspeed",
@@ -1264,7 +1264,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_golden_helmet_head_attack_speed_0_18_1"
                 }
               ]
             },
@@ -1318,7 +1318,7 @@
                     "max": 5.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_golden_chestplate_chest_armor_0_19_0"
                 },
                 {
                   "name": "attackspeed",
@@ -1330,7 +1330,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_golden_chestplate_chest_attack_speed_0_19_1"
                 }
               ]
             },
@@ -1384,7 +1384,7 @@
                     "max": 3.3,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_golden_leggings_legs_armor_0_20_0"
                 },
                 {
                   "name": "attackspeed",
@@ -1396,7 +1396,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_golden_leggings_legs_attack_speed_0_20_1"
                 }
               ]
             },
@@ -1450,7 +1450,7 @@
                     "max": 1.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_golden_boots_feet_armor_0_21_0"
                 },
                 {
                   "name": "attackspeed",
@@ -1462,7 +1462,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_golden_boots_feet_attack_speed_0_21_1"
                 }
               ]
             },
@@ -1516,7 +1516,7 @@
                     "max": 2.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_iron_helmet_head_armor_0_22_0"
                 },
                 {
                   "name": "toughness",
@@ -1528,7 +1528,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_iron_helmet_head_armor_toughness_0_22_1"
                 }
               ]
             },
@@ -1582,7 +1582,7 @@
                     "max": 6.6,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_iron_chestplate_chest_armor_0_23_0"
                 },
                 {
                   "name": "toughness",
@@ -1594,7 +1594,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_iron_chestplate_chest_armor_toughness_0_23_1"
                 }
               ]
             },
@@ -1648,7 +1648,7 @@
                     "max": 5.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_iron_leggings_legs_armor_0_24_0"
                 },
                 {
                   "name": "toughness",
@@ -1660,7 +1660,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_iron_leggings_legs_armor_toughness_0_24_1"
                 }
               ]
             },
@@ -1714,7 +1714,7 @@
                     "max": 2.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_iron_boots_feet_armor_0_25_0"
                 },
                 {
                   "name": "toughness",
@@ -1726,7 +1726,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_iron_boots_feet_armor_toughness_0_25_1"
                 }
               ]
             },
@@ -1780,7 +1780,7 @@
                     "max": 2.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_turtle_helmet_head_armor_0_26_0"
                 },
                 {
                   "name": "toughness",
@@ -1792,7 +1792,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:uncommon_items_turtle_helmet_head_armor_toughness_0_26_1"
                 },
                 {
                   "name": "knockbackresistance",
@@ -1804,7 +1804,7 @@
                     "max": 0.15,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:uncommon_items_turtle_helmet_head_knockback_resistance_0_26_2"
                 }
               ]
             },
@@ -1858,7 +1858,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:uncommon_items_totem_of_undying_offhand_armor_0_27_0"
                 },
                 {
                   "name": "maxhealth",
@@ -1870,7 +1870,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:uncommon_items_totem_of_undying_offhand_max_health_0_27_1"
                 }
               ]
             },
@@ -1916,7 +1916,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:uncommon_items_rabbit_foot_offhand_luck_0_28_0"
                 },
                 {
                   "name": "movementspeed",
@@ -1928,7 +1928,7 @@
                     "max": 0.05,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:uncommon_items_rabbit_foot_offhand_movement_speed_0_28_1"
                 }
               ]
             },
@@ -1974,7 +1974,7 @@
                     "max": 0.06,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:uncommon_items_quartz_offhand_movement_speed_0_29_0"
                 },
                 {
                   "name": "attackspeed",
@@ -1986,7 +1986,7 @@
                     "max": 0.09,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:uncommon_items_quartz_offhand_attack_speed_0_29_1"
                 }
               ]
             },
@@ -2031,7 +2031,7 @@
                     "min": 5.0,
                     "max": 7.0
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:uncommon_items_copper_sword_mainhand_attack_damage_0_30_0"
                 }
               ]
             },

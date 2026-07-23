@@ -79,7 +79,7 @@
                     "max": 5.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:jailer_loot_netherite_helmet_head_armor_1_3_0"
                 },
                 {
                   "name": "toughness",
@@ -91,7 +91,7 @@
                     "max": 5.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:jailer_loot_netherite_helmet_head_armor_toughness_1_3_1"
                 },
                 {
                   "name": "maxhealth",
@@ -103,7 +103,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:jailer_loot_netherite_helmet_head_max_health_1_3_2"
                 },
                 {
                   "name": "knockbackresistance",
@@ -115,7 +115,7 @@
                     "max": 0.42,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:jailer_loot_netherite_helmet_head_knockback_resistance_1_3_3"
                 },
                 {
                   "name": "luck",
@@ -127,7 +127,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:jailer_loot_netherite_helmet_head_luck_1_3_4"
                 }
               ]
             },
@@ -188,7 +188,7 @@
                     "max": 17.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:jailer_loot_netherite_shovel_mainhand_attack_damage_1_4_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -200,7 +200,7 @@
                     "max": -2.9,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:jailer_loot_netherite_shovel_mainhand_attack_speed_1_4_1"
                 },
                 {
                   "name": "toughness",
@@ -212,7 +212,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:jailer_loot_netherite_shovel_mainhand_armor_toughness_1_4_2"
                 },
                 {
                   "name": "attackKnockback",
@@ -224,7 +224,7 @@
                     "max": 4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_knockback_mod"
+                  "id": "rpgloot:jailer_loot_netherite_shovel_mainhand_attack_knockback_1_4_3"
                 }
               ]
             },
@@ -293,7 +293,7 @@
                     "max": 15.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:jailer_loot_netherite_sword_mainhand_attack_damage_1_5_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -305,7 +305,7 @@
                     "max": -1.6,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:jailer_loot_netherite_sword_mainhand_attack_speed_1_5_1"
                 }
               ]
             },

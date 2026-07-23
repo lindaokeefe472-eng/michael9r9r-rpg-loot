@@ -94,7 +94,7 @@
                     "max": 3.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_armor_1_4_0"
                 },
                 {
                   "name": "toughness",
@@ -106,7 +106,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_armor_toughness_1_4_1"
                 },
                 {
                   "name": "movementspeed",
@@ -118,7 +118,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_movement_speed_1_4_2"
                 },
                 {
                   "name": "maxhealth",
@@ -130,7 +130,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_max_health_1_4_3"
                 },
                 {
                   "name": "knockbackresistance",
@@ -142,7 +142,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_knockback_resistance_1_4_4"
                 },
                 {
                   "name": "attackdamage",
@@ -154,7 +154,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_attack_damage_1_4_5"
                 },
                 {
                   "name": "attackspeed",
@@ -166,7 +166,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_attack_speed_1_4_6"
                 },
                 {
                   "name": "luck",
@@ -178,7 +178,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:swarm_loot_iron_boots_feet_luck_1_4_7"
                 }
               ]
             },
@@ -258,7 +258,7 @@
                     "max": 10.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:swarm_loot_phantom_membrane_offhand_attack_damage_1_5_0"
                 },
                 {
                   "name": "armor",
@@ -270,7 +270,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:swarm_loot_phantom_membrane_offhand_armor_1_5_1"
                 },
                 {
                   "name": "toughness",
@@ -282,7 +282,7 @@
                     "max": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:swarm_loot_phantom_membrane_offhand_armor_toughness_1_5_2"
                 },
                 {
                   "name": "luck",
@@ -294,7 +294,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:swarm_loot_phantom_membrane_offhand_luck_1_5_3"
                 },
                 {
                   "name": "maxhealth",
@@ -306,7 +306,7 @@
                     "max": -0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:swarm_loot_phantom_membrane_offhand_max_health_1_5_4"
                 }
               ]
             },
@@ -357,7 +357,7 @@
                     "max": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:swarm_loot_wooden_sword_mainhand_attack_damage_1_6_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -369,7 +369,7 @@
                     "max": -1.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:swarm_loot_wooden_sword_mainhand_attack_speed_1_6_1"
                 }
               ]
             },

@@ -84,7 +84,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:abyss_watcher_loot_iron_sword_mainhand_attack_damage_1_3_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -96,7 +96,7 @@
                     "max": -1.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_iron_sword_mainhand_attack_speed_1_3_1"
                 },
                 {
                   "name": "movementspeed",
@@ -108,7 +108,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_iron_sword_mainhand_movement_speed_1_3_2"
                 }
               ]
             },
@@ -187,7 +187,7 @@
                     "max": 11.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:abyss_watcher_loot_stone_sword_mainhand_attack_damage_1_4_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -199,7 +199,7 @@
                     "max": -1.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_stone_sword_mainhand_attack_speed_1_4_1"
                 },
                 {
                   "name": "movementspeed",
@@ -211,7 +211,7 @@
                     "max": 0.15,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_stone_sword_offhand_attack_speed_1_4_2"
                 },
                 {
                   "name": "movementspeed",
@@ -223,7 +223,7 @@
                     "max": 0.15,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_stone_sword_offhand_movement_speed_1_4_3"
                 }
               ]
             },
@@ -297,7 +297,7 @@
                     "max": 3.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:abyss_watcher_loot_leather_chestplate_chest_armor_1_5_0"
                 },
                 {
                   "name": "movementspeed",
@@ -309,7 +309,7 @@
                     "max": 0.25,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_leather_chestplate_chest_movement_speed_1_5_1"
                 },
                 {
                   "name": "maxhealth",
@@ -321,7 +321,7 @@
                     "max": 9.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:abyss_watcher_loot_leather_chestplate_chest_max_health_1_5_2"
                 },
                 {
                   "name": "attackdamage",
@@ -333,7 +333,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:abyss_watcher_loot_leather_chestplate_chest_attack_damage_1_5_3"
                 },
                 {
                   "name": "attackspeed",
@@ -345,7 +345,7 @@
                     "max": 0.3,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:abyss_watcher_loot_leather_chestplate_chest_attack_speed_1_5_4"
                 },
                 {
                   "name": "luck",
@@ -357,7 +357,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:abyss_watcher_loot_leather_chestplate_chest_luck_1_5_5"
                 }
               ]
             },

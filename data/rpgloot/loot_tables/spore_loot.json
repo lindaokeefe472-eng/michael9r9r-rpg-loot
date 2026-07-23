@@ -84,7 +84,7 @@
                     "max": 6.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:spore_loot_leather_chestplate_chest_armor_1_3_0"
                 },
                 {
                   "name": "movementspeed",
@@ -96,7 +96,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:spore_loot_leather_chestplate_chest_movement_speed_1_3_1"
                 },
                 {
                   "name": "maxhealth",
@@ -108,7 +108,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:spore_loot_leather_chestplate_chest_max_health_1_3_2"
                 },
                 {
                   "name": "attackdamage",
@@ -120,7 +120,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:spore_loot_leather_chestplate_chest_attack_damage_1_3_3"
                 },
                 {
                   "name": "attackspeed",
@@ -132,7 +132,7 @@
                     "max": 0.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:spore_loot_leather_chestplate_chest_attack_speed_1_3_4"
                 },
                 {
                   "name": "luck",
@@ -144,7 +144,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:spore_loot_leather_chestplate_chest_luck_1_3_5"
                 }
               ]
             },
@@ -219,7 +219,7 @@
                     "max": 14.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:spore_loot_wooden_axe_mainhand_attack_damage_1_4_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -231,7 +231,7 @@
                     "max": -2.26,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:spore_loot_wooden_axe_mainhand_attack_speed_1_4_1"
                 },
                 {
                   "name": "armor",
@@ -243,7 +243,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:spore_loot_wooden_axe_offhand_armor_1_4_2"
                 }
               ]
             },

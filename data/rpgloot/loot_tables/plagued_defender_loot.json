@@ -162,7 +162,7 @@
                     "max": 3.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:plagued_defender_loot_shield_offhand_armor_2_3_0"
                 },
                 {
                   "name": "armortoughness",
@@ -174,7 +174,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:plagued_defender_loot_shield_offhand_armor_toughness_2_3_1"
                 },
                 {
                   "name": "knockbackResistance",
@@ -186,7 +186,7 @@
                     "max": 0.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:plagued_defender_loot_shield_offhand_knockback_resistance_2_3_2"
                 },
                 {
                   "name": "maxHealth",
@@ -198,7 +198,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:plagued_defender_loot_shield_offhand_max_health_2_3_3"
                 },
                 {
                   "name": "attackdamage",
@@ -210,7 +210,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:plagued_defender_loot_shield_offhand_attack_damage_2_3_4"
                 }
               ]
             },

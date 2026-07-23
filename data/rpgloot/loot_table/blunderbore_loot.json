@@ -60,7 +60,7 @@
                   },
                   "operation": "add_value",
                   "slot": "mainhand",
-                  "id": "rpgloot:generic_attack_damage_mod"
+                  "id": "rpgloot:blunderbore_loot_iron_shovel_mainhand_attack_damage_1_3_0"
                 },
                 {
                   "attribute": "minecraft:attack_speed",
@@ -71,7 +71,7 @@
                   },
                   "operation": "add_value",
                   "slot": "mainhand",
-                  "id": "rpgloot:generic_attack_speed_mod"
+                  "id": "rpgloot:blunderbore_loot_iron_shovel_mainhand_attack_speed_1_3_1"
                 }
               ]
             },
@@ -150,7 +150,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:blunderbore_loot_totem_of_undying_offhand_max_health_1_4_0"
                 },
                 {
                   "name": "luck",
@@ -162,7 +162,7 @@
                     "max": 1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:blunderbore_loot_totem_of_undying_offhand_luck_1_4_1"
                 }
               ]
             },

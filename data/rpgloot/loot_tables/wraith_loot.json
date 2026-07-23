@@ -84,7 +84,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:wraith_loot_elytra_chest_armor_1_3_0"
                 },
                 {
                   "name": "maxhealth",
@@ -96,7 +96,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:wraith_loot_elytra_chest_max_health_1_3_1"
                 },
                 {
                   "name": "attackdamage",
@@ -108,7 +108,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:wraith_loot_elytra_chest_attack_damage_1_3_2"
                 },
                 {
                   "name": "attackspeed",
@@ -120,7 +120,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:wraith_loot_elytra_chest_attack_speed_1_3_3"
                 },
                 {
                   "name": "luck",
@@ -132,7 +132,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:wraith_loot_elytra_chest_luck_1_3_4"
                 }
               ]
             },
@@ -198,7 +198,7 @@
                     "max": 1.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:wraith_loot_leather_helmet_head_armor_1_4_0"
                 },
                 {
                   "name": "movementspeed",
@@ -210,7 +210,7 @@
                     "max": 0.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:wraith_loot_leather_helmet_head_movement_speed_1_4_1"
                 },
                 {
                   "name": "maxhealth",
@@ -222,7 +222,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:wraith_loot_leather_helmet_head_max_health_1_4_2"
                 },
                 {
                   "name": "attackdamage",
@@ -234,7 +234,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:wraith_loot_leather_helmet_head_attack_damage_1_4_3"
                 },
                 {
                   "name": "attackspeed",
@@ -246,7 +246,7 @@
                     "max": 0.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:wraith_loot_leather_helmet_head_attack_speed_1_4_4"
                 },
                 {
                   "name": "luck",
@@ -258,7 +258,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:wraith_loot_leather_helmet_head_luck_1_4_5"
                 }
               ]
             },
@@ -342,7 +342,7 @@
                     "max": 0.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:wraith_loot_clock_offhand_movement_speed_1_5_0"
                 },
                 {
                   "name": "attackspeed",
@@ -354,7 +354,7 @@
                     "max": 0.4,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:wraith_loot_clock_offhand_attack_speed_1_5_1"
                 }
               ]
             },

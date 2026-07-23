@@ -84,7 +84,7 @@
                     "max": 14.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:farlander_loot_netherite_sword_mainhand_attack_damage_1_3_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -96,7 +96,7 @@
                     "max": -1.6,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:farlander_loot_netherite_sword_mainhand_attack_speed_1_3_1"
                 },
                 {
                   "name": "toughness",
@@ -108,7 +108,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:farlander_loot_netherite_sword_mainhand_armor_toughness_1_3_2"
                 }
               ]
             },

@@ -84,7 +84,7 @@
                     "max": 1.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:carlos_loot_leather_boots_feet_armor_1_3_0"
                 },
                 {
                   "name": "maxhealth",
@@ -96,7 +96,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:carlos_loot_leather_boots_feet_max_health_1_3_1"
                 },
                 {
                   "name": "attackdamage",
@@ -108,7 +108,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:carlos_loot_leather_boots_feet_attack_damage_1_3_2"
                 },
                 {
                   "name": "attackspeed",
@@ -120,7 +120,7 @@
                     "max": 0.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:carlos_loot_leather_boots_feet_attack_speed_1_3_3"
                 },
                 {
                   "name": "luck",
@@ -132,7 +132,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:carlos_loot_leather_boots_feet_luck_1_3_4"
                 }
               ]
             },
@@ -216,7 +216,7 @@
                     "max": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:carlos_loot_slime_ball_offhand_attack_damage_1_4_0"
                 },
                 {
                   "name": "maxhealth",
@@ -228,7 +228,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:carlos_loot_slime_ball_offhand_max_health_1_4_1"
                 }
               ]
             },
@@ -284,7 +284,7 @@
                     "max": 3.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_armor_1_5_0"
                 },
                 {
                   "name": "toughness",
@@ -296,7 +296,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_armor_toughness_1_5_1"
                 },
                 {
                   "name": "maxhealth",
@@ -308,7 +308,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_max_health_1_5_2"
                 },
                 {
                   "name": "knockbackresistance",
@@ -320,7 +320,7 @@
                     "max": 1.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_knockback_resistance_1_5_3"
                 },
                 {
                   "name": "attackdamage",
@@ -332,7 +332,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_attack_damage_1_5_4"
                 },
                 {
                   "name": "attackspeed",
@@ -344,7 +344,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_attack_speed_1_5_5"
                 },
                 {
                   "name": "luck",
@@ -356,7 +356,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:carlos_loot_turtle_helmet_head_luck_1_5_6"
                 }
               ]
             },

@@ -84,7 +84,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:vassal_loot_trident_mainhand_attack_damage_1_3_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -96,7 +96,7 @@
                     "max": -2.35,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:vassal_loot_trident_mainhand_attack_speed_1_3_1"
                 }
               ]
             },
@@ -169,7 +169,7 @@
                     "max": 3.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:vassal_loot_chainmail_helmet_head_armor_1_4_0"
                 },
                 {
                   "name": "toughness",
@@ -181,7 +181,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:vassal_loot_chainmail_helmet_head_armor_toughness_1_4_1"
                 },
                 {
                   "name": "movementspeed",
@@ -193,7 +193,7 @@
                     "max": 0.15,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:movement_speed_mod"
+                  "id": "rpgloot:vassal_loot_chainmail_helmet_head_movement_speed_1_4_2"
                 },
                 {
                   "name": "maxhealth",
@@ -205,7 +205,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:vassal_loot_chainmail_helmet_head_max_health_1_4_3"
                 },
                 {
                   "name": "knockbackresistance",
@@ -217,7 +217,7 @@
                     "max": 0.3,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:vassal_loot_chainmail_helmet_head_knockback_resistance_1_4_4"
                 },
                 {
                   "name": "attackdamage",
@@ -229,7 +229,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:vassal_loot_chainmail_helmet_head_attack_damage_1_4_5"
                 }
               ]
             },
@@ -250,7 +250,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Kr\u00e1nos tis th\u00e1lassas",
+                "text": "Krános tis thálassas",
                 "color": "gold"
               }
             },
@@ -321,7 +321,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:vassal_loot_diamond_chestplate_chest_armor_1_5_0"
                 },
                 {
                   "name": "toughness",
@@ -333,7 +333,7 @@
                     "max": 3.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:vassal_loot_diamond_chestplate_chest_armor_toughness_1_5_1"
                 },
                 {
                   "name": "maxhealth",
@@ -345,7 +345,7 @@
                     "max": 8.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:vassal_loot_diamond_chestplate_chest_max_health_1_5_2"
                 },
                 {
                   "name": "knockbackresistance",
@@ -357,7 +357,7 @@
                     "max": 0.6,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:vassal_loot_diamond_chestplate_chest_knockback_resistance_1_5_3"
                 },
                 {
                   "name": "attackdamage",
@@ -369,7 +369,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:vassal_loot_diamond_chestplate_chest_attack_damage_1_5_4"
                 },
                 {
                   "name": "luck",
@@ -381,7 +381,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:vassal_loot_diamond_chestplate_chest_luck_1_5_5"
                 }
               ]
             },
@@ -412,7 +412,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "\u0397\u03b3\u03b5th\u03af\u03b1",
+                "text": "Ηγεthία",
                 "color": "aqua"
               }
             },

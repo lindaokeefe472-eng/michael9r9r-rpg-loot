@@ -87,7 +87,7 @@
                     "max": 10.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:hordir_loot_iron_sword_mainhand_attack_damage_1_3_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -99,7 +99,7 @@
                     "max": -1.2,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:hordir_loot_iron_sword_mainhand_attack_speed_1_3_1"
                 }
               ]
             },
@@ -179,7 +179,7 @@
                     "max": 20.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:hordir_loot_diamond_axe_mainhand_attack_damage_1_4_0"
                 },
                 {
                   "name": "attackSpeed",
@@ -191,7 +191,7 @@
                     "max": -2.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:hordir_loot_diamond_axe_mainhand_attack_speed_1_4_1"
                 }
               ]
             },
@@ -260,7 +260,7 @@
                     "max": 8.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:hordir_loot_chainmail_chestplate_chest_armor_1_5_0"
                 },
                 {
                   "name": "toughness",
@@ -272,7 +272,7 @@
                     "max": 3.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:hordir_loot_chainmail_chestplate_chest_armor_toughness_1_5_1"
                 },
                 {
                   "name": "maxhealth",
@@ -284,7 +284,7 @@
                     "max": 12.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:hordir_loot_chainmail_chestplate_chest_max_health_1_5_2"
                 },
                 {
                   "name": "attackdamage",
@@ -296,7 +296,7 @@
                     "max": 2.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:hordir_loot_chainmail_chestplate_chest_attack_damage_1_5_3"
                 },
                 {
                   "name": "attackspeed",
@@ -308,7 +308,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:hordir_loot_chainmail_chestplate_chest_attack_speed_1_5_4"
                 },
                 {
                   "name": "luck",
@@ -320,7 +320,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:hordir_loot_chainmail_chestplate_chest_luck_1_5_5"
                 }
               ]
             },
@@ -420,7 +420,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_armor_1_6_0"
                 },
                 {
                   "name": "armortoughness",
@@ -432,7 +432,7 @@
                     "max": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:armor_toughness_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_armor_toughness_1_6_1"
                 },
                 {
                   "name": "knockbackResistance",
@@ -444,7 +444,7 @@
                     "max": 0.3,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:knockback_resistance_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_knockback_resistance_1_6_2"
                 },
                 {
                   "name": "maxHealth",
@@ -456,7 +456,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:max_health_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_max_health_1_6_3"
                 },
                 {
                   "name": "attackdamage",
@@ -468,7 +468,7 @@
                     "max": 4.0,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_damage_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_attack_damage_1_6_4"
                 },
                 {
                   "name": "attackspeed",
@@ -480,7 +480,7 @@
                     "max": 0.1,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:attack_speed_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_attack_speed_1_6_5"
                 },
                 {
                   "name": "luck",
@@ -492,7 +492,7 @@
                     "max": 0.5,
                     "type": "minecraft:uniform"
                   },
-                  "id": "rpgloot:luck_mod"
+                  "id": "rpgloot:hordir_loot_shield_offhand_luck_1_6_6"
                 }
               ]
             },

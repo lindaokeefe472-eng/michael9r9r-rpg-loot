@@ -37,6 +37,15 @@
           "weight": 1,
           "value": "rpgloot:unique_loot"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{tags:[\"rpgloot.boss\"]}"
+          }
+        }
       ]
     }
   ]

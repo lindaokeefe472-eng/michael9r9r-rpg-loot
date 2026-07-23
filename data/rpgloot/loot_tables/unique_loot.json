@@ -1,22 +1,114 @@
 {
+  "type": "minecraft:entity",
   "pools": [
     {
       "rolls": {
-        "min": 5.0,
-        "max": 7.0
+        "min": 2.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "weight": 400,
-          "quality": 2,
-          "value": "rpgloot:veryrare_items"
+          "weight": 5,
+          "value": "rpgloot:legendary_items"
         },
         {
-          "type": "minecraft:loot_table",
-          "weight": 600,
-          "quality": 4,
-          "value": "rpgloot:legendary_items"
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "damage",
+                  "attribute": "minecraft:attack_damage",
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": 14.0,
+                    "max": 18.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "id": "rpgloot:unique_abyss_damage"
+                },
+                {
+                  "name": "attackSpeed",
+                  "attribute": "minecraft:attack_speed",
+                  "operation": "add_value",
+                  "slot": "mainhand",
+                  "amount": {
+                    "min": -1.5,
+                    "max": -0.8,
+                    "type": "minecraft:uniform"
+                  },
+                  "id": "rpgloot:unique_abyss_speed"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Farron Greatsword of the Abyss",
+                "color": "dark_red",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{farron_greatsword:1,Age:-32768}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 7,
+                "minecraft:looting": 4,
+                "minecraft:unbreaking": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Javelin Crossbow of Destruction",
+                "color": "dark_red",
+                "bold": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{javelin:1,Age:-32768}"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:piercing": 10,
+                "minecraft:quick_charge": 5,
+                "minecraft:unbreaking": 5
+              },
+              "add": false
+            }
+          ]
         }
       ]
     }

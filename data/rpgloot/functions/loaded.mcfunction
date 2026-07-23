@@ -77,3 +77,7 @@ function rpgloot:options/default
 
 # AUTO-GIVE BOOK & WELCOME ALL ONLINE PLAYERS
 execute as @a run function rpgloot:welcome_player
+
+# Register Trigger objectives for non-OP player UI clicks
+scoreboard objectives add rpgloot_opt trigger
+scoreboard objectives add rpgloot_dbg trigger

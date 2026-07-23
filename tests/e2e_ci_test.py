@@ -116,14 +116,17 @@ def run_headless_server_e2e_test():
     props_file = SCRATCH_DIR / "server.properties"
     props_file.write_text("online-mode=false\nspawn-protection=0\nlevel-type=flat\n", encoding="utf-8")
     
-    # Copy Datapack
-    test_pack_dir = SCRATCH_DIR / "world/datapacks/rpg_test_pack"
+    # Clean & Copy Datapack
+    dp_dir = SCRATCH_DIR / "world/datapacks"
+    if dp_dir.exists():
+        shutil.rmtree(dp_dir)
+        
+    test_pack_dir = dp_dir / "rpg_test_pack"
     dst_data = test_pack_dir / "data"
-    if dst_data.exists():
-        shutil.rmtree(dst_data)
-    shutil.copytree(DATA_DIR, dst_data)
+    dst_data.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(DATA_DIR, dst_data, dirs_exist_ok=True)
     shutil.copy(PACK_MCMETA, test_pack_dir / "pack.mcmeta")
-    print("[INFO] RPG Loot Datapack deployed to test server world!")
+    print("[INFO] Clean RPG Loot Datapack deployed to test server world!")
     
     # Launch Server Process
     cmd = [java_exe, "-Xmx1G", "-jar", str(JAR_PATH), "nogui"]

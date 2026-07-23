@@ -24,38 +24,17 @@ execute as @e[tag=rpgloot.painelemental] at @s run bossbar set rpgloot.paineleme
 
 
 # Always keep trigger clicks enabled for all survival non-OP players
+
+
+
+# Always keep trigger clicks enabled for all non-OP survival players
 scoreboard players enable @a rpgloot_opt
 scoreboard players enable @a rpgloot_dbg
 
-# Process options menu trigger clicks (rpgloot_opt)
-execute as @a[scores={rpgloot_opt=1}] run function rpgloot:options/moboff
-execute as @a[scores={rpgloot_opt=2}] run function rpgloot:options/mobon
-execute as @a[scores={rpgloot_opt=3}] run function rpgloot:options/-1
-execute as @a[scores={rpgloot_opt=4}] run function rpgloot:options/1
-execute as @a[scores={rpgloot_opt=5}] run function rpgloot:options/-1limit
-execute as @a[scores={rpgloot_opt=6}] run function rpgloot:options/1limit
-execute as @a[scores={rpgloot_opt=7}] run function rpgloot:options/eventoff
-execute as @a[scores={rpgloot_opt=8}] run function rpgloot:options/eventon
-execute as @a[scores={rpgloot_opt=9}] run function rpgloot:options/glowoff
-execute as @a[scores={rpgloot_opt=10}] run function rpgloot:options/glowon
-execute as @a[scores={rpgloot_opt=11}] run function rpgloot:give_book
-execute as @a[scores={rpgloot_opt=12}] run function rpgloot:stats
-execute as @a[scores={rpgloot_opt=13}] run function rpgloot:generate_structure
-execute as @a[scores={rpgloot_opt=14}] run function rpgloot:debug
-scoreboard players reset @a[scores={rpgloot_opt=1..}] rpgloot_opt
+# If a non-OP player types /trigger rpgloot_opt in chat (value 0 or >0), open Options Menu
+execute as @a[scores={rpgloot_opt=0..}] run function rpgloot:options
+scoreboard players reset @a[scores={rpgloot_opt=0..}] rpgloot_opt
 
-# Process debug menu trigger clicks (rpgloot_dbg)
-execute as @a[scores={rpgloot_dbg=1}] run function rpgloot:options/100spawn
-execute as @a[scores={rpgloot_dbg=2}] run function rpgloot:options/default
-execute as @a[scores={rpgloot_dbg=3}] run function rpgloot:summon/veteran_zombie
-execute as @a[scores={rpgloot_dbg=4}] run function rpgloot:summon/elite_zombie
-execute as @a[scores={rpgloot_dbg=5}] run function rpgloot:summon/champion_zombie
-execute as @a[scores={rpgloot_dbg=6}] run function rpgloot:summon/legendary_zombie
-execute as @a[scores={rpgloot_dbg=7}] run function rpgloot:summon/unique_zombie
-execute as @a[scores={rpgloot_dbg=8}] run loot give @s loot rpgloot:uncommon_items
-execute as @a[scores={rpgloot_dbg=9}] run loot give @s loot rpgloot:rare_items
-execute as @a[scores={rpgloot_dbg=10}] run loot give @s loot rpgloot:veryrare_items
-execute as @a[scores={rpgloot_dbg=11}] run loot give @s loot rpgloot:legendary_items
-execute as @a[scores={rpgloot_dbg=12}] run kill @e[type=!player,distance=..50]
-execute as @a[scores={rpgloot_dbg=13}] run kill @e[type=item,distance=..50]
-scoreboard players reset @a[scores={rpgloot_dbg=1..}] rpgloot_dbg
+# If a non-OP player types /trigger rpgloot_dbg in chat, open Debug Menu
+execute as @a[scores={rpgloot_dbg=0..}] run function rpgloot:debug
+scoreboard players reset @a[scores={rpgloot_dbg=0..}] rpgloot_dbg

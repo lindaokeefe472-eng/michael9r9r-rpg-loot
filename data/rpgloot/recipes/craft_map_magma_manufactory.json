@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "PCP",
+    "PMP"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "D": {
+      "item": "minecraft:blaze_powder"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "M": {
+      "item": "minecraft:map"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:custom_data": "{rpg_map:\"magma_manufactory\"}",
+      "minecraft:custom_name": "{\"text\": \"\\ud83d\\udcdc \\u5b9a\\u5411\\u5377\\u8f74\\uff1a\\u7194\\u5ca9\\u5de5\\u574a\", \"color\": \"gold\", \"italic\": false, \"bold\": true}",
+      "minecraft:lore": [
+        "{\"text\": \"\\u4e13\\u5c5e\\u5b9a\\u5411\\u5730\\u56fe\\uff0c\\u76f4\\u63a5\\u6807\\u8bb0\\u7194\\u5ca9\\u5de5\\u574a\\u5750\\u6807\", \"color\": \"gray\", \"italic\": false}"
+      ]
+    }
+  }
+}

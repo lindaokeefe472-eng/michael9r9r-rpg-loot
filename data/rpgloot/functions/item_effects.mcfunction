@@ -14,3 +14,22 @@ execute as @e[type=minecraft:item,nbt={item:{id:"minecraft:egg",components:{"min
 execute as @e[type=minecraft:item,nbt={item:{id:"minecraft:coal_block",components:{"minecraft:custom_name":'{"text":"Infernal Fuel"}'}}}] at @s run function rpgloot:sacrifices/infernal_fuel
 
 
+
+# Explorer Map Scroll Activations
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"dungeon_t1"}}}]}] at @s run function rpgloot:maps/activate_dungeon_t1
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"dungeon_t3"}}}]}] at @s run function rpgloot:maps/activate_dungeon_t3
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"ruins"}}}]}] at @s run function rpgloot:maps/activate_ruins
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"library"}}}]}] at @s run function rpgloot:maps/activate_library
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"sunken_ruins"}}}]}] at @s run function rpgloot:maps/activate_sunken_ruins
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"magma_manufactory"}}}]}] at @s run function rpgloot:maps/activate_magma_manufactory
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"catacombs"}}}]}] at @s run function rpgloot:maps/activate_catacombs
+execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{rpg_map:"buried_fortress"}}}]}] at @s run function rpgloot:maps/activate_buried_fortress
+
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"dungeon_t1"}}}}] at @s run function rpgloot:maps/activate_dungeon_t1_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"dungeon_t3"}}}}] at @s run function rpgloot:maps/activate_dungeon_t3_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"ruins"}}}}] at @s run function rpgloot:maps/activate_ruins_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"library"}}}}] at @s run function rpgloot:maps/activate_library_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"sunken_ruins"}}}}] at @s run function rpgloot:maps/activate_sunken_ruins_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"magma_manufactory"}}}}] at @s run function rpgloot:maps/activate_magma_manufactory_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"catacombs"}}}}] at @s run function rpgloot:maps/activate_catacombs_dropped
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"buried_fortress"}}}}] at @s run function rpgloot:maps/activate_buried_fortress_dropped

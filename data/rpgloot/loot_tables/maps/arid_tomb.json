@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "rpgloot:arid_tomb",
+              "map_decoration": "target_x",
+              "zoom": 2,
+              "search_radius": 100,
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "📜 藏宝图：干旱陵墓",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

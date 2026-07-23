@@ -180,6 +180,8 @@ def run_headless_server_e2e_test():
             time.sleep(1.0)
             send_command("function rpgloot:locate/alpha_castle")
             time.sleep(1.0)
+            send_command("function rpgloot:events/determine_event")
+            time.sleep(1.0)
             
             # Test 3: Summon Veteran Zombie
             send_command("execute in minecraft:overworld run function rpgloot:summon/veteran_zombie")

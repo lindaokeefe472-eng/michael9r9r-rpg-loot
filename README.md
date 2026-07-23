@@ -322,5 +322,6 @@ We've got a massive update here folks! The entire Data Pack has been fully moder
 - 📚 **[WIKI.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/WIKI.md)**: **【RPG Loot 权威百科全书】** 全 BOSS 召唤/技能/掉落物表，全传说/独特神器技能机制图鉴，副本地下城生成与全仪式指南。
 - 🎮 **[GAMEPLAY_TUTORIAL.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/GAMEPLAY_TUTORIAL.md)**: Full Gameplay Manual & Quick Start Guide.
 - ⚙️ **[SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md)**: Technical specification & 1.19 -> 1.21.4 engine upgrade blueprint.
+- 🛠️ **[DEVELOPER_GUIDE.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/DEVELOPER_GUIDE.md)**: **【开发者维护与二次开发指南】** 修改爆率、新增武器技能特效/工具类型、添加怪物等级与 MC 26.2+ 引擎避坑 SOP。
 
 - 📦 **[GitHub Release v26.2.11-CONTENT-UPDATE](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.11-CONTENT-UPDATE)**: Direct ZIP downloads for Data Pack and Translation Resource Pack.

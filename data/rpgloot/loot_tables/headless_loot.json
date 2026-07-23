@@ -9,7 +9,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:experience_bottle"
+          "name": "minecraft:experience_bottle",
+          "functions": []
         }
       ]
     },
@@ -24,19 +25,22 @@
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "value": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "value": "rpgloot:veryrare_items"
+          "value": "rpgloot:veryrare_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "value": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items",
+          "functions": []
         },
         {
           "type": "minecraft:item",
@@ -108,13 +112,12 @@
               ]
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:smite": 10,
-                  "minecraft:fire_aspect": 2
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:smite": 10,
+                "minecraft:fire_aspect": 2
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",
@@ -242,13 +245,12 @@
               }
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:protection": 4,
-                  "minecraft:binding_curse": 1
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4,
+                "minecraft:binding_curse": 1
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",

@@ -51,19 +51,22 @@
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "value": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "value": "rpgloot:veryrare_items"
+          "value": "rpgloot:veryrare_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "value": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items",
+          "functions": []
         },
         {
           "type": "minecraft:item",
@@ -122,7 +125,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sver\u00f0i V\u00edkinga",
+                "text": "Sverði Víkinga",
                 "color": "gold"
               }
             },
@@ -137,12 +140,11 @@
               "tag": "{Age:-32768}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:looting": 5
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:looting": 5
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",
@@ -215,7 +217,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Bl\u00f3\u00f0\u00f6rn",
+                "text": "Blóðörn",
                 "color": "gold"
               }
             },
@@ -368,24 +370,22 @@
               "tag": "{Age:-32768}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:fire_protection": 5
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fire_protection": 5
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": "{lvl:5}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:respiration": 1
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:respiration": 1
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",
@@ -518,7 +518,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Skj\u00f6ldr af M\u00e6tti",
+                "text": "Skjöldr af Mætti",
                 "color": "gold"
               }
             },

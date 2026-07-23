@@ -2063,16 +2063,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 5,
                 "max": 15
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         }

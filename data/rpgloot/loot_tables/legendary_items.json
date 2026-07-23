@@ -70,16 +70,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 45,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -146,16 +146,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -222,16 +222,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 64,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -298,16 +298,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -374,16 +374,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 10,
                 "max": 28
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -450,16 +450,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 45,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -526,16 +526,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -602,16 +602,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 64,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -678,16 +678,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -754,16 +754,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 10,
                 "max": 28
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -830,16 +830,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -1003,10 +1003,6 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{ember:1}"
-            },
-            {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:infinity"
@@ -1032,7 +1028,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
+              "tag": "{ember:1,Age:-32768}"
             }
           ]
         },
@@ -1074,14 +1070,6 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{maelstrom:1}"
-            },
-            {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:multishot"
@@ -1092,6 +1080,10 @@
               "enchantments": [
                 "minecraft:quick_charge"
               ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768,maelstrom:1}"
             }
           ]
         },
@@ -1129,30 +1121,21 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{javelin:1}"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:piercing": 10
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{lvl:10}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:piercing": 10
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly",
               "enchantments": [
                 "minecraft:quick_charge"
               ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768,javelin:1,lvl:10}"
             }
           ]
         },
@@ -1219,24 +1202,11 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:fortune": 4
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{lvl:4}"
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{bounty:1}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:fortune": 4
+              },
+              "add": false
             },
             {
               "function": "minecraft:enchant_randomly",
@@ -1249,6 +1219,10 @@
               "enchantments": [
                 "minecraft:efficiency"
               ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768,lvl:4,bounty:1}"
             }
           ]
         },
@@ -1315,24 +1289,15 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 7
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{coresplitter:1}"
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:efficiency": 7
-                }
-              }
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{lvl:7}"
+              "tag": "{Age:-32768,coresplitter:1,lvl:7}"
             }
           ]
         },
@@ -1460,11 +1425,7 @@
             },
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{bulwark:1}"
+              "tag": "{Age:-32768,bulwark:1}"
             }
           ]
         },
@@ -1579,16 +1540,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 45,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -1703,16 +1664,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 45,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -1827,16 +1788,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 45,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -1951,16 +1912,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 45,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2099,16 +2060,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2247,16 +2208,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2395,16 +2356,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2543,16 +2504,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2679,16 +2640,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 64,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2815,16 +2776,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 64,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -2951,16 +2912,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 64,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3087,16 +3048,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 64,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3235,16 +3196,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3383,16 +3344,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3531,16 +3492,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3679,16 +3640,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3827,16 +3788,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -3975,16 +3936,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -4267,16 +4228,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 64
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         },
@@ -4718,16 +4679,16 @@
               }
             },
             {
-              "function": "minecraft:set_custom_data",
-              "tag": "{Age:-32768}"
-            },
-            {
               "function": "minecraft:enchant_with_levels",
               "treasure": true,
               "levels": {
                 "min": 40,
                 "max": 60
               }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Age:-32768}"
             }
           ]
         }

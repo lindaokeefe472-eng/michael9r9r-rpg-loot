@@ -51,25 +51,29 @@
           "type": "minecraft:loot_table",
           "weight": 1000,
           "quality": 0,
-          "value": "rpgloot:uncommon_items"
+          "value": "rpgloot:uncommon_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 400,
           "quality": 1,
-          "value": "rpgloot:rare_items"
+          "value": "rpgloot:rare_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 100,
           "quality": 3,
-          "value": "rpgloot:veryrare_items"
+          "value": "rpgloot:veryrare_items",
+          "functions": []
         },
         {
           "type": "minecraft:loot_table",
           "weight": 10,
           "quality": 5,
-          "value": "rpgloot:legendary_items"
+          "value": "rpgloot:legendary_items",
+          "functions": []
         },
         {
           "type": "minecraft:item",
@@ -200,7 +204,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "N\u00e1razu",
+                "text": "Nárazu",
                 "color": "gold"
               }
             },
@@ -215,12 +219,11 @@
               "tag": "{Age:-32768}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:feather_falling": 10
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 10
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",
@@ -407,12 +410,11 @@
               "tag": "{Age:-32768}"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:knockback": 10
-                }
-              }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": 10
+              },
+              "add": false
             },
             {
               "function": "minecraft:set_custom_data",

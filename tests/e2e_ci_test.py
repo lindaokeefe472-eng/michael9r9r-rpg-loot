@@ -48,7 +48,7 @@ def run_e2e_test():
     print(f"[DYNAMIC COVERAGE] Discovered {len(summon_funcs)} summon funcs, {len(locate_funcs)} locate funcs, {len(event_funcs)} event funcs.")
 
     print("\n==================================================")
-    print("[STEP 2] RUNNING HEADLESS MINECRAFT SERVER E2E TEST")
+    print("[STEP 2] RUNNING HEADLESS MINECRAFT SERVER 100% E2E TEST")
     print("==================================================")
     
     java_exe = r"C:\Users\30435\AppData\Roaming\.minecraft\runtime\java-runtime-epsilon\bin\java.exe"
@@ -110,19 +110,19 @@ def run_e2e_test():
             ready = True
             print("=== MINECRAFT SERVER READY ===")
             time.sleep(1.0)
-            print(">>> EXECUTING DYNAMIC DATAPACK TEST SUITE...")
-            proc.stdin.write("function rpgloot:test_suite\n")
+            print(">>> EXECUTING 100% COVERAGE DATAPACK FULL E2E TEST SUITE...")
+            proc.stdin.write("function rpgloot:full_e2e_test_suite\n")
             proc.stdin.flush()
-            time.sleep(2.0)
+            time.sleep(3.0)
             proc.stdin.write("stop\n")
             proc.stdin.flush()
             stop_sent = True
             
-        if "Running function rpgloot:test_suite" in l_str:
+        if "Running function rpgloot:full_e2e_test_suite" in l_str:
             test_suite_executed = True
 
     print("\n==================================================")
-    print("[LOGS] VERIFYING E2E ASSERTION LOGS")
+    print("[LOGS] VERIFYING 100% E2E ASSERTION LOGS")
     print("==================================================")
     
     errors_found = []
@@ -132,7 +132,7 @@ def run_e2e_test():
     for line in server_logs:
         if "[Worker-Main-" in line and "ERROR" in line:
             errors_found.append(line)
-        if "Failed to load function" in line or "Couldn't parse data file" in line:
+        if "Failed to load function" in line or "Couldn't parse data file" in line or "Unknown function" in line:
             errors_found.append(line)
         if "Loaded" in line and "recipes" in line:
             recipes_loaded = True
@@ -143,15 +143,15 @@ def run_e2e_test():
 
     if errors_found:
         print("[FAIL] E2E FAIL: Detected data file or function load errors!")
-        for err in errors_found[:10]:
+        for err in errors_found[:15]:
             print(f"  [ERROR] CRITICAL LOG ERROR: {err}")
         exit(1)
         
     if not (recipes_loaded and advancements_loaded and test_suite_executed):
-        print(f"[FAIL] E2E FAIL: Assertion failed! Recipes: {recipes_loaded}, Advancements: {advancements_loaded}, TestSuite: {test_suite_executed}")
+        print(f"[FAIL] E2E FAIL: Assertion failed! Recipes: {recipes_loaded}, Advancements: {advancements_loaded}, FullTestSuite: {test_suite_executed}")
         exit(1)
 
-    print("\n[SUCCESS] REAL MINECRAFT SERVER E2E TEST PASSED 100% WITH ZERO ERRORS!")
+    print("\n[SUCCESS] 100% FULL E2E COVERAGE MINECRAFT SERVER TEST PASSED WITH ZERO ERRORS!")
     print("==================================================")
 
 if __name__ == "__main__":

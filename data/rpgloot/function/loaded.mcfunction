@@ -84,3 +84,7 @@ scoreboard objectives add rpgloot_dbg trigger
 
 scoreboard players enable @a rpgloot_opt
 scoreboard players enable @a rpgloot_dbg
+
+# RPG Help Triggers
+scoreboard objectives add rpg_help trigger
+scoreboard objectives add rpg_recipes trigger

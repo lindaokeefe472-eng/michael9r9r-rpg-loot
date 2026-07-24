@@ -1,3 +1,27 @@
+# Self-healing trigger objective initialization (Guarantees zero 'Unknown objective' errors)
+scoreboard objectives add rpg_help trigger
+scoreboard objectives add rpg_recipes trigger
+scoreboard objectives add guide trigger
+scoreboard objectives add stats trigger
+scoreboard objectives add rpgloot_opt trigger
+scoreboard objectives add rpgloot_dbg trigger
+
+scoreboard players enable @a rpg_help
+scoreboard players enable @a rpg_recipes
+scoreboard players enable @a guide
+scoreboard players enable @a stats
+scoreboard players enable @a rpgloot_opt
+scoreboard players enable @a rpgloot_dbg
+
+# Dispatch triggers
+execute as @a[scores={rpg_help=1..}] run function rpgloot:guide
+execute as @a[scores={guide=1..}] run function rpgloot:guide
+execute as @a[scores={rpg_recipes=1..}] run function rpgloot:show_recipes
+
+scoreboard players set @a[scores={rpg_help=1..}] rpg_help 0
+scoreboard players set @a[scores={guide=1..}] guide 0
+scoreboard players set @a[scores={rpg_recipes=1..}] rpg_recipes 0
+
 # Ensure 100% RPG Mob Spawning is ALWAYS active automatically on any world load
 execute unless score mob_setting mobset matches 1.. run scoreboard players set mob_setting mobset 1
 execute unless score rpgloot boss_chance matches 1.. run scoreboard players set rpgloot boss_chance 100
@@ -40,3 +64,18 @@ execute as @e[tag=rpgloot.painelemental] at @s run bossbar set rpgloot.paineleme
 # Debug menu dispatching
 
 # Set processed debug trigger score to -1 and re-enable
+
+# Always enable trigger objectives for all non-OP survival players every tick
+scoreboard players enable @a rpg_help
+scoreboard players enable @a rpg_recipes
+scoreboard players enable @a guide
+scoreboard players enable @a stats
+
+# Dispatch triggers
+execute as @a[scores={rpg_help=1..}] run function rpgloot:guide
+execute as @a[scores={guide=1..}] run function rpgloot:guide
+execute as @a[scores={rpg_recipes=1..}] run function rpgloot:show_recipes
+
+scoreboard players set @a[scores={rpg_help=1..}] rpg_help 0
+scoreboard players set @a[scores={guide=1..}] guide 0
+scoreboard players set @a[scores={rpg_recipes=1..}] rpg_recipes 0

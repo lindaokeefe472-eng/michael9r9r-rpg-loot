@@ -1,0 +1,33 @@
+{
+  "parent": "rpgloot:craft_map",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "text": "⛏️ 远古掘客",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "使用铁砧改名 Ancient Excavator 成功召唤地下城副本。"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe",
+              "minecraft:netherite_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

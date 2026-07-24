@@ -40,3 +40,18 @@ execute as @e[tag=rpgloot.painelemental] at @s run bossbar set rpgloot.paineleme
 # Debug menu dispatching
 
 # Set processed debug trigger score to -1 and re-enable
+
+# Always enable trigger objectives for all non-OP survival players every tick
+scoreboard players enable @a rpg_help
+scoreboard players enable @a rpg_recipes
+scoreboard players enable @a guide
+scoreboard players enable @a stats
+
+# Dispatch triggers
+execute as @a[scores={rpg_help=1..}] run function rpgloot:guide
+execute as @a[scores={guide=1..}] run function rpgloot:guide
+execute as @a[scores={rpg_recipes=1..}] run function rpgloot:show_recipes
+
+scoreboard players set @a[scores={rpg_help=1..}] rpg_help 0
+scoreboard players set @a[scores={guide=1..}] guide 0
+scoreboard players set @a[scores={rpg_recipes=1..}] rpg_recipes 0

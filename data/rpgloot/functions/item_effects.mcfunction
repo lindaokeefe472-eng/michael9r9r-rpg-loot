@@ -33,3 +33,10 @@ execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data"
 execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"magma_manufactory"}}}}] at @s run function rpgloot:maps/activate_magma_manufactory_dropped
 execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"catacombs"}}}}] at @s run function rpgloot:maps/activate_catacombs_dropped
 execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{rpg_map:"buried_fortress"}}}}] at @s run function rpgloot:maps/activate_buried_fortress_dropped
+
+# Tick Set Bonuses & Loot Beams
+function rpgloot:set_bonuses
+function rpgloot:loot_beams
+
+# Reforge Rune Ritual (Item dropped near an Anvil or on ground)
+execute as @e[type=minecraft:item,nbt={item:{components:{"minecraft:custom_data":{reforge_rune:1b}}}}] at @s run function rpgloot:reforge

@@ -1,5 +1,5 @@
 
 scratch/
 *.jar
-
 *.zip
+build/

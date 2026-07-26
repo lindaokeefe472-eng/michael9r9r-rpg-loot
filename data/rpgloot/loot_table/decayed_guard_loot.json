@@ -83,9 +83,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Relic of Decayed Guard",
                 "color": "gold",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.relic_of_decayed_guard",
+                "fallback": "Relic of Decayed Guard"
               }
             },
             {

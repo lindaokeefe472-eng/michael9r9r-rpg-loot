@@ -59,8 +59,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Wooden Sword",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_wooden_sword",
+                "fallback": "Rare Wooden Sword"
               }
             },
             {
@@ -125,8 +126,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Stone Sword",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_stone_sword",
+                "fallback": "Rare Stone Sword"
               }
             },
             {
@@ -191,8 +193,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Golden Sword",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_golden_sword",
+                "fallback": "Rare Golden Sword"
               }
             },
             {
@@ -257,8 +260,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Iron Sword",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_iron_sword",
+                "fallback": "Rare Iron Sword"
               }
             },
             {
@@ -323,8 +327,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond Sword",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond_sword",
+                "fallback": "Rare Diamond Sword"
               }
             },
             {
@@ -389,8 +394,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Wooden Axe",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_wooden_axe",
+                "fallback": "Rare Wooden Axe"
               }
             },
             {
@@ -455,8 +461,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Stone Axe",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_stone_axe",
+                "fallback": "Rare Stone Axe"
               }
             },
             {
@@ -521,8 +528,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Golden Axe",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_golden_axe",
+                "fallback": "Rare Golden Axe"
               }
             },
             {
@@ -587,8 +595,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Iron Axe",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_iron_axe",
+                "fallback": "Rare Iron Axe"
               }
             },
             {
@@ -653,8 +662,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond Axe",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond_axe",
+                "fallback": "Rare Diamond Axe"
               }
             },
             {
@@ -718,8 +728,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Trident",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_trident",
+                "fallback": "Rare Trident"
               }
             },
             {
@@ -808,8 +819,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Shield",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_shield",
+                "fallback": "Rare Shield"
               }
             }
           ]
@@ -878,8 +890,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Leather Cap",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_leather_cap",
+                "fallback": "Rare Leather Cap"
               }
             },
             {
@@ -956,8 +969,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Leather Tunic",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_leather_tunic",
+                "fallback": "Rare Leather Tunic"
               }
             },
             {
@@ -1034,8 +1048,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Leather Pants",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_leather_pants",
+                "fallback": "Rare Leather Pants"
               }
             },
             {
@@ -1112,8 +1127,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Leather Boots",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_leather_boots",
+                "fallback": "Rare Leather Boots"
               }
             },
             {
@@ -1214,8 +1230,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Chainmail Helmet",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_chainmail_helmet",
+                "fallback": "Rare Chainmail Helmet"
               }
             },
             {
@@ -1316,8 +1333,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Chainmail Chestplate",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_chainmail_chestplate",
+                "fallback": "Rare Chainmail Chestplate"
               }
             },
             {
@@ -1418,8 +1436,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Chainmail Leggings",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_chainmail_leggings",
+                "fallback": "Rare Chainmail Leggings"
               }
             },
             {
@@ -1520,8 +1539,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Chainmail Boots",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_chainmail_boots",
+                "fallback": "Rare Chainmail Boots"
               }
             },
             {
@@ -1610,8 +1630,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Golden Helmet",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_golden_helmet",
+                "fallback": "Rare Golden Helmet"
               }
             },
             {
@@ -1700,8 +1721,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Golden Chestplate",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_golden_chestplate",
+                "fallback": "Rare Golden Chestplate"
               }
             },
             {
@@ -1790,8 +1812,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Golden Leggings",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_golden_leggings",
+                "fallback": "Rare Golden Leggings"
               }
             },
             {
@@ -1880,8 +1903,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Golden Boots",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_golden_boots",
+                "fallback": "Rare Golden Boots"
               }
             },
             {
@@ -1970,8 +1994,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Iron Helmet",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_iron_helmet",
+                "fallback": "Rare Iron Helmet"
               }
             },
             {
@@ -2060,8 +2085,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Iron Chestplate",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_iron_chestplate",
+                "fallback": "Rare Iron Chestplate"
               }
             },
             {
@@ -2150,8 +2176,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Iron Leggings",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_iron_leggings",
+                "fallback": "Rare Iron Leggings"
               }
             },
             {
@@ -2240,8 +2267,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Iron Boots",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_iron_boots",
+                "fallback": "Rare Iron Boots"
               }
             },
             {
@@ -2330,8 +2358,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond Helmet",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond_helmet",
+                "fallback": "Rare Diamond Helmet"
               }
             },
             {
@@ -2420,8 +2449,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond Chestplate",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond_chestplate",
+                "fallback": "Rare Diamond Chestplate"
               }
             },
             {
@@ -2510,8 +2540,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond Leggings",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond_leggings",
+                "fallback": "Rare Diamond Leggings"
               }
             },
             {
@@ -2600,8 +2631,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond Boots",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond_boots",
+                "fallback": "Rare Diamond Boots"
               }
             },
             {
@@ -2690,8 +2722,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Turtle Shell",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_turtle_shell",
+                "fallback": "Rare Turtle Shell"
               }
             },
             {
@@ -2768,8 +2801,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Totem of Undying",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_totem_of_undying",
+                "fallback": "Rare Totem of Undying"
               }
             }
           ]
@@ -2826,8 +2860,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Rabbit's Foot",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_rabbits_foot",
+                "fallback": "Rare Rabbit's Foot"
               }
             }
           ]
@@ -2884,8 +2919,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Quartz",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_quartz",
+                "fallback": "Rare Quartz"
               }
             }
           ]
@@ -2942,8 +2978,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Diamond",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_diamond",
+                "fallback": "Rare Diamond"
               }
             }
           ]
@@ -2987,8 +3024,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Rare Copper Sword",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.rare_copper_sword",
+                "fallback": "Rare Copper Sword"
               }
             },
             {

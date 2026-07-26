@@ -35,8 +35,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Potion of Vitality",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_potion_of_vitality",
+                "fallback": "Legendary Potion of Vitality"
               }
             },
             {
@@ -105,8 +106,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of the Stone Sentinel",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.potion_of_the_stone_sentinel",
+                "fallback": "Potion of the Stone Sentinel"
               }
             },
             {
@@ -190,8 +192,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Invulnerability Potion",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.invulnerability_potion",
+                "fallback": "Invulnerability Potion"
               }
             },
             {

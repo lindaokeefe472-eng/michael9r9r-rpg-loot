@@ -125,8 +125,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Crucible",
-                "color": "dark_red"
+                "color": "dark_red",
+                "translate": "rpgloot.item.crucible",
+                "fallback": "Crucible"
               }
             },
             {
@@ -193,8 +194,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Odysseys End",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.odysseys_end",
+                "fallback": "Odysseys End"
               }
             },
             {

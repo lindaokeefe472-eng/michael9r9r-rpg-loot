@@ -125,8 +125,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Cleaver",
-                "color": "dark_red"
+                "color": "dark_red",
+                "translate": "rpgloot.item.cleaver",
+                "fallback": "Cleaver"
               }
             },
             {
@@ -270,8 +271,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Flesh of the Devourer",
-                "color": "dark_red"
+                "color": "dark_red",
+                "translate": "rpgloot.item.flesh_of_the_devourer",
+                "fallback": "Flesh of the Devourer"
               }
             },
             {

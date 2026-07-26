@@ -20,10 +20,11 @@
               "function": "minecraft:set_name",
               "target": "custom_name",
               "name": {
-                "text": "📜 藏宝图：熔岩工坊",
                 "color": "gold",
                 "italic": false,
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.map_magma_manufactory",
+                "fallback": "📜 藏宝图：熔岩工坊"
               }
             }
           ]

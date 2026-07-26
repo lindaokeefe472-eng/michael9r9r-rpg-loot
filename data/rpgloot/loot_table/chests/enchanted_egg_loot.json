@@ -11,8 +11,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Golden egg",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.golden_egg",
+                "fallback": "Golden egg"
               }
             },
             {

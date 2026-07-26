@@ -194,8 +194,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Vitality",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.vitality",
+                "fallback": "Vitality"
               }
             },
             {
@@ -287,8 +288,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Kriegsmesser of Dread",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.kriegsmesser_of_dread",
+                "fallback": "Kriegsmesser of Dread"
               }
             },
             {
@@ -428,8 +430,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Cerulean Chitin",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.cerulean_chitin",
+                "fallback": "Cerulean Chitin"
               }
             },
             {

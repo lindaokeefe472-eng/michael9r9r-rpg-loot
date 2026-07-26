@@ -35,8 +35,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of Greater Healing",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.potion_of_greater_healing",
+                "fallback": "Potion of Greater Healing"
               }
             },
             {
@@ -93,8 +94,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of Hill Giant Strength",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.potion_of_hill_giant_strength",
+                "fallback": "Potion of Hill Giant Strength"
               }
             },
             {
@@ -151,8 +153,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Lesser Potion of Vitality",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.lesser_potion_of_vitality",
+                "fallback": "Lesser Potion of Vitality"
               }
             },
             {
@@ -221,8 +224,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of the Night Strider",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.potion_of_the_night_strider",
+                "fallback": "Potion of the Night Strider"
               }
             },
             {
@@ -291,8 +295,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Obsidian Skin Potion",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.obsidian_skin_potion",
+                "fallback": "Obsidian Skin Potion"
               }
             },
             {
@@ -361,8 +366,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Splash Potion of Vitality",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.splash_potion_of_vitality",
+                "fallback": "Splash Potion of Vitality"
               }
             },
             {
@@ -426,8 +432,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Splash Potion of Freezing",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.splash_potion_of_freezing",
+                "fallback": "Splash Potion of Freezing"
               }
             },
             {
@@ -491,8 +498,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Indefatigable Potion",
-                "color": "blue"
+                "color": "blue",
+                "translate": "rpgloot.item.indefatigable_potion",
+                "fallback": "Indefatigable Potion"
               }
             },
             {

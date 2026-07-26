@@ -35,8 +35,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Vial of the Crimson Rite",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.vial_of_the_crimson_rite",
+                "fallback": "Vial of the Crimson Rite"
               }
             },
             {
@@ -100,8 +101,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Ironskin Potion",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.ironskin_potion",
+                "fallback": "Ironskin Potion"
               }
             },
             {
@@ -165,8 +167,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of Shielding",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.potion_of_shielding",
+                "fallback": "Potion of Shielding"
               }
             },
             {
@@ -223,8 +226,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of Dexterity",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.potion_of_dexterity",
+                "fallback": "Potion of Dexterity"
               }
             },
             {
@@ -293,8 +297,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Charisma Elixer",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.charisma_elixer",
+                "fallback": "Charisma Elixer"
               }
             },
             {
@@ -358,8 +363,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Feather Fall Potion",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.feather_fall_potion",
+                "fallback": "Feather Fall Potion"
               }
             },
             {

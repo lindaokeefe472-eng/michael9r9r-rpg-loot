@@ -173,8 +173,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Aegis of Flame",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.aegis_of_flame",
+                "fallback": "Aegis of Flame"
               }
             },
             {
@@ -271,8 +272,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Radiance",
-                "color": "yellow"
+                "color": "yellow",
+                "translate": "rpgloot.item.radiance",
+                "fallback": "Radiance"
               }
             },
             {

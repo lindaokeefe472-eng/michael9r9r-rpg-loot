@@ -225,8 +225,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Scar Bearer",
-                "color": "dark_purple"
+                "color": "dark_purple",
+                "translate": "rpgloot.item.scar_bearer",
+                "fallback": "Scar Bearer"
               }
             }
           ]

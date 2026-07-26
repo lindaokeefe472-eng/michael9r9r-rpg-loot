@@ -122,8 +122,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Wrath of the Gods",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.wrath_of_the_gods",
+                "fallback": "Wrath of the Gods"
               }
             },
             {
@@ -250,8 +251,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Krános tis thálassas",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.kr_nos_tis_th_lassas",
+                "fallback": "Krános tis thálassas"
               }
             },
             {
@@ -412,8 +414,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Ηγεthία",
-                "color": "aqua"
+                "color": "aqua",
+                "translate": "rpgloot.item.th",
+                "fallback": "Ηγεthία"
               }
             },
             {

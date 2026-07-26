@@ -182,8 +182,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sentinels Ward",
-                "color": "yellow"
+                "color": "yellow",
+                "translate": "rpgloot.item.sentinels_ward",
+                "fallback": "Sentinels Ward"
               }
             },
             {
@@ -263,8 +264,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Windshredder",
-                "color": "yellow"
+                "color": "yellow",
+                "translate": "rpgloot.item.windshredder",
+                "fallback": "Windshredder"
               }
             },
             {

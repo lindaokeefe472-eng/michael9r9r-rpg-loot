@@ -197,8 +197,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Nárazu",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.n_razu",
+                "fallback": "Nárazu"
               }
             },
             {
@@ -325,8 +326,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Plague Sore",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.plague_sore",
+                "fallback": "Plague Sore"
               }
             }
           ]
@@ -388,8 +390,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Home Run",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.home_run",
+                "fallback": "Home Run"
               }
             },
             {

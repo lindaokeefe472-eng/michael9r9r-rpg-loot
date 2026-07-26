@@ -163,8 +163,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Slime Boots",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.slime_boots",
+                "fallback": "Slime Boots"
               }
             },
             {
@@ -259,8 +260,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Orb of Carlos",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.orb_of_carlos",
+                "fallback": "Orb of Carlos"
               }
             }
           ]
@@ -406,8 +408,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Helm of the Darkness Bringer",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.helm_of_the_darkness_bringer",
+                "fallback": "Helm of the Darkness Bringer"
               }
             },
             {

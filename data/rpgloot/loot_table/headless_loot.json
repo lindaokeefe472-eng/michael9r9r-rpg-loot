@@ -89,8 +89,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Death's Axe",
-                "color": "red"
+                "color": "red",
+                "translate": "rpgloot.item.deaths_axe",
+                "fallback": "Death's Axe"
               }
             },
             {
@@ -219,8 +220,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Haunted Pumpkin",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.haunted_pumpkin",
+                "fallback": "Haunted Pumpkin"
               }
             },
             {
@@ -281,8 +283,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Eternal Flame",
-                "color": "red"
+                "color": "red",
+                "translate": "rpgloot.item.eternal_flame",
+                "fallback": "Eternal Flame"
               }
             },
             {

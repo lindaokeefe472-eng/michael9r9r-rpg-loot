@@ -82,8 +82,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Alpha",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.alpha",
+                "fallback": "Alpha"
               }
             },
             {

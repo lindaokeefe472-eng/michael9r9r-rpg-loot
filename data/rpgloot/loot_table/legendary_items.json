@@ -59,8 +59,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Wooden Sword",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_wooden_sword",
+                "fallback": "Legendary Wooden Sword"
               }
             },
             {
@@ -135,8 +136,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Stone Sword",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_stone_sword",
+                "fallback": "Legendary Stone Sword"
               }
             },
             {
@@ -211,8 +213,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Golden Sword",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_golden_sword",
+                "fallback": "Legendary Golden Sword"
               }
             },
             {
@@ -287,8 +290,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Iron Sword",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_iron_sword",
+                "fallback": "Legendary Iron Sword"
               }
             },
             {
@@ -363,8 +367,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond Sword",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond_sword",
+                "fallback": "Legendary Diamond Sword"
               }
             },
             {
@@ -439,8 +444,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Wooden Axe",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_wooden_axe",
+                "fallback": "Legendary Wooden Axe"
               }
             },
             {
@@ -515,8 +521,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Stone Axe",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_stone_axe",
+                "fallback": "Legendary Stone Axe"
               }
             },
             {
@@ -591,8 +598,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Golden Axe",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_golden_axe",
+                "fallback": "Legendary Golden Axe"
               }
             },
             {
@@ -667,8 +675,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Iron Axe",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_iron_axe",
+                "fallback": "Legendary Iron Axe"
               }
             },
             {
@@ -743,8 +752,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond Axe",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond_axe",
+                "fallback": "Legendary Diamond Axe"
               }
             },
             {
@@ -819,8 +829,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Trident",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_trident",
+                "fallback": "Legendary Trident"
               }
             },
             {
@@ -955,8 +966,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Shield",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_shield",
+                "fallback": "Legendary Shield"
               }
             },
             {
@@ -998,8 +1010,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Ember",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.ember",
+                "fallback": "Ember"
               }
             },
             {
@@ -1059,8 +1072,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Maelstrom",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.maelstrom",
+                "fallback": "Maelstrom"
               }
             },
             {
@@ -1110,8 +1124,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Javelin",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.javelin",
+                "fallback": "Javelin"
               }
             },
             {
@@ -1191,8 +1206,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Bounty",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.bounty",
+                "fallback": "Bounty"
               }
             },
             {
@@ -1278,8 +1294,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Core Splitter",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.core_splitter",
+                "fallback": "Core Splitter"
               }
             },
             {
@@ -1413,8 +1430,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Bulwark",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.bulwark",
+                "fallback": "Bulwark"
               }
             },
             {
@@ -1529,8 +1547,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Leather Cap",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_leather_cap",
+                "fallback": "Legendary Leather Cap"
               }
             },
             {
@@ -1653,8 +1672,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Leather Tunic",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_leather_tunic",
+                "fallback": "Legendary Leather Tunic"
               }
             },
             {
@@ -1777,8 +1797,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Leather Pants",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_leather_pants",
+                "fallback": "Legendary Leather Pants"
               }
             },
             {
@@ -1901,8 +1922,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Leather Boots",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_leather_boots",
+                "fallback": "Legendary Leather Boots"
               }
             },
             {
@@ -2049,8 +2071,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Chainmail Helmet",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_chainmail_helmet",
+                "fallback": "Legendary Chainmail Helmet"
               }
             },
             {
@@ -2197,8 +2220,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Chainmail Chestplate",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_chainmail_chestplate",
+                "fallback": "Legendary Chainmail Chestplate"
               }
             },
             {
@@ -2345,8 +2369,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Chainmail Leggings",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_chainmail_leggings",
+                "fallback": "Legendary Chainmail Leggings"
               }
             },
             {
@@ -2493,8 +2518,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Chainmail Boots",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_chainmail_boots",
+                "fallback": "Legendary Chainmail Boots"
               }
             },
             {
@@ -2629,8 +2655,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Golden Helmet",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_golden_helmet",
+                "fallback": "Legendary Golden Helmet"
               }
             },
             {
@@ -2765,8 +2792,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Golden Chestplate",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_golden_chestplate",
+                "fallback": "Legendary Golden Chestplate"
               }
             },
             {
@@ -2901,8 +2929,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Golden Leggings",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_golden_leggings",
+                "fallback": "Legendary Golden Leggings"
               }
             },
             {
@@ -3037,8 +3066,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Golden Boots",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_golden_boots",
+                "fallback": "Legendary Golden Boots"
               }
             },
             {
@@ -3185,8 +3215,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Iron Helmet",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_iron_helmet",
+                "fallback": "Legendary Iron Helmet"
               }
             },
             {
@@ -3333,8 +3364,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Iron Chestplate",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_iron_chestplate",
+                "fallback": "Legendary Iron Chestplate"
               }
             },
             {
@@ -3481,8 +3513,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Iron Leggings",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_iron_leggings",
+                "fallback": "Legendary Iron Leggings"
               }
             },
             {
@@ -3629,8 +3662,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Iron Boots",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_iron_boots",
+                "fallback": "Legendary Iron Boots"
               }
             },
             {
@@ -3777,8 +3811,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond Helmet",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond_helmet",
+                "fallback": "Legendary Diamond Helmet"
               }
             },
             {
@@ -3925,8 +3960,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond Chestplate",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond_chestplate",
+                "fallback": "Legendary Diamond Chestplate"
               }
             },
             {
@@ -4073,8 +4109,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond Leggings",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond_leggings",
+                "fallback": "Legendary Diamond Leggings"
               }
             },
             {
@@ -4217,8 +4254,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond Boots",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond_boots",
+                "fallback": "Legendary Diamond Boots"
               }
             },
             {
@@ -4353,8 +4391,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Turtle Shell",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_turtle_shell",
+                "fallback": "Legendary Turtle Shell"
               }
             },
             {
@@ -4449,8 +4488,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Totem of Undying",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_totem_of_undying",
+                "fallback": "Legendary Totem of Undying"
               }
             }
           ]
@@ -4507,8 +4547,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Rabbit's Foot",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_rabbits_foot",
+                "fallback": "Legendary Rabbit's Foot"
               }
             }
           ]
@@ -4565,8 +4606,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Quartz",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_quartz",
+                "fallback": "Legendary Quartz"
               }
             }
           ]
@@ -4623,8 +4665,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Diamond",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_diamond",
+                "fallback": "Legendary Diamond"
               }
             }
           ]
@@ -4668,8 +4711,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Legendary Heavy Mace",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.legendary_heavy_mace",
+                "fallback": "Legendary Heavy Mace"
               }
             },
             {

@@ -35,8 +35,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Greater Potion of Vitality",
-                "color": "dark_purple"
+                "color": "dark_purple",
+                "translate": "rpgloot.item.greater_potion_of_vitality",
+                "fallback": "Greater Potion of Vitality"
               }
             },
             {
@@ -105,8 +106,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Potion of the Night Stalker",
-                "color": "dark_purple"
+                "color": "dark_purple",
+                "translate": "rpgloot.item.potion_of_the_night_stalker",
+                "fallback": "Potion of the Night Stalker"
               }
             },
             {
@@ -180,8 +182,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Atlantean Potion",
-                "color": "dark_purple"
+                "color": "dark_purple",
+                "translate": "rpgloot.item.atlantean_potion",
+                "fallback": "Atlantean Potion"
               }
             },
             {

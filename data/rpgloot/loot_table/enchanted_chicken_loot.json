@@ -61,9 +61,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Golden Feather of Swiftness",
                 "color": "yellow",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.golden_feather_of_swiftness",
+                "fallback": "Golden Feather of Swiftness"
               }
             },
             {

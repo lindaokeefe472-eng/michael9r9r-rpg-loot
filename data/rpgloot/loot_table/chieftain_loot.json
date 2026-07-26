@@ -46,7 +46,8 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "chieftainDeath"
+                "translate": "rpgloot.item.chieftaindeath",
+                "fallback": "chieftainDeath"
               }
             },
             {

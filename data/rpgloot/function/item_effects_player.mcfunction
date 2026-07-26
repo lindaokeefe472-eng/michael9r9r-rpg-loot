@@ -21,7 +21,8 @@ execute if entity @s[nbt={equipment:{mainhand:{components:{"minecraft:custom_dat
 execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{flameoffirehawk:1}}}}}] run effect give @s fire_resistance 3 0 true
 execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{beowulf:1}}}}}] run effect give @s dolphins_grace 3 0 true
 execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{slimeboots:1}}}}}] run effect give @s jump_boost 3 1 true
+execute if entity @s[nbt={equipment:{feet:{components:{"minecraft:custom_data":{slimeboots:1}}}}}] run effect give @s speed 3 1 true
 execute if entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data":{killerrabbitfoot:1}}}}}] run effect give @s jump_boost 3 1 true
 
 execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{finalflight:1}}}}}] run effect give @s strength 3 1 true
-execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{ribcageofhades:1}}}}}] run effect give @e[distance=..8,type=#rpgloot:normal_and_nether_mobs] wither 12 0 true 
+execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{ribcageofhades:1}}}}}] run effect give @e[distance=..8,type=#rpgloot:normal_and_nether_mobs] wither 12 0 true

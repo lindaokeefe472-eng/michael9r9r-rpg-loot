@@ -1,4 +1,4 @@
-name: RPG Loot Data Pack CI/CD & E2E Testing Pipeline
+name: RPG Loot Data Pack CI
 
 on:
   push:
@@ -7,36 +7,31 @@ on:
     branches: [ "main" ]
 
 jobs:
-  e2e-test-and-package:
+  static-verification:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
 
-    - name: Set up JDK 21
-      uses: actions/setup-java@v4
-      with:
-        java-version: '21'
-        distribution: 'temurin'
-
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
-    - name: Run Headless MC Server E2E Integration Suite
-      run: |
-        python tests/e2e_ci_test.py
+    - name: Deep Verification (JSON syntax + cross-reference integrity)
+      run: python tests/deep_verification.py
 
-    - name: Package Data Pack Artifact
-      if: success()
-      run: |
-        mkdir -p build
-        zip -r build/michael9r9r-rpg-loot-datapack-v26.2.12.zip data/ pack.mcmeta
+    - name: Package Release Artifacts (all version targets)
+      run: python tools/package.py --all
 
     - name: Upload Build Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: michael9r9r-rpg-loot-datapack-v26.2.12
-        path: build/michael9r9r-rpg-loot-datapack-v26.2.12.zip
+        name: rpg-loot-release-zips
+        path: build/*.zip
+
+  # Runtime verification (real servers) is run locally per target:
+  #   python tools/verify_target.py --target 26.2
+  #   python tools/verify_target.py --target 1.21.4
+  # Server jars are mapped in tools/servers.json. See MAINTENANCE.md.

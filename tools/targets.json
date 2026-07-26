@@ -1,0 +1,40 @@
+{
+  "_comment": "多版本发布目标矩阵。源码树是 26.2 原生语法;其他目标在构建期由 transforms 变换生成。verified=true 表示有真实服务器 E2E 覆盖。",
+  "targets": {
+    "26.2": {
+      "label": "Minecraft 26.2+",
+      "pack_format": 107,
+      "supported_formats": { "min_inclusive": 107, "max_inclusive": 999 },
+      "transforms": [],
+      "verified": true
+    },
+    "1.21.9": {
+      "label": "Minecraft 1.21.9 - 1.21.10 (Copper Age)",
+      "pack_format": 88,
+      "supported_formats": { "min_inclusive": 88, "max_inclusive": 106 },
+      "transforms": ["time_query_daytime"],
+      "verified": false
+    },
+    "1.21.5": {
+      "label": "Minecraft 1.21.5 - 1.21.8",
+      "pack_format": 71,
+      "supported_formats": { "min_inclusive": 71, "max_inclusive": 87 },
+      "transforms": ["time_query_daytime", "strip_copper_items"],
+      "verified": false
+    },
+    "1.21.4": {
+      "label": "Minecraft 1.21 - 1.21.4",
+      "pack_format": 61,
+      "supported_formats": { "min_inclusive": 48, "max_inclusive": 70 },
+      "transforms": [
+        "time_query_daytime",
+        "strip_copper_items",
+        "legacy_book_pages",
+        "legacy_text_events",
+        "stringify_customname",
+        "legacy_snbt_escapes"
+      ],
+      "verified": true
+    }
+  }
+}

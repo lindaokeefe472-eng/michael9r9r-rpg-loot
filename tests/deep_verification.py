@@ -1,6 +1,7 @@
 import os, json, re
 
-data_dir = r"D:/game/mc/michael9r9r-s-rpg-loot-v1-15/data"
+import pathlib
+data_dir = str(pathlib.Path(__file__).resolve().parent.parent / "data")
 
 print("==========================================")
 print("     RPG LOOT DEEP VERIFICATION SUITE     ")

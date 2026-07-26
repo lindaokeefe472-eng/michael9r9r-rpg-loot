@@ -6,21 +6,17 @@ import time
 import shutil
 from pathlib import Path
 
-ROOT = Path(r"D:/game/mc/michael9r9r-s-rpg-loot-v1-15")
+ROOT = Path(__file__).resolve().parent.parent
 TEST_SERVER_DIR = ROOT / "scratch/e2e_server_test"
-FUNC_DIR = ROOT / "data/rpgloot/functions"
+FUNC_DIR = ROOT / "data/rpgloot/function"
 
 def run_e2e_test():
     print("==================================================")
     print("[STEP 1] DYNAMIC ASSET & JSON VALIDATION")
     print("==================================================")
     
-    # 1. Kill lingering java processes if any
-    try:
-        subprocess.run(["taskkill", "/F", "/IM", "java.exe"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        time.sleep(1.0)
-    except Exception:
-        pass
+    # NOTE: no global java taskkill here - it used to kill every Java process on
+    # the machine (IDEs included). Stop stray test servers manually if needed.
 
     # 2. Validate all JSON syntax dynamically
     json_files = list(ROOT.rglob("*.json"))
@@ -51,7 +47,9 @@ def run_e2e_test():
     print("[STEP 2] RUNNING HEADLESS MINECRAFT SERVER E2E TEST")
     print("==================================================")
     
-    java_exe = r"C:\Users\30435\AppData\Roaming\.minecraft\runtime\java-runtime-epsilon\bin\java.exe"
+    java_exe = os.environ.get("RPGLOOT_JAVA", r"C:\Users\30435\AppData\Roaming\.minecraft\runtime\java-runtime-epsilon\bin\java.exe")
+    if not Path(java_exe).exists():
+        java_exe = "java"
     server_jar = TEST_SERVER_DIR / "server.jar"
     
     # Clean world datapacks & lock

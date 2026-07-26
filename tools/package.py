@@ -51,8 +51,13 @@ def load_tree():
 
 def set_pack_format(tree, target_def, target_name):
     meta = json.loads(tree["pack.mcmeta"])
+    fmt = target_def["supported_formats"]
+    # legacy fields (read by <=1.21.x) and modern fields (required by 26.x UI)
+    # coexist: each generation of the game ignores the other's keys.
     meta["pack"]["pack_format"] = target_def["pack_format"]
-    meta["pack"]["supported_formats"] = target_def["supported_formats"]
+    meta["pack"]["supported_formats"] = fmt
+    meta["pack"]["min_format"] = fmt["min_inclusive"]
+    meta["pack"]["max_format"] = fmt["max_inclusive"]
     meta["pack"]["description"] = f"michael9r9r's RPG Loot (for {target_def['label']})"
     tree["pack.mcmeta"] = json.dumps(meta, indent=2, ensure_ascii=False) + "\n"
     return tree

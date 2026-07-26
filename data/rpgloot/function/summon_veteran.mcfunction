@@ -17,5 +17,5 @@ execute if entity @s[type=ghast] at @s run function rpgloot:summon/veteran_ghast
 execute if entity @s[type=phantom] at @s run function rpgloot:summon/veteran_zombie
 execute if entity @s[type=silverfish] at @s run function rpgloot:summon/veteran_spider
 execute if entity @s[type=slime] at @s run function rpgloot:summon/veteran_zombie
-execute unless entity @s[type=creeper] unless entity @s[type=witch] unless entity @s[type=zombie] unless entity @s[type=husk] unless entity @s[type=skeleton] unless entity @s[type=stray] unless entity @s[type=spider] unless entity @s[type=enderman] at @s run function rpgloot:summon/veteran_zombie
+execute unless entity @s[type=creeper] unless entity @s[type=witch] unless entity @s[type=zombie] unless entity @s[type=husk] unless entity @s[type=drowned] unless entity @s[type=zombie_villager] unless entity @s[type=skeleton] unless entity @s[type=stray] unless entity @s[type=spider] unless entity @s[type=cave_spider] unless entity @s[type=wither_skeleton] unless entity @s[type=enderman] unless entity @s[type=blaze] unless entity @s[type=ghast] unless entity @s[type=phantom] unless entity @s[type=silverfish] unless entity @s[type=slime] at @s run function rpgloot:summon/veteran_zombie
 tp @s ~ -500 ~

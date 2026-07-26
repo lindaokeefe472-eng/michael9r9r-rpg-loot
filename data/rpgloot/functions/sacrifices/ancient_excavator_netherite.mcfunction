@@ -1,3 +1,0 @@
-function rpgloot:generate_structure_netherite
-summon minecraft:lightning_bolt ~ ~ ~
-kill @e[type=minecraft:item,nbt={item:{id:"minecraft:netherite_pickaxe",components:{"minecraft:custom_name":'{"text":"Ancient Excavator"}'}}}] 

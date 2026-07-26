@@ -1,10 +1,14 @@
 ##Called from 5tics
 #run every 5 ticks the tagged enemy is present
+# NOTE: applies effects directly instead of legacy area_effect_cloud NBT
+#       (AEC Particle/Potion/Effects fields were removed in MC 1.20.5+ and silently did nothing)
 
-execute at @e[tag=wraith] at @p[distance=0..25] run summon area_effect_cloud ~ ~1 ~ {Particle:smoke,Radius:1f,RadiusPerTick:-0.05f,Duration:20,Effects:[{id:"minecraft:slowness",amplifier:0,duration:20,show_particles:0b},{id:"minecraft:wither",amplifier:1,duration:100}]}
-execute at @e[tag=rpgloot.spider] at @p[distance=0..3] run summon area_effect_cloud ~ ~ ~ {Particle:spell,Radius:1f,RadiusPerTick:-0.05f,Duration:20,Potion:"minecraft:poison"}
-execute at @e[tag=rpgloot.plagueswarm] at @p[distance=0..3] run summon area_effect_cloud ~ ~ ~ {Particle:spell,Radius:1f,RadiusPerTick:-0.05f,Duration:20,Potion:"minecraft:slowness"}
-execute at @e[tag=rpgloot.flare] at @p[distance=0..5] run data merge entity @p[distance=0..5] {Fire:20}
-execute as @e[tag=rpgloot.spore] at @e[tag=rpgloot.spore] run effect give @p[distance=0..16] blindness 5
+execute at @e[tag=wraith] as @a[distance=..25] run effect give @s slowness 1 0 true
+execute at @e[tag=wraith] as @a[distance=..25] run effect give @s wither 5 1 true
+execute at @e[tag=wraith] as @a[distance=..25] at @s run particle minecraft:smoke ~ ~1 ~ 0.4 0.6 0.4 0.02 6
 
-#execute at @e[tag=painelemental.ghastball] run function rpgloot:bosses/pain_elemental_summons
+execute at @e[tag=rpgloot.spider] as @a[distance=..3] run effect give @s poison 5 0 true
+execute at @e[tag=rpgloot.plagueswarm] as @a[distance=..3] run effect give @s slowness 5 0 true
+
+execute at @e[tag=rpgloot.flare] as @a[distance=..2] run damage @s 2 minecraft:on_fire
+execute as @e[tag=rpgloot.spore] at @s run effect give @a[distance=..16] blindness 5 0 true

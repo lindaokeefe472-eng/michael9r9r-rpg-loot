@@ -8,6 +8,7 @@ execute at @e[type=trident,tag=lightningTrident] run summon lightning_bolt
 
 schedule function rpgloot:1second 1s replace
 
+execute at @e[tag=rpgloot.painelemental] as @e[type=fireball,distance=..80,tag=!painelemental.ghastball] run tag @s add painelemental.ghastball
 execute at @e[tag=painelemental.ghastball] run function rpgloot:bosses/pain_elemental_summon_check
 # World Random Events Timer (Triggers event check when enabled in options)
 execute if score rpgloot eventset matches 1 run scoreboard players add rpgloot event_timer 1

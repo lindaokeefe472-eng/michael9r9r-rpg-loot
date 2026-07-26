@@ -26,3 +26,5 @@ execute if entity @s[nbt={equipment:{offhand:{components:{"minecraft:custom_data
 
 execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{finalflight:1}}}}}] run effect give @s strength 3 1 true
 execute if entity @s[nbt={equipment:{chest:{components:{"minecraft:custom_data":{ribcageofhades:1}}}}}] run effect give @e[distance=..8,type=#rpgloot:normal_and_nether_mobs] wither 12 0 true
+
+execute if entity @s[nbt={equipment:{head:{components:{"minecraft:custom_data":{carloshelm:1}}}}}] run effect give @s absorption 10 0 true

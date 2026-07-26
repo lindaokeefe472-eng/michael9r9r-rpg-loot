@@ -17,6 +17,8 @@ execute as @e[type=blaze,tag=!rpgloot.boss,tag=!rpgloot.valid_mob] at @s run fun
 execute as @e[type=ghast,tag=!rpgloot.boss,tag=!rpgloot.valid_mob] at @s run function rpgloot:try_transform_mob
 execute as @e[type=slime,tag=!rpgloot.boss,tag=!rpgloot.valid_mob] at @s run function rpgloot:try_transform_mob
 execute as @e[type=phantom,tag=!rpgloot.boss,tag=!rpgloot.valid_mob] at @s run function rpgloot:try_transform_mob
+execute as @e[type=enderman,tag=!rpgloot.boss,tag=!rpgloot.valid_mob] at @s run function rpgloot:try_transform_mob
+execute as @e[type=silverfish,tag=!rpgloot.boss,tag=!rpgloot.valid_mob] at @s run function rpgloot:try_transform_mob
 
 schedule function rpgloot:5tics 5t replace
 

@@ -1,4 +1,4 @@
-tag @a remove rpgloot_welcomed
+# (welcome tag intentionally persists across /reload so players are only greeted once)
 
 #Scheduling
 schedule function rpgloot:5tics 5t replace
@@ -40,6 +40,7 @@ scoreboard objectives add constants dummy
 scoreboard objectives add count dummy
 scoreboard objectives add timeofday dummy
 scoreboard objectives add currentevent dummy
+scoreboard objectives add event_timer dummy
 
 scoreboard objectives add rpgloot.rng dummy
 scoreboard objectives add boss_chance dummy
@@ -73,6 +74,9 @@ scoreboard objectives add FB_z2 dummy
 
 # AUTO-INITIALIZE DEFAULT SETTINGS ON LOAD
 scoreboard players set rpgloot0 constants 0
+scoreboard players set rpgloot10 constants 10
+scoreboard players set rpgloot14000 constants 14000
+scoreboard players set rpgloot24000 constants 24000
 function rpgloot:options/default
 
 # AUTO-GIVE BOOK & WELCOME ALL ONLINE PLAYERS

@@ -1,4 +1,0 @@
-tellraw @a {"text":"What a price to pay, for a soul to slay.","color":"red"}
-function rpgloot:summon/summon_veteran_sacrifice
-summon minecraft:lightning_bolt ~ ~ ~
-kill @e[type=minecraft:item,nbt={item:{id:"minecraft:crying_obsidian",components:{"minecraft:custom_name":'{"text":"Sacrifice"}'}}}] 

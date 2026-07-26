@@ -76,7 +76,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": "{Tags:[\"rpgloot.boss\"]}"
+                "nbt": "{Tags:[\"rpgloot.veteran\"]}"
               }
             }
           ]

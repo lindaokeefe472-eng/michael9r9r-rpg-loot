@@ -1,1 +1,0 @@
-summon minecraft:vindicator ~ ~ ~ {HandItems:[{id:iron_axe,Count:1}],HandDropChances:[0.10F],PersistenceRequired:1b,Tags:["rpgloot.pillager"]}

@@ -1,1 +1,1 @@
-tellraw @s [{"text":"Select amount of structures to generate: ","color":"yellow"},{"text":"| ","color":"white"},{"text":"10","color":"dark_red","clickEvent":{"action":"run_command","value":"/function rpgloot:admin/generate10"}}]
+tellraw @s [{"text":"Select amount of structures to generate: ","color":"yellow"},{"text":"| ","color":"white"},{"text":"10","color":"dark_red","click_event":{"action":"run_command","command":"/function rpgloot:admin/generate10"}}]

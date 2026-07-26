@@ -17,15 +17,25 @@ scoreboard players enable @a rpgloot_dbg
 execute as @a[scores={rpg_help=1..}] run function rpgloot:guide
 execute as @a[scores={guide=1..}] run function rpgloot:guide
 execute as @a[scores={rpg_recipes=1..}] run function rpgloot:show_recipes
+execute as @a[scores={rpgloot_opt=12}] at @s run function rpgloot:stats
+execute as @a[scores={rpgloot_opt=13}] at @s run function rpgloot:random_structure
+execute as @a[scores={rpgloot_opt=1..11}] run function rpgloot:options
+execute as @a[scores={rpgloot_opt=14..}] run function rpgloot:options
+execute as @a[scores={rpgloot_dbg=1..}] run function rpgloot:debug
+execute as @a[scores={stats=1..}] at @s run function rpgloot:stats
 
 scoreboard players set @a[scores={rpg_help=1..}] rpg_help 0
 scoreboard players set @a[scores={guide=1..}] guide 0
 scoreboard players set @a[scores={rpg_recipes=1..}] rpg_recipes 0
+scoreboard players set @a[scores={rpgloot_opt=1..}] rpgloot_opt 0
+scoreboard players set @a[scores={rpgloot_dbg=1..}] rpgloot_dbg 0
+scoreboard players set @a[scores={stats=1..}] stats 0
 
-# Ensure 100% RPG Mob Spawning is ALWAYS active automatically on any world load
-execute unless score mob_setting mobset matches 1.. run scoreboard players set mob_setting mobset 1
-execute unless score rpgloot boss_chance matches 1.. run scoreboard players set rpgloot boss_chance 100
-execute unless score rpgloot bosslimitset matches 1.. run scoreboard players set rpgloot bosslimitset 30
+# Lazy defaults: only initialize when the score has never been set.
+# "matches 0.." keeps player-chosen 0 (= feature off) intact instead of force-resetting it.
+execute unless score mob_setting mobset matches 0.. run scoreboard players set mob_setting mobset 1
+execute unless score rpgloot boss_chance matches 0.. run scoreboard players set rpgloot boss_chance 100
+execute unless score rpgloot bosslimitset matches 0.. run scoreboard players set rpgloot bosslimitset 30
 
 execute as @a[tag=!rpgloot_welcomed] run function rpgloot:welcome_player
 scoreboard players add rpgloot timer 1
@@ -45,37 +55,3 @@ execute as @e[tag=wraith] at @s run bossbar set wraith players @a[distance=..96]
 execute as @e[tag=vassal] at @s run bossbar set vassal players @a[distance=..64]
 execute as @e[tag=blunderbore] at @s run bossbar set blunderbore players @a[distance=..64]
 execute as @e[tag=rpgloot.painelemental] at @s run bossbar set rpgloot.painelemental players @a[distance=..96]
-
-
-# Always keep trigger clicks enabled for all survival non-OP players
-
-
-
-# Always keep trigger clicks enabled for all non-OP survival players
-
-
-
-# Always enable trigger objectives for all players every tick
-
-# Options menu dispatching
-
-# Set processed options trigger score to -1 and re-enable
-
-# Debug menu dispatching
-
-# Set processed debug trigger score to -1 and re-enable
-
-# Always enable trigger objectives for all non-OP survival players every tick
-scoreboard players enable @a rpg_help
-scoreboard players enable @a rpg_recipes
-scoreboard players enable @a guide
-scoreboard players enable @a stats
-
-# Dispatch triggers
-execute as @a[scores={rpg_help=1..}] run function rpgloot:guide
-execute as @a[scores={guide=1..}] run function rpgloot:guide
-execute as @a[scores={rpg_recipes=1..}] run function rpgloot:show_recipes
-
-scoreboard players set @a[scores={rpg_help=1..}] rpg_help 0
-scoreboard players set @a[scores={guide=1..}] guide 0
-scoreboard players set @a[scores={rpg_recipes=1..}] rpg_recipes 0

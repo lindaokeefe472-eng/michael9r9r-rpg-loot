@@ -52,13 +52,20 @@ def load_tree():
 def set_pack_format(tree, target_def, target_name):
     meta = json.loads(tree["pack.mcmeta"])
     fmt = target_def["supported_formats"]
-    # legacy fields (read by <=1.21.x) and modern fields (required by 26.x UI)
-    # coexist: each generation of the game ignores the other's keys.
-    meta["pack"]["pack_format"] = target_def["pack_format"]
-    meta["pack"]["supported_formats"] = fmt
-    meta["pack"]["min_format"] = fmt["min_inclusive"]
-    meta["pack"]["max_format"] = fmt["max_inclusive"]
-    meta["pack"]["description"] = f"michael9r9r's RPG Loot (for {target_def['label']})"
+    pack = {"pack_format": target_def["pack_format"]}
+    if target_def["pack_format"] >= 82:
+        # format >=82 hard-errors on the legacy supported_formats key
+        # ("Pack key supported_formats is deprecated starting from pack format 82")
+        pack["min_format"] = fmt["min_inclusive"]
+        pack["max_format"] = fmt["max_inclusive"]
+    else:
+        # legacy readers (<=1.21.x) use pack_format + supported_formats and
+        # ignore the modern keys
+        pack["supported_formats"] = fmt
+        pack["min_format"] = fmt["min_inclusive"]
+        pack["max_format"] = fmt["max_inclusive"]
+    pack["description"] = f"michael9r9r's RPG Loot (for {target_def['label']})"
+    meta["pack"] = pack
     tree["pack.mcmeta"] = json.dumps(meta, indent=2, ensure_ascii=False) + "\n"
     return tree
 

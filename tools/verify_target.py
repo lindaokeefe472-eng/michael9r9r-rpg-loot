@@ -59,12 +59,14 @@ def prepare_server(target, jar):
 
 
 def deploy_datapack(sandbox, zip_path):
+    # Deploy the ZIP itself (not extracted): pack discovery validates zip
+    # metadata exactly like the client UI does, so "corrupted pack" class
+    # bugs are caught here.
     dp_dir = sandbox / "world/datapacks"
     if dp_dir.exists():
         shutil.rmtree(dp_dir, ignore_errors=True)
     dp_dir.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(zip_path) as z:
-        z.extractall(dp_dir / "rpgloot")
+    shutil.copy(zip_path, dp_dir / "rpgloot.zip")
 
 
 def run_server(sandbox, jar, timeout=240):
@@ -94,6 +96,7 @@ def run_server(sandbox, jar, timeout=240):
         if "Done (" in l and not ready:
             ready = True
             time.sleep(1.0)
+            proc.stdin.write("datapack list\n")
             proc.stdin.write("function rpgloot:test_suite\n")
             proc.stdin.flush()
             time.sleep(2.0)
@@ -126,17 +129,20 @@ def main():
     errors = [l for l in logs if
               ("Failed to load function" in l)
               or ("Couldn't parse data file" in l)
+              or ("Error reading pack metadata" in l)
               or ("ERROR" in l and "rpgloot" in l)]
     recipes = any("Loaded" in l and "recipes" in l for l in logs)
     advancements = any("Loaded" in l and "advancements" in l for l in logs)
+    pack_listed = any("rpgloot.zip" in l and "enabled" in l for l in logs)
 
-    print(f"[*] ready={ready} suite={suite_ran} recipes={recipes} advancements={advancements} errors={len(errors)}")
+    print(f"[*] ready={ready} suite={suite_ran} recipes={recipes} "
+          f"advancements={advancements} pack_listed={pack_listed} errors={len(errors)}")
     for e in errors[:15]:
         print("  [ERROR]", e)
-    if errors or not (ready and suite_ran and recipes and advancements):
+    if errors or not (ready and suite_ran and recipes and advancements and pack_listed):
         print(f"[FAIL] target {args.target} verification failed")
         raise SystemExit(1)
-    print(f"[SUCCESS] target {args.target}: datapack loads clean on real server")
+    print(f"[SUCCESS] target {args.target}: zip pack recognized + loads clean on real server")
 
 
 if __name__ == "__main__":

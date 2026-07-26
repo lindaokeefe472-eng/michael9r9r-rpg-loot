@@ -1,10 +1,6 @@
 {
   "pack": {
     "pack_format": 107,
-    "supported_formats": {
-      "min_inclusive": 107,
-      "max_inclusive": 999
-    },
     "min_format": 107,
     "max_format": 999,
     "description": "michael9r9r's RPG Loot (for Minecraft 26.2+)"

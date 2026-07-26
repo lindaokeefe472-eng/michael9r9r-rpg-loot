@@ -1,5 +1,5 @@
 # RPG Loot Datapack Wiki
-> **Version:** v26.2.11 · **Target:** Minecraft Java Edition 1.21.4 / 26.2  
+> **Version:** v26.3.0 · **Target:** Minecraft Java Edition 26.2+ (pack_format 107)  
 > **Last Updated:** Auto-generated from datapack source
 
 ---
@@ -21,7 +21,7 @@
 ## 1. Getting Started
 
 ### Installation
-1. Download `michael9r9r-rpg-loot-datapack-v26.2.zip` from GitHub Releases
+1. Download `michael9r9r-rpg-loot-datapack-v26.3.0.zip` from GitHub Releases
 2. Place the ZIP into your world's `datapacks/` folder (do NOT unzip)
 3. Start/load the world — run `/reload` if already loaded
 4. A diagnostic banner will appear in chat confirming the datapack loaded

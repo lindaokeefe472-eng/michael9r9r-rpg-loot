@@ -1,7 +1,7 @@
 # 🛠️ RPG Loot 数据包 开发者维护与二次开发指南 (Developer Guide)
 
 > **目标读者**：开发者、社区贡献者、二次开发（Mod/Datapack）作者  
-> **适用引擎版本**：Minecraft Java Edition 1.21.4 / 26.2+ (`pack_format: 61`)
+> **适用引擎版本**：Minecraft Java Edition 26.2+ (`pack_format: 107`)
 
 本指南旨在详细说明 **RPG Loot 数据包** 的架构原理、代码规范，并提供**修改爆率**、**新增武器特效/工具类型**、**扩展怪物等级**以及**后续 MC大版本迁移**的标准开发流程（SOP）。
 
@@ -28,7 +28,7 @@ data/
 │       ├── entities/            # 原版 28 种怪物死亡掉落覆写 (重定向至 RPG Loot)
 │       └── chests/              # 地牢/试炼密室/遗迹宝箱战利品注入
 └── rpgloot/                     # 数据包自定义命名空间
-    ├── functions/               # 全量 mcfunction 逻辑函数 (核心逻辑)
+    ├── function/                # 全量 mcfunction 逻辑函数 (核心逻辑)
     │   ├── summon/              # 118+ 种各阶级 BOSS 生成函数
     │   ├── items/               # 神器主动/被动技能逻辑函数
     │   ├── options/             # 游戏内设置菜单逻辑函数
@@ -46,7 +46,7 @@ data/
         └── legendary_items.json # 🟡 金色装备池
 ```
 
-> 💡 **单复数目录同步规则**：为兼容不同第三方模组/服务端加载器，每次修改 `functions/` 或 `loot_table/` 后，须同步复制更新一份至复数文件夹 `function/` 与 `loot_tables/`。
+> ⚠️ **目录命名规则(v26.3.0 起)**：一律只使用 1.21+ 单数目录(`function/`、`loot_table/`、`recipe/` 等)。历史上的复数镜像目录已删除,禁止重建——双目录曾两次分叉导致修复丢失(详见 AUDIT_REPORT.md)。
 
 ---
 
@@ -119,7 +119,7 @@ data/
 
 ### 第二步：在高频 tick 循环中监听玩家手持
 
-在 `data/rpgloot/functions/tick.mcfunction` 或 `1second.mcfunction` 中加入判断：
+在 `data/rpgloot/function/tick.mcfunction` 或 `1second.mcfunction` 中加入判断：
 
 ```mcfunction
 # 检查玩家主手是否持有用自定义标记 rpgloot_item:"thunder_wrath" 的物品
@@ -128,7 +128,7 @@ execute as @a[nbt={SelectedItem:{components:{"minecraft:custom_data":{rpgloot_it
 
 ### 第三步：编写特效实现函数 (`items/thunder_wrath.mcfunction`)
 
-创建 `data/rpgloot/functions/items/thunder_wrath.mcfunction`：
+创建 `data/rpgloot/function/items/thunder_wrath.mcfunction`：
 
 ```mcfunction
 # 为主手持剑的玩家赋予力量或触发落雷特效
@@ -180,7 +180,7 @@ execute at @s run particle minecraft:electric_spark ~ ~1 ~ 0.5 0.5 0.5 0.1 10
 
 ### 第一步：创建生成函数 (`summon/mythic_<mob>.mcfunction`)
 
-在 `data/rpgloot/functions/summon/mythic_zombie.mcfunction` 中写入：
+在 `data/rpgloot/function/summon/mythic_zombie.mcfunction` 中写入：
 
 ```mcfunction
 summon zombie ~ ~ ~ {CanPickUpLoot:1b,CustomName:[{text:"Mythic ",color:"gold"},{text:"Zombie",color:"red"}],CustomNameVisible:1,active_effects:[{id:"minecraft:speed",amplifier:1,duration:999999}],attributes:[{id:"minecraft:max_health",base:150.0},{id:"minecraft:attack_damage",base:12.0}],Health:150.0f,Tags:["rpgloot.boss","rpgloot.mythic"]}
@@ -191,7 +191,7 @@ summon zombie ~ ~ ~ {CanPickUpLoot:1b,CustomName:[{text:"Mythic ",color:"gold"},
 
 ### 第二步：在随机进化分配逻辑中注册
 
-在 `data/rpgloot/functions/make_boss_this_mob.mcfunction` 中加入新阶级的随机权重区间：
+在 `data/rpgloot/function/make_boss_this_mob.mcfunction` 中加入新阶级的随机权重区间：
 
 ```mcfunction
 execute if score rpgloot rpgloot.rng matches 95..99 at @s run function rpgloot:summon/legendary_zombie
@@ -243,8 +243,8 @@ execute if score rpgloot rpgloot.rng matches 100 at @s run function rpgloot:summ
 4. **指令中的非 ASCII 字符转义**：
    - 在 `.mcfunction` 命令文件中，如果包含中文或特殊字符（如 `═` 或 `⚔️`），建议使用 Unicode 转义（如 `\u2694\ufe0f`），避免某些服务端在加载字符集时引发 `Invalid string contents` 语法解析崩坏。
 
-5. **`clickEvent` 与 `hoverEvent` 规范**：
-   - `hoverEvent` 动作必须使用 `"contents": "显示文本"`，不能使用旧版 `"value"`。
+5. **`click_event` 与 `hover_event` 规范 (26.2)**：
+   - 必须使用蛇形命名 `click_event`/`hover_event`；`run_command` 动作用 `"command"` 键、`change_page` 用整数 `"page"` 键、`show_text` 悬浮用 `"value"` 键。旧驼峰 `clickEvent`/`hoverEvent` 已在 v26.3.0 全量清除，严禁再引入。
    - 打开菜单等指令应避免在开头强行调用 `options/default`，防止重置玩家自定义配置。
 
 ---
@@ -254,11 +254,12 @@ execute if score rpgloot rpgloot.rng matches 100 at @s run function rpgloot:summ
 在 `scratch/` 目录下保留了标准的 E2E 自动化测试工具脚本，在完成代码修改后，推荐运行：
 
 ```bash
-# 验证全局 JSON 格式语法与键名规范
-python scratch/verify_json_strict.py
+# 静态验证:JSON 语法 + 函数/战利品表交叉引用(CI 同款门禁)
+python tests/deep_verification.py
 
-# 启动本地 Minecraft Server 模拟环境并运行开机与击杀测试
-python scratch/test_options_click_in_server.py
+# 本地 E2E:启动真实服务器验证加载与菜单点击(需自备 26.2 server.jar,见 MAINTENANCE.md)
+python tests/e2e_ci_test.py
+python tests/verify_trigger_click_response.py
 ```
 
 遵循以上规范，即可确保 RPG Loot 数据包在后续版本迭代中保持极高的稳定性与扩展性！

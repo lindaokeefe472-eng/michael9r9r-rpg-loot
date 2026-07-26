@@ -1,8 +1,8 @@
-# ⚔️ michael9r9r's RPG Loot Data Pack & Resource Pack (MC 1.21.4)
+# ⚔️ michael9r9r's RPG Loot Data Pack & Resource Pack (MC 26.2+)
 
-[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.4-brightgreen.svg)](https://minecraft.net)
-[![Data Pack Format](https://img.shields.io/badge/Pack%20Format-61-blue.svg)](https://minecraft.wiki/w/Data_pack)
-[![Resource Pack Format](https://img.shields.io/badge/Resource%20Pack-46-orange.svg)](https://minecraft.wiki/w/Resource_pack)
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-26.2%2B-brightgreen.svg)](https://minecraft.net)
+[![Data Pack Format](https://img.shields.io/badge/Pack%20Format-107-blue.svg)](https://minecraft.wiki/w/Data_pack)
+[![Resource Pack Format](https://img.shields.io/badge/Resource%20Pack-88-orange.svg)](https://minecraft.wiki/w/Resource_pack)
 [![Language Support](https://img.shields.io/badge/Language-English%20%7C%20%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-yellow.svg)](#)
 
 [English Installation & Guide](#-english-installation--guide) | [中文安装说明与指南](#-中文安装说明与指南)
@@ -13,12 +13,17 @@
 
 ### 📦 Downloads / 下载
 
-前往 [GitHub Releases](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.34-CONTENT-UPDATE) 下载以下两个文件：
+前往 [GitHub Releases](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.3.0) 下载以下两个文件：
 
-| 文件 | 用途 |
-| :--- | :--- |
-| `michael9r9r-rpg-loot-datapack-v26.2.17.zip` | 数据包本体 (Data Pack) |
-| `michael9r9r-rpg-loot-resourcepack-v26.2.17.zip` | 中文翻译资源包 (Resource Pack, 可选) |
+| 文件 | 适用游戏版本 | 说明 |
+| :--- | :--- | :--- |
+| `michael9r9r-rpg-loot-datapack-v26.3.0.zip` | **Minecraft 26.2+**(推荐) | 数据包本体,主发布版,真实服务器验证 ✅ |
+| `michael9r9r-rpg-loot-datapack-v26.3.0-mc1.21.4.zip` | Minecraft 1.21 – 1.21.4 | 旧版适配构建,真实服务器验证 ✅ |
+| `michael9r9r-rpg-loot-datapack-v26.3.0-mc1.21.9.zip` | Minecraft 1.21.9 – 1.21.10 | 旧版适配构建(实验性) |
+| `michael9r9r-rpg-loot-datapack-v26.3.0-mc1.21.5.zip` | Minecraft 1.21.5 – 1.21.8 | 旧版适配构建(实验性) |
+| `michael9r9r-rpg-loot-resourcepack-v26.3.0.zip` | 全版本通用 | 中文翻译资源包 (可选) |
+
+> ⚠️ 请按你的游戏版本下载对应的数据包 zip;版本不匹配会导致命令解析错误。
 
 ---
 
@@ -26,7 +31,7 @@
 
 **适用于新存档 / New World：**
 1. 打开 Minecraft，在创建新世界界面点击 **「数据包 (Data Packs)」**。
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.17.zip` **直接拖入** 弹出的文件夹窗口。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.3.0.zip` **直接拖入** 弹出的文件夹窗口。
 3. 在数据包列表中找到它，点击 **▶** 箭头将其移至"已选"列。
 4. 点击「完成」并继续创建世界。
 
@@ -34,7 +39,7 @@
 1. 找到你的存档文件夹：
    - Windows：`%appdata%\.minecraft\saves\<你的存档名>\datapacks\`
    - MacOS / Linux：`~/.minecraft/saves/<你的存档名>/datapacks/`
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.17.zip` **直接复制粘贴** 到 `datapacks` 文件夹中（无需解压！）。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.3.0.zip` **直接复制粘贴** 到 `datapacks` 文件夹中（无需解压！）。
 3. 进入游戏后，在聊天框输入：
    ```
    /reload
@@ -51,7 +56,7 @@
 1. 找到资源包文件夹：
    - Windows：`%appdata%\.minecraft\resourcepacks\`
    - MacOS / Linux：`~/.minecraft/resourcepacks/`
-2. 将 `michael9r9r-rpg-loot-resourcepack-v26.2.17.zip` **直接复制粘贴** 到 `resourcepacks` 文件夹中（无需解压！）。
+2. 将 `michael9r9r-rpg-loot-resourcepack-v26.3.0.zip` **直接复制粘贴** 到 `resourcepacks` 文件夹中（无需解压！）。
 3. 打开 Minecraft，点击 **「选项 (Options)」→「资源包 (Resource Packs)」**。
 4. 在左侧"可用"列表中找到 `michael9r9r-rpg-loot-resourcepack`，点击 **▶** 箭头将其移至"已选"列。
 5. 点击「完成」，等待资源包加载，界面中文字段将全部汉化。
@@ -102,12 +107,17 @@
 
 ### 📦 第一步：下载资源文件
 
-前往 [GitHub Releases 页面](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.34-CONTENT-UPDATE) 下载以下两个文件：
+前往 [GitHub Releases 页面](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.3.0) 下载以下两个文件：
 
-| 文件 | 用途 |
-| :--- | :--- |
-| `michael9r9r-rpg-loot-datapack-v26.2.17.zip` | 数据包本体 |
-| `michael9r9r-rpg-loot-resourcepack-v26.2.17.zip` | 中文翻译资源包（可选） |
+| 文件 | 适用游戏版本 | 说明 |
+| :--- | :--- | :--- |
+| `michael9r9r-rpg-loot-datapack-v26.3.0.zip` | **Minecraft 26.2+**(推荐) | 数据包本体,主发布版,真实服务器验证 ✅ |
+| `michael9r9r-rpg-loot-datapack-v26.3.0-mc1.21.4.zip` | Minecraft 1.21 – 1.21.4 | 旧版适配构建,真实服务器验证 ✅ |
+| `michael9r9r-rpg-loot-datapack-v26.3.0-mc1.21.9.zip` | Minecraft 1.21.9 – 1.21.10 | 旧版适配构建(实验性) |
+| `michael9r9r-rpg-loot-datapack-v26.3.0-mc1.21.5.zip` | Minecraft 1.21.5 – 1.21.8 | 旧版适配构建(实验性) |
+| `michael9r9r-rpg-loot-resourcepack-v26.3.0.zip` | 全版本通用 | 中文翻译资源包 (可选) |
+
+> ⚠️ 请按你的游戏版本下载对应的数据包 zip;版本不匹配会导致命令解析错误。
 
 ---
 
@@ -115,13 +125,13 @@
 
 **如果你是新建存档：**
 1. 在 Minecraft 创建新世界界面，点击 **「数据包」**。
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.17.zip` 直接**拖入**弹出的文件夹窗口。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.3.0.zip` 直接**拖入**弹出的文件夹窗口。
 3. 在数据包列表中点击 **▶** 箭头将其移至右侧"已选"列，点击「完成」即可。
 
 **如果你是已有存档：**
 1. 找到存档目录下的 `datapacks` 文件夹：
    - Windows 默认路径：`%appdata%\.minecraft\saves\<存档名>\datapacks\`
-2. 将 `michael9r9r-rpg-loot-datapack-v26.2.17.zip` **直接复制进该文件夹**（不要解压）。
+2. 将 `michael9r9r-rpg-loot-datapack-v26.3.0.zip` **直接复制进该文件夹**（不要解压）。
 3. 进入存档，在聊天框输入 `/reload` 重载数据包。
 
 ---
@@ -129,7 +139,7 @@
 ### 🌐 第三步：安装中文翻译资源包（可选）
 
 1. 找到资源包目录：Windows 默认路径 `%appdata%\.minecraft\resourcepacks\`
-2. 将 `michael9r9r-rpg-loot-resourcepack-v26.2.17.zip` **直接复制进该文件夹**（不要解压）。
+2. 将 `michael9r9r-rpg-loot-resourcepack-v26.3.0.zip` **直接复制进该文件夹**（不要解压）。
 3. 打开游戏 → **选项 → 资源包**，在左侧"可用"列表中找到该资源包，点击 **▶** 移至右侧"已选"列，点击「完成」加载即可。
 4. 加载完成后，游戏内的 BOSS 名称、物品属性、系统提示等均将显示为**简体中文**。
 
@@ -159,7 +169,7 @@
 
 如需卸载本数据包，请在聊天框输入：
 ```
-/function rpgloot:uninstall
+/function rpgloot:options/uninstall
 ```
 该指令会安全清理所有计分板数据，之后再从 `datapacks` 文件夹中删除压缩包即可。
 
@@ -340,4 +350,4 @@ We've got a massive update here folks! The entire Data Pack has been fully moder
 - ⚙️ **[SPEC.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/SPEC.md)**: Technical specification & 1.19 -> 1.21.4 engine upgrade blueprint.
 - 🛠️ **[DEVELOPER_GUIDE.md](file:///D:/game/mc/michael9r9r-s-rpg-loot-v1-15/DEVELOPER_GUIDE.md)**: **【开发者维护与二次开发指南】** 修改爆率、新增武器技能特效/工具类型、添加怪物等级与 MC 26.2+ 引擎避坑 SOP。
 
-- 📦 **[GitHub Release v26.2.34-CONTENT-UPDATE](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.2.34-CONTENT-UPDATE)**: Direct ZIP downloads for Data Pack and Translation Resource Pack.
+- 📦 **[GitHub Release v26.2.34-CONTENT-UPDATE](https://github.com/lindaokeefe472-eng/michael9r9r-rpg-loot/releases/tag/v26.3.0)**: Direct ZIP downloads for Data Pack and Translation Resource Pack.

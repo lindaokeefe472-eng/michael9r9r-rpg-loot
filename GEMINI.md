@@ -3,7 +3,7 @@
 ### 1. 📁 Path & Scope Standard
 - All file creation, editing, and output MUST target paths relative to the current workspace root (e.g. `./build/` or project subdirectories).
 - Strictly isolate all build artifacts, temporary zips, and logs within the current working directory (`./build/`).
-- Maintain 100% path parity for Minecraft 26.2 (1.21.4+ / `pack_format: 61`) between singular and plural forms (e.g. `data/rpgloot/function/` & `functions/`, `data/minecraft/loot_table/` & `loot_tables/`).
+- Data pack directories use ONLY the modern singular naming (`function/`, `loot_table/`, `advancement/`, `recipe/`, `tags/function/`, `tags/entity_type/`). The legacy plural mirror directories were removed in v26.3.0 — NEVER recreate them. Target: Minecraft 26.2+ (`pack_format: 107`).
 
 ### 2. 🎮 In-Game Debugging & QA Standard
 - Data pack MUST maintain a master debug portal `/function rpgloot:debug`.

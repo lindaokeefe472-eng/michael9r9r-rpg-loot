@@ -115,7 +115,7 @@
                   "text": ""
                 },
                 {
-                  "text": "Legendary",
+                  "text": "传说 (Legendary)",
                   "italic": false,
                   "color": "gold"
                 },
@@ -125,7 +125,7 @@
                   "color": "dark_gray"
                 },
                 {
-                  "text": "Ability: Invisibility",
+                  "text": "技能： Invisibility",
                   "italic": false,
                   "color": "gray"
                 }

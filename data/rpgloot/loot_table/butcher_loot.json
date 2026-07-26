@@ -111,7 +111,7 @@
                   "text": ""
                 },
                 {
-                  "text": "Legendary",
+                  "text": "传说 (Legendary)",
                   "italic": false,
                   "color": "gold"
                 },
@@ -251,7 +251,7 @@
                   "text": ""
                 },
                 {
-                  "text": "Legendary",
+                  "text": "传说 (Legendary)",
                   "italic": false,
                   "color": "gold"
                 },
@@ -261,7 +261,7 @@
                   "color": "dark_red"
                 },
                 {
-                  "text": "Ability: Hunger I and Regeneration II",
+                  "text": "技能： Hunger I and Regeneration II",
                   "italic": false,
                   "color": "dark_gray"
                 }

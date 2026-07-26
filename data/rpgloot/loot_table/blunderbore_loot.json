@@ -97,8 +97,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Comically Large Spoon",
-                "color": "red"
+                "color": "red",
+                "translate": "rpgloot.item.comically_large_spoon",
+                "fallback": "Comically Large Spoon"
               }
             },
             {
@@ -193,8 +194,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "The Golden Harp",
-                "color": "red"
+                "color": "red",
+                "translate": "rpgloot.item.the_golden_harp",
+                "fallback": "The Golden Harp"
               }
             },
             {

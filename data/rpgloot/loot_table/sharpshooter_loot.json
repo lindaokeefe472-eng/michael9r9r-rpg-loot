@@ -170,8 +170,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Pants of Haste",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.pants_of_haste",
+                "fallback": "Pants of Haste"
               }
             },
             {
@@ -287,8 +288,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sharpshooter's Crossbow",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.sharpshooters_crossbow",
+                "fallback": "Sharpshooter's Crossbow"
               }
             },
             {

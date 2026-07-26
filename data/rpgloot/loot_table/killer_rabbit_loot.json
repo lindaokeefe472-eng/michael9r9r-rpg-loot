@@ -131,8 +131,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Foot of the Killer Rabbit",
-                "color": "dark_red"
+                "color": "dark_red",
+                "translate": "rpgloot.item.foot_of_the_killer_rabbit",
+                "fallback": "Foot of the Killer Rabbit"
               }
             }
           ]
@@ -266,8 +267,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "King Arthur's Chain Trousers",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.king_arthurs_chain_trousers",
+                "fallback": "King Arthur's Chain Trousers"
               }
             },
             {
@@ -347,8 +349,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Excalibur",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.excalibur",
+                "fallback": "Excalibur"
               }
             },
             {

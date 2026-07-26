@@ -134,8 +134,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Shadowsabre",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.shadowsabre",
+                "fallback": "Shadowsabre"
               }
             },
             {

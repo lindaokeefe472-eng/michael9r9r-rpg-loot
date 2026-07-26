@@ -78,9 +78,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Vermivorous Venomfang",
                 "color": "dark_red",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.vermivorous_venomfang",
+                "fallback": "Vermivorous Venomfang"
               }
             },
             {

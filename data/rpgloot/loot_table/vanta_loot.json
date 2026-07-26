@@ -175,8 +175,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Lucidity",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.lucidity",
+                "fallback": "Lucidity"
               }
             },
             {
@@ -245,8 +246,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Assassin",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.assassin",
+                "fallback": "Assassin"
               }
             },
             {

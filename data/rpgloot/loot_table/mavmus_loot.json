@@ -175,8 +175,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Tome of Chaos",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.tome_of_chaos",
+                "fallback": "Tome of Chaos"
               }
             },
             {
@@ -218,8 +219,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Longbow of the Cleric",
-                "color": "light_purple"
+                "color": "light_purple",
+                "translate": "rpgloot.item.longbow_of_the_cleric",
+                "fallback": "Longbow of the Cleric"
               }
             },
             {
@@ -274,8 +276,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Elixir of the Illusioner",
-                "color": "dark_purple"
+                "color": "dark_purple",
+                "translate": "rpgloot.item.elixir_of_the_illusioner",
+                "fallback": "Elixir of the Illusioner"
               }
             },
             {

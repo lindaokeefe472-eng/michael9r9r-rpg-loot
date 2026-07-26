@@ -129,8 +129,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Forgotten Blade",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.forgotten_blade",
+                "fallback": "Forgotten Blade"
               }
             },
             {

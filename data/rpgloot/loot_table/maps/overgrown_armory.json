@@ -20,10 +20,11 @@
               "function": "minecraft:set_name",
               "target": "custom_name",
               "name": {
-                "text": "📜 藏宝图：藤蔓军械库",
                 "color": "gold",
                 "italic": false,
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.map_overgrown_armory",
+                "fallback": "📜 藏宝图：藤蔓军械库"
               }
             }
           ]

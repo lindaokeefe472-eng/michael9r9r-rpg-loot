@@ -125,8 +125,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Sverði Víkinga",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.sver_i_v_kinga",
+                "fallback": "Sverði Víkinga"
               }
             },
             {
@@ -217,8 +218,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Blóðörn",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.bl_rn",
+                "fallback": "Blóðörn"
               }
             },
             {
@@ -351,8 +353,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Hauberk of Beowulf",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.hauberk_of_beowulf",
+                "fallback": "Hauberk of Beowulf"
               }
             },
             {
@@ -518,8 +521,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Skjöldr af Mætti",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.skj_ldr_af_m_tti",
+                "fallback": "Skjöldr af Mætti"
               }
             },
             {

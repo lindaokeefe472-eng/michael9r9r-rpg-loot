@@ -83,9 +83,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Relic of Lost Soul",
                 "color": "gold",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.relic_of_lost_soul",
+                "fallback": "Relic of Lost Soul"
               }
             },
             {

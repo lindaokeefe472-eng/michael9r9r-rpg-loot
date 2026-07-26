@@ -71,9 +71,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Farron Greatsword of the Abyss",
                 "color": "dark_red",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.farron_greatsword_of_the_abyss",
+                "fallback": "Farron Greatsword of the Abyss"
               }
             },
             {
@@ -179,9 +180,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Flame of Firehawk",
                 "color": "red",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.flame_of_firehawk",
+                "fallback": "Flame of Firehawk"
               }
             },
             {
@@ -278,9 +280,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Ribcage of Hades",
                 "color": "dark_purple",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.ribcage_of_hades",
+                "fallback": "Ribcage of Hades"
               }
             },
             {
@@ -377,9 +380,10 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Final Flight",
                 "color": "gold",
-                "bold": true
+                "bold": true,
+                "translate": "rpgloot.item.final_flight",
+                "fallback": "Final Flight"
               }
             },
             {

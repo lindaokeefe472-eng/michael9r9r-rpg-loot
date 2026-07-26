@@ -144,8 +144,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Farron Greatsword",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.farron_greatsword",
+                "fallback": "Farron Greatsword"
               }
             },
             {
@@ -254,8 +255,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Farron Dagger",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.farron_dagger",
+                "fallback": "Farron Dagger"
               }
             },
             {
@@ -398,8 +400,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Undead Legion Armor",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.undead_legion_armor",
+                "fallback": "Undead Legion Armor"
               }
             },
             {

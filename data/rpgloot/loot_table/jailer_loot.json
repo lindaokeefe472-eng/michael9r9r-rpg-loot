@@ -153,8 +153,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Warden's Barbute",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.wardens_barbute",
+                "fallback": "Warden's Barbute"
               }
             },
             {
@@ -250,8 +251,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Cudgel of Discipline",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.cudgel_of_discipline",
+                "fallback": "Cudgel of Discipline"
               }
             },
             {
@@ -336,8 +338,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Vampiric Cutlass",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.vampiric_cutlass",
+                "fallback": "Vampiric Cutlass"
               }
             },
             {

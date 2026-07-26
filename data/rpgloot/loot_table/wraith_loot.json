@@ -163,8 +163,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Aspect of Terror",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.aspect_of_terror",
+                "fallback": "Aspect of Terror"
               }
             },
             {
@@ -289,8 +290,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Nightmare",
-                "color": "dark_gray"
+                "color": "dark_gray",
+                "translate": "rpgloot.item.nightmare",
+                "fallback": "Nightmare"
               }
             },
             {
@@ -385,8 +387,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Eye of Chronos",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.eye_of_chronos",
+                "fallback": "Eye of Chronos"
               }
             }
           ]

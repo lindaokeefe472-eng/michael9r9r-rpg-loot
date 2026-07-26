@@ -182,8 +182,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Boulder",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.boulder",
+                "fallback": "Boulder"
               }
             },
             {
@@ -323,8 +324,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Megalith",
-                "color": "gold"
+                "color": "gold",
+                "translate": "rpgloot.item.megalith",
+                "fallback": "Megalith"
               }
             },
             {

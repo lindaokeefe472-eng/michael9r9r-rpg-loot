@@ -59,8 +59,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Wooden Sword",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_wooden_sword",
+                "fallback": "Uncommon Wooden Sword"
               }
             },
             {
@@ -125,8 +126,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Stone Sword",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_stone_sword",
+                "fallback": "Uncommon Stone Sword"
               }
             },
             {
@@ -191,8 +193,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Golden Sword",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_golden_sword",
+                "fallback": "Uncommon Golden Sword"
               }
             },
             {
@@ -257,8 +260,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Iron Sword",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_iron_sword",
+                "fallback": "Uncommon Iron Sword"
               }
             },
             {
@@ -323,8 +327,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Wooden Axe",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_wooden_axe",
+                "fallback": "Uncommon Wooden Axe"
               }
             },
             {
@@ -389,8 +394,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Stone Axe",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_stone_axe",
+                "fallback": "Uncommon Stone Axe"
               }
             },
             {
@@ -455,8 +461,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Golden Axe",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_golden_axe",
+                "fallback": "Uncommon Golden Axe"
               }
             },
             {
@@ -521,8 +528,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Iron Axe",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_iron_axe",
+                "fallback": "Uncommon Iron Axe"
               }
             },
             {
@@ -586,8 +594,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Trident",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_trident",
+                "fallback": "Uncommon Trident"
               }
             },
             {
@@ -651,8 +660,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Shield",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_shield",
+                "fallback": "Uncommon Shield"
               }
             }
           ]
@@ -709,8 +719,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Leather Cap",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_leather_cap",
+                "fallback": "Uncommon Leather Cap"
               }
             },
             {
@@ -775,8 +786,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Leather Tunic",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_leather_tunic",
+                "fallback": "Uncommon Leather Tunic"
               }
             },
             {
@@ -841,8 +853,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Leather Pants",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_leather_pants",
+                "fallback": "Uncommon Leather Pants"
               }
             },
             {
@@ -907,8 +920,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Leather Boots",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_leather_boots",
+                "fallback": "Uncommon Leather Boots"
               }
             },
             {
@@ -985,8 +999,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Chainmail Helmet",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_chainmail_helmet",
+                "fallback": "Uncommon Chainmail Helmet"
               }
             },
             {
@@ -1063,8 +1078,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Chainmail Chestplate",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_chainmail_chestplate",
+                "fallback": "Uncommon Chainmail Chestplate"
               }
             },
             {
@@ -1141,8 +1157,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Chainmail Leggings",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_chainmail_leggings",
+                "fallback": "Uncommon Chainmail Leggings"
               }
             },
             {
@@ -1219,8 +1236,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Chainmail Boots",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_chainmail_boots",
+                "fallback": "Uncommon Chainmail Boots"
               }
             },
             {
@@ -1285,8 +1303,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Golden Helmet",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_golden_helmet",
+                "fallback": "Uncommon Golden Helmet"
               }
             },
             {
@@ -1351,8 +1370,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Golden Chestplate",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_golden_chestplate",
+                "fallback": "Uncommon Golden Chestplate"
               }
             },
             {
@@ -1417,8 +1437,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Golden Leggings",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_golden_leggings",
+                "fallback": "Uncommon Golden Leggings"
               }
             },
             {
@@ -1483,8 +1504,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Golden Boots",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_golden_boots",
+                "fallback": "Uncommon Golden Boots"
               }
             },
             {
@@ -1549,8 +1571,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Iron Helmet",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_iron_helmet",
+                "fallback": "Uncommon Iron Helmet"
               }
             },
             {
@@ -1615,8 +1638,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Iron Chestplate",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_iron_chestplate",
+                "fallback": "Uncommon Iron Chestplate"
               }
             },
             {
@@ -1681,8 +1705,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Iron Leggings",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_iron_leggings",
+                "fallback": "Uncommon Iron Leggings"
               }
             },
             {
@@ -1747,8 +1772,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Iron Boots",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_iron_boots",
+                "fallback": "Uncommon Iron Boots"
               }
             },
             {
@@ -1825,8 +1851,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Turtle Shell",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_turtle_shell",
+                "fallback": "Uncommon Turtle Shell"
               }
             },
             {
@@ -1891,8 +1918,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Totem of Undying",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_totem_of_undying",
+                "fallback": "Uncommon Totem of Undying"
               }
             }
           ]
@@ -1949,8 +1977,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Rabbit's Foot",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_rabbits_foot",
+                "fallback": "Uncommon Rabbit's Foot"
               }
             }
           ]
@@ -2007,8 +2036,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Quartz",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_quartz",
+                "fallback": "Uncommon Quartz"
               }
             }
           ]
@@ -2052,8 +2082,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Uncommon Copper Sword",
-                "color": "green"
+                "color": "green",
+                "translate": "rpgloot.item.uncommon_copper_sword",
+                "fallback": "Uncommon Copper Sword"
               }
             },
             {
